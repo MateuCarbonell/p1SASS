@@ -4,8 +4,10 @@ const sass = require('gulp-sass')(require('sass'));
 function compilaSCSS(){
     return src('./src/scss/*.scss')
     .pipe(sass())
-    .pipe(dest('./src/css/'));
-  }
+    .pipe(dest('./dist/css/',{filename: 'all.css'}));
+}
+
+
 
 function watcher(){
     watch("src/scss/**/*scss",compilaSCSS)
@@ -13,4 +15,4 @@ function watcher(){
 exports.watcher = watcher;
 exports.compilaSCSS = compilaSCSS;
 
-exports.kittens = series(compilaSCSS, watcher);
+exports.tarea = series(compilaSCSS, watcher);

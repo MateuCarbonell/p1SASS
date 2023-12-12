@@ -1,0 +1,136 @@
+/*
+Falta:
+Linea 29
+Linea 47
+WEBKIT I MOZ
+*/
+body {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  text-align: justify;
+  color: #333333;
+  background-color: #b3b3b3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+  background-color: #b3b3b3;
+}
+h1.h1,
+h2.h1,
+h3.h1,
+h4.h1,
+h5.h1,
+h6.h1 {
+  font-size: 2em, 2em;
+}
+h1.h2,
+h2.h2,
+h3.h2,
+h4.h2,
+h5.h2,
+h6.h2 {
+  font-size: 2em, 2em;
+}
+h1.h3,
+h2.h3,
+h3.h3,
+h4.h3,
+h5.h3,
+h6.h3 {
+  font-size: 2em, 2em;
+}
+h1.h4,
+h2.h4,
+h3.h4,
+h4.h4,
+h5.h4,
+h6.h4 {
+  font-size: 2em, 2em;
+}
+h1.h5,
+h2.h5,
+h3.h5,
+h4.h5,
+h5.h5,
+h6.h5 {
+  font-size: 2em, 2em;
+}
+h1.h6,
+h2.h6,
+h3.h6,
+h4.h6,
+h5.h6,
+h6.h6 {
+  font-size: 2em, 2em;
+}
+
+.success {
+  color: #2ecc72;
+  background-color: #176438;
+}
+
+.warning {
+  color: #f1c40f;
+  background-color: #796307;
+}
+
+.error {
+  color: #e74c3c;
+  background-color: #921e12;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+table td {
+  width: 33.3%;
+  border: 1px solid black;
+}
+
+img {
+  width: 300px;
+  border-radius: 45%;
+}
+
+img.grayscale {
+  filter: grayscale(100%);
+}
+
+img.sepia {
+  filter: sepia(100%);
+}
+
+img.blur {
+  filter: blur(5px);
+}
+
+img.hue-rotate {
+  filter: hue-rotate(150deg);
+}
+
+img.invert {
+  filter: invert(0.8);
+}
+
+img.brightness {
+  filter: brightness(0.5);
+}
+
+img.contrast {
+  filter: contrast(2);
+}
