@@ -24,52 +24,52 @@ h6 {
   color: #333333;
   background-color: #b3b3b3;
 }
-h1.h1,
-h2.h1,
-h3.h1,
-h4.h1,
-h5.h1,
-h6.h1 {
+h1 .h1,
+h2 .h1,
+h3 .h1,
+h4 .h1,
+h5 .h1,
+h6 .h1 {
   font-size: 2em, 2em;
 }
-h1.h2,
-h2.h2,
-h3.h2,
-h4.h2,
-h5.h2,
-h6.h2 {
+h1 .h2,
+h2 .h2,
+h3 .h2,
+h4 .h2,
+h5 .h2,
+h6 .h2 {
   font-size: 2em, 2em;
 }
-h1.h3,
-h2.h3,
-h3.h3,
-h4.h3,
-h5.h3,
-h6.h3 {
+h1 .h3,
+h2 .h3,
+h3 .h3,
+h4 .h3,
+h5 .h3,
+h6 .h3 {
   font-size: 2em, 2em;
 }
-h1.h4,
-h2.h4,
-h3.h4,
-h4.h4,
-h5.h4,
-h6.h4 {
+h1 .h4,
+h2 .h4,
+h3 .h4,
+h4 .h4,
+h5 .h4,
+h6 .h4 {
   font-size: 2em, 2em;
 }
-h1.h5,
-h2.h5,
-h3.h5,
-h4.h5,
-h5.h5,
-h6.h5 {
+h1 .h5,
+h2 .h5,
+h3 .h5,
+h4 .h5,
+h5 .h5,
+h6 .h5 {
   font-size: 2em, 2em;
 }
-h1.h6,
-h2.h6,
-h3.h6,
-h4.h6,
-h5.h6,
-h6.h6 {
+h1 .h6,
+h2 .h6,
+h3 .h6,
+h4 .h6,
+h5 .h6,
+h6 .h6 {
   font-size: 2em, 2em;
 }
 
@@ -98,39 +98,62 @@ table th {
   border: 1px solid black;
 }
 table td {
-  width: 33.3%;
   border: 1px solid black;
 }
 
 img {
   width: 300px;
   border-radius: 45%;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 img.grayscale {
   filter: grayscale(100%);
+  -webkit-transition: all 3s ease-in-out;
+  -moz-transition: all 3s ease-in-out;
+  transition: all 3s ease-in-out;
 }
 
 img.sepia {
   filter: sepia(100%);
+  -webkit-transition: all 5s ease-in-out;
+  -moz-transition: all 5s ease-in-out;
+  transition: all 5s ease-in-out;
 }
 
 img.blur {
   filter: blur(5px);
+  -webkit-transition: all 4s ease-in-out;
+  -moz-transition: all 4s ease-in-out;
+  transition: all 4s ease-in-out;
 }
 
 img.hue-rotate {
   filter: hue-rotate(150deg);
+  -webkit-transition: all 6s ease-in-out;
+  -moz-transition: all 6s ease-in-out;
+  transition: all 6s ease-in-out;
 }
 
 img.invert {
   filter: invert(0.8);
+  -webkit-transition: all 8s linear;
+  -moz-transition: all 8s linear;
+  transition: all 8s linear;
 }
 
 img.brightness {
   filter: brightness(0.5);
+  -webkit-transition: all 8s ease;
+  -moz-transition: all 8s ease;
+  transition: all 8s ease;
 }
 
 img.contrast {
   filter: contrast(2);
+  -webkit-transition: all 9s step-start;
+  -moz-transition: all 9s step-start;
+  transition: all 9s step-start;
 }

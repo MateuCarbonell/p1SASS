@@ -5,6 +5,11 @@ Linea 47
 WEBKIT I MOZ
 */
 @import "vars";
+@mixin prefix($property, $value) {
+    -webkit-#{$property}: $value;
+    -moz-#{$property}: $value;
+    #{$property}: $value;
+}
 body{
     padding: 0;
     margin: 0;
@@ -24,7 +29,7 @@ h6 {
     color: $color-normal;
     background-color: lighten($color-normal, 50%);
     @for $i from 1 through 6 {
-        &.h#{$i} {
+        .h#{$i} {
             font-size: 2em - 0,2em;
         }
     }
@@ -56,7 +61,6 @@ table {
     }
 
     td {
-        width: 33.3%;
         border: 1px solid black;
     }
 }
@@ -64,30 +68,47 @@ table {
 img {
     width: 300px;
     border-radius: 45%;
+    @include prefix(transition, all 2s ease-in-out);
 }
 // https://lenguajecss.com/css/efectos/filtros-css/
 img.grayscale {
     filter: grayscale(100%);
+    @include prefix(transition, all 3s ease-in-out);
+
 }
 img.sepia {
     filter: sepia(100%);
+    @include prefix(transition, all 5s ease-in-out);
+
 }
 img.blur {
     filter: blur(5px);
+    @include prefix(transition, all 4s ease-in-out);
+
 }
 
 img.hue-rotate {
     filter: hue-rotate(150deg);
+    @include prefix(transition, all 6s ease-in-out);
+
 }
 
 img.invert {
     filter: invert(0.8);
+    @include prefix(transition, all 8s linear);
+
 }
 
 img.brightness {
     filter: brightness(0.5);
+    @include prefix(transition, all 8s ease);
+
 }
 
 img.contrast {
     filter: contrast(2);
+    @include prefix(transition, all 9s step-start);
+
 }
+
+
