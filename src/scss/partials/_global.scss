@@ -1,122 +1,131 @@
 @import "vars";
 
 @mixin prefix($property, $value) {
-  -webkit-#{$property}: $value;
-  -moz-#{$property}: $value;
-  #{$property}: $value;
-}
-
-body {
-  padding: 0;
-  margin: 0;
+    -webkit-#{$property}: $value;
+    -moz-#{$property}: $value;
+    #{$property}: $value;
 }
 
 p {
-  text-align: justify;
-  color: $color-normal;
-  background-color: lighten($color-normal, 50%);
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    color: $color-normal;
+    background-color: lighten($color-normal, 50%);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: $color-normal;
-  background-color: lighten($color-normal, 50%);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    color: $color-normal;
+    background-color: lighten($color-normal, 50%);
 }
 
 @for $i from 1 through 6 {
-  .h#{$i} {
-    font-size: 2em - $i * 0.2em;
-  }
+    .h#{$i} {
+        font-size: 2em - $i * 0.2em;
+    }
 }
 // Preguntar pq no da el tamaño que toca.
 
 .success {
-  color: $color-success;
-  background-color: darken($color-success, 25%);
+    color: $color-success;
+    background-color: darken($color-success, 25%);
 }
 
 .warning {
-  color: $color-warning;
-  background-color: darken($color-warning, 25%);
+    color: $color-warning;
+    background-color: darken($color-warning, 25%);
 }
 
 .error {
-  color: $color-error;
-  background-color: darken($color-error, 25%);
+    color: $color-error;
+    background-color: darken($color-error, 25%);
 }
 // Falta el color Personalizado (preguntar)
 
 @for $red from 0 through 10 {
-  @for $green from 0 through 10 {
-    @for $blue from 0 through 10 {
-      $valor-rojo: round($red * 10 / 255 * 100);
-      $valor-verde: round($green * 10 / 255 * 100);
-      $valor-azul: round($blue * 10 / 255 * 100);
+    
+    @for $green from 0 through 10 {
 
-      $class: "color-#{$valor-rojo}-#{$valor-verde}-#{$valor-azul}";
-      $class-bg: "colorbg-#{$valor-rojo}-#{$valor-verde}-#{$valor-azul}";
+        @for $blue from 0 through 10 {
+            $newRed: ($red * 10);
+            $newBlue: ($blue * 10);
+            $newGreen: ($green * 10);
 
-      .#{$class} {
-        color: rgb($valor-rojo, $valor-verde, $valor-azul);
-      }
+            $redPercentatge: ($newRed * 1%);
+            $greenPercentatge: ($newGreen * 1%);
+            $bluePercentatge: ($newBlue * 1%);
 
-      .#{$class-bg} {
-        background-color: rgb($valor-rojo, $valor-verde, $valor-azul);
-      }
+            $class: "color-#{$newRed}-#{$newGreen}-#{$newBlue}";
+            $class-bg: "colorbg-#{$newRed}-#{$newGreen}-#{$newBlue}";
+
+            .#{$class} {
+                color: rgb($redPercentatge, $greenPercentatge, $bluePercentatge);
+            }
+            .#{$class-bg} {
+                background-color: rgb($redPercentatge, $greenPercentatge, $bluePercentatge);
+            }
+        }
     }
-  }
 }
 
 
 
 table {
-  width: 100%;
-  border-collapse: collapse;
-  th {
-    color: white;
-    background-color: black;
-    border: 1px solid black;
-  }
+    width: 100%;
+    border-collapse: collapse;
+    th {
+        color: white;
+        background-color: black;
+        border: 1px solid black;
+    }
 
-  td {
-    border: 1px solid black;
-  }
+    td {
+        border: 1px solid black;
+    }
 }
 
 img {
-  width: 300px;
-  border-radius: 45%;
-  @include prefix(transition, all 2s ease-in-out);
+    width: 300px;
+    border-radius: 45%;
+    @include prefix(transition, all 2s ease-in-out);
 }
 // https://lenguajecss.com/css/efectos/filtros-css/
 img.grayscale {
-  filter: grayscale(100%);
-  @include prefix(transition, all 2s ease-in-out);
+    filter: grayscale(100%);
+    @include prefix(transition, all 2s ease-in-out);
 }
 img.sepia {
-  filter: sepia(100%);
-  @include prefix(transition, all 2s ease-in-out);
+    filter: sepia(100%);
+    @include prefix(transition, all 2s ease-in-out);
 }
 img.blur {
-  filter: blur(5px);
-  @include prefix(transition, all 2s ease-in-out);
+    filter: blur(5px);
+    @include prefix(transition, all 2s ease-in-out);
 }
 
 img.hue-rotate {
-  filter: hue-rotate(150deg);
-  @include prefix(transition, all 4s ease-in-out);
+    filter: hue-rotate(150deg);
+    @include prefix(transition, all 4s ease-in-out);
 }
 
 img.invert {
-  filter: invert(0.8);
-  @include prefix(transition, all 4s ease-in-out);
+    filter: invert(0.8);
+    @include prefix(transition, all 5s ease-in-out);
 }
 
 img.brightness {
-  filter: brightness(0.5);
-  @include prefix(transition, all 4s ease-in-out);
+    filter: brightness(0.5);
+    @include prefix(transition, all 4s ease-in-out);
 }
 
 img.contrast {
-  filter: contrast(2);
-  @include prefix(transition, all 5s step-start);
+    filter: contrast(2);
+    @include prefix(transition, all 5s step-start);
 }
