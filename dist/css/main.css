@@ -1,9 +1,3 @@
-/*
-Falta:
-Linea 29
-Linea 47
-WEBKIT I MOZ
-*/
 body {
   padding: 0;
   margin: 0;
@@ -15,62 +9,33 @@ p {
   background-color: #b3b3b3;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #333333;
   background-color: #b3b3b3;
 }
-h1 .h1,
-h2 .h1,
-h3 .h1,
-h4 .h1,
-h5 .h1,
-h6 .h1 {
-  font-size: 2em, 2em;
+
+.h1 {
+  font-size: 1.8em;
 }
-h1 .h2,
-h2 .h2,
-h3 .h2,
-h4 .h2,
-h5 .h2,
-h6 .h2 {
-  font-size: 2em, 2em;
+
+.h2 {
+  font-size: 1.6em;
 }
-h1 .h3,
-h2 .h3,
-h3 .h3,
-h4 .h3,
-h5 .h3,
-h6 .h3 {
-  font-size: 2em, 2em;
+
+.h3 {
+  font-size: 1.4em;
 }
-h1 .h4,
-h2 .h4,
-h3 .h4,
-h4 .h4,
-h5 .h4,
-h6 .h4 {
-  font-size: 2em, 2em;
+
+.h4 {
+  font-size: 1.2em;
 }
-h1 .h5,
-h2 .h5,
-h3 .h5,
-h4 .h5,
-h5 .h5,
-h6 .h5 {
-  font-size: 2em, 2em;
+
+.h5 {
+  font-size: 1em;
 }
-h1 .h6,
-h2 .h6,
-h3 .h6,
-h4 .h6,
-h5 .h6,
-h6 .h6 {
-  font-size: 2em, 2em;
+
+.h6 {
+  font-size: 0.8em;
 }
 
 .success {
@@ -86,6 +51,10654 @@ h6 .h6 {
 .error {
   color: #e74c3c;
   background-color: #921e12;
+}
+
+.color-0-0-0 {
+  color: rgb(0, 0, 0);
+}
+
+.colorbg-0-0-0 {
+  background-color: rgb(0, 0, 0);
+}
+
+.color-0-0-4 {
+  color: rgb(0, 0, 4);
+}
+
+.colorbg-0-0-4 {
+  background-color: rgb(0, 0, 4);
+}
+
+.color-0-0-8 {
+  color: rgb(0, 0, 8);
+}
+
+.colorbg-0-0-8 {
+  background-color: rgb(0, 0, 8);
+}
+
+.color-0-0-12 {
+  color: rgb(0, 0, 12);
+}
+
+.colorbg-0-0-12 {
+  background-color: rgb(0, 0, 12);
+}
+
+.color-0-0-16 {
+  color: rgb(0, 0, 16);
+}
+
+.colorbg-0-0-16 {
+  background-color: rgb(0, 0, 16);
+}
+
+.color-0-0-20 {
+  color: rgb(0, 0, 20);
+}
+
+.colorbg-0-0-20 {
+  background-color: rgb(0, 0, 20);
+}
+
+.color-0-0-24 {
+  color: rgb(0, 0, 24);
+}
+
+.colorbg-0-0-24 {
+  background-color: rgb(0, 0, 24);
+}
+
+.color-0-0-27 {
+  color: rgb(0, 0, 27);
+}
+
+.colorbg-0-0-27 {
+  background-color: rgb(0, 0, 27);
+}
+
+.color-0-0-31 {
+  color: rgb(0, 0, 31);
+}
+
+.colorbg-0-0-31 {
+  background-color: rgb(0, 0, 31);
+}
+
+.color-0-0-35 {
+  color: rgb(0, 0, 35);
+}
+
+.colorbg-0-0-35 {
+  background-color: rgb(0, 0, 35);
+}
+
+.color-0-0-39 {
+  color: rgb(0, 0, 39);
+}
+
+.colorbg-0-0-39 {
+  background-color: rgb(0, 0, 39);
+}
+
+.color-0-4-0 {
+  color: rgb(0, 4, 0);
+}
+
+.colorbg-0-4-0 {
+  background-color: rgb(0, 4, 0);
+}
+
+.color-0-4-4 {
+  color: rgb(0, 4, 4);
+}
+
+.colorbg-0-4-4 {
+  background-color: rgb(0, 4, 4);
+}
+
+.color-0-4-8 {
+  color: rgb(0, 4, 8);
+}
+
+.colorbg-0-4-8 {
+  background-color: rgb(0, 4, 8);
+}
+
+.color-0-4-12 {
+  color: rgb(0, 4, 12);
+}
+
+.colorbg-0-4-12 {
+  background-color: rgb(0, 4, 12);
+}
+
+.color-0-4-16 {
+  color: rgb(0, 4, 16);
+}
+
+.colorbg-0-4-16 {
+  background-color: rgb(0, 4, 16);
+}
+
+.color-0-4-20 {
+  color: rgb(0, 4, 20);
+}
+
+.colorbg-0-4-20 {
+  background-color: rgb(0, 4, 20);
+}
+
+.color-0-4-24 {
+  color: rgb(0, 4, 24);
+}
+
+.colorbg-0-4-24 {
+  background-color: rgb(0, 4, 24);
+}
+
+.color-0-4-27 {
+  color: rgb(0, 4, 27);
+}
+
+.colorbg-0-4-27 {
+  background-color: rgb(0, 4, 27);
+}
+
+.color-0-4-31 {
+  color: rgb(0, 4, 31);
+}
+
+.colorbg-0-4-31 {
+  background-color: rgb(0, 4, 31);
+}
+
+.color-0-4-35 {
+  color: rgb(0, 4, 35);
+}
+
+.colorbg-0-4-35 {
+  background-color: rgb(0, 4, 35);
+}
+
+.color-0-4-39 {
+  color: rgb(0, 4, 39);
+}
+
+.colorbg-0-4-39 {
+  background-color: rgb(0, 4, 39);
+}
+
+.color-0-8-0 {
+  color: rgb(0, 8, 0);
+}
+
+.colorbg-0-8-0 {
+  background-color: rgb(0, 8, 0);
+}
+
+.color-0-8-4 {
+  color: rgb(0, 8, 4);
+}
+
+.colorbg-0-8-4 {
+  background-color: rgb(0, 8, 4);
+}
+
+.color-0-8-8 {
+  color: rgb(0, 8, 8);
+}
+
+.colorbg-0-8-8 {
+  background-color: rgb(0, 8, 8);
+}
+
+.color-0-8-12 {
+  color: rgb(0, 8, 12);
+}
+
+.colorbg-0-8-12 {
+  background-color: rgb(0, 8, 12);
+}
+
+.color-0-8-16 {
+  color: rgb(0, 8, 16);
+}
+
+.colorbg-0-8-16 {
+  background-color: rgb(0, 8, 16);
+}
+
+.color-0-8-20 {
+  color: rgb(0, 8, 20);
+}
+
+.colorbg-0-8-20 {
+  background-color: rgb(0, 8, 20);
+}
+
+.color-0-8-24 {
+  color: rgb(0, 8, 24);
+}
+
+.colorbg-0-8-24 {
+  background-color: rgb(0, 8, 24);
+}
+
+.color-0-8-27 {
+  color: rgb(0, 8, 27);
+}
+
+.colorbg-0-8-27 {
+  background-color: rgb(0, 8, 27);
+}
+
+.color-0-8-31 {
+  color: rgb(0, 8, 31);
+}
+
+.colorbg-0-8-31 {
+  background-color: rgb(0, 8, 31);
+}
+
+.color-0-8-35 {
+  color: rgb(0, 8, 35);
+}
+
+.colorbg-0-8-35 {
+  background-color: rgb(0, 8, 35);
+}
+
+.color-0-8-39 {
+  color: rgb(0, 8, 39);
+}
+
+.colorbg-0-8-39 {
+  background-color: rgb(0, 8, 39);
+}
+
+.color-0-12-0 {
+  color: rgb(0, 12, 0);
+}
+
+.colorbg-0-12-0 {
+  background-color: rgb(0, 12, 0);
+}
+
+.color-0-12-4 {
+  color: rgb(0, 12, 4);
+}
+
+.colorbg-0-12-4 {
+  background-color: rgb(0, 12, 4);
+}
+
+.color-0-12-8 {
+  color: rgb(0, 12, 8);
+}
+
+.colorbg-0-12-8 {
+  background-color: rgb(0, 12, 8);
+}
+
+.color-0-12-12 {
+  color: rgb(0, 12, 12);
+}
+
+.colorbg-0-12-12 {
+  background-color: rgb(0, 12, 12);
+}
+
+.color-0-12-16 {
+  color: rgb(0, 12, 16);
+}
+
+.colorbg-0-12-16 {
+  background-color: rgb(0, 12, 16);
+}
+
+.color-0-12-20 {
+  color: rgb(0, 12, 20);
+}
+
+.colorbg-0-12-20 {
+  background-color: rgb(0, 12, 20);
+}
+
+.color-0-12-24 {
+  color: rgb(0, 12, 24);
+}
+
+.colorbg-0-12-24 {
+  background-color: rgb(0, 12, 24);
+}
+
+.color-0-12-27 {
+  color: rgb(0, 12, 27);
+}
+
+.colorbg-0-12-27 {
+  background-color: rgb(0, 12, 27);
+}
+
+.color-0-12-31 {
+  color: rgb(0, 12, 31);
+}
+
+.colorbg-0-12-31 {
+  background-color: rgb(0, 12, 31);
+}
+
+.color-0-12-35 {
+  color: rgb(0, 12, 35);
+}
+
+.colorbg-0-12-35 {
+  background-color: rgb(0, 12, 35);
+}
+
+.color-0-12-39 {
+  color: rgb(0, 12, 39);
+}
+
+.colorbg-0-12-39 {
+  background-color: rgb(0, 12, 39);
+}
+
+.color-0-16-0 {
+  color: rgb(0, 16, 0);
+}
+
+.colorbg-0-16-0 {
+  background-color: rgb(0, 16, 0);
+}
+
+.color-0-16-4 {
+  color: rgb(0, 16, 4);
+}
+
+.colorbg-0-16-4 {
+  background-color: rgb(0, 16, 4);
+}
+
+.color-0-16-8 {
+  color: rgb(0, 16, 8);
+}
+
+.colorbg-0-16-8 {
+  background-color: rgb(0, 16, 8);
+}
+
+.color-0-16-12 {
+  color: rgb(0, 16, 12);
+}
+
+.colorbg-0-16-12 {
+  background-color: rgb(0, 16, 12);
+}
+
+.color-0-16-16 {
+  color: rgb(0, 16, 16);
+}
+
+.colorbg-0-16-16 {
+  background-color: rgb(0, 16, 16);
+}
+
+.color-0-16-20 {
+  color: rgb(0, 16, 20);
+}
+
+.colorbg-0-16-20 {
+  background-color: rgb(0, 16, 20);
+}
+
+.color-0-16-24 {
+  color: rgb(0, 16, 24);
+}
+
+.colorbg-0-16-24 {
+  background-color: rgb(0, 16, 24);
+}
+
+.color-0-16-27 {
+  color: rgb(0, 16, 27);
+}
+
+.colorbg-0-16-27 {
+  background-color: rgb(0, 16, 27);
+}
+
+.color-0-16-31 {
+  color: rgb(0, 16, 31);
+}
+
+.colorbg-0-16-31 {
+  background-color: rgb(0, 16, 31);
+}
+
+.color-0-16-35 {
+  color: rgb(0, 16, 35);
+}
+
+.colorbg-0-16-35 {
+  background-color: rgb(0, 16, 35);
+}
+
+.color-0-16-39 {
+  color: rgb(0, 16, 39);
+}
+
+.colorbg-0-16-39 {
+  background-color: rgb(0, 16, 39);
+}
+
+.color-0-20-0 {
+  color: rgb(0, 20, 0);
+}
+
+.colorbg-0-20-0 {
+  background-color: rgb(0, 20, 0);
+}
+
+.color-0-20-4 {
+  color: rgb(0, 20, 4);
+}
+
+.colorbg-0-20-4 {
+  background-color: rgb(0, 20, 4);
+}
+
+.color-0-20-8 {
+  color: rgb(0, 20, 8);
+}
+
+.colorbg-0-20-8 {
+  background-color: rgb(0, 20, 8);
+}
+
+.color-0-20-12 {
+  color: rgb(0, 20, 12);
+}
+
+.colorbg-0-20-12 {
+  background-color: rgb(0, 20, 12);
+}
+
+.color-0-20-16 {
+  color: rgb(0, 20, 16);
+}
+
+.colorbg-0-20-16 {
+  background-color: rgb(0, 20, 16);
+}
+
+.color-0-20-20 {
+  color: rgb(0, 20, 20);
+}
+
+.colorbg-0-20-20 {
+  background-color: rgb(0, 20, 20);
+}
+
+.color-0-20-24 {
+  color: rgb(0, 20, 24);
+}
+
+.colorbg-0-20-24 {
+  background-color: rgb(0, 20, 24);
+}
+
+.color-0-20-27 {
+  color: rgb(0, 20, 27);
+}
+
+.colorbg-0-20-27 {
+  background-color: rgb(0, 20, 27);
+}
+
+.color-0-20-31 {
+  color: rgb(0, 20, 31);
+}
+
+.colorbg-0-20-31 {
+  background-color: rgb(0, 20, 31);
+}
+
+.color-0-20-35 {
+  color: rgb(0, 20, 35);
+}
+
+.colorbg-0-20-35 {
+  background-color: rgb(0, 20, 35);
+}
+
+.color-0-20-39 {
+  color: rgb(0, 20, 39);
+}
+
+.colorbg-0-20-39 {
+  background-color: rgb(0, 20, 39);
+}
+
+.color-0-24-0 {
+  color: rgb(0, 24, 0);
+}
+
+.colorbg-0-24-0 {
+  background-color: rgb(0, 24, 0);
+}
+
+.color-0-24-4 {
+  color: rgb(0, 24, 4);
+}
+
+.colorbg-0-24-4 {
+  background-color: rgb(0, 24, 4);
+}
+
+.color-0-24-8 {
+  color: rgb(0, 24, 8);
+}
+
+.colorbg-0-24-8 {
+  background-color: rgb(0, 24, 8);
+}
+
+.color-0-24-12 {
+  color: rgb(0, 24, 12);
+}
+
+.colorbg-0-24-12 {
+  background-color: rgb(0, 24, 12);
+}
+
+.color-0-24-16 {
+  color: rgb(0, 24, 16);
+}
+
+.colorbg-0-24-16 {
+  background-color: rgb(0, 24, 16);
+}
+
+.color-0-24-20 {
+  color: rgb(0, 24, 20);
+}
+
+.colorbg-0-24-20 {
+  background-color: rgb(0, 24, 20);
+}
+
+.color-0-24-24 {
+  color: rgb(0, 24, 24);
+}
+
+.colorbg-0-24-24 {
+  background-color: rgb(0, 24, 24);
+}
+
+.color-0-24-27 {
+  color: rgb(0, 24, 27);
+}
+
+.colorbg-0-24-27 {
+  background-color: rgb(0, 24, 27);
+}
+
+.color-0-24-31 {
+  color: rgb(0, 24, 31);
+}
+
+.colorbg-0-24-31 {
+  background-color: rgb(0, 24, 31);
+}
+
+.color-0-24-35 {
+  color: rgb(0, 24, 35);
+}
+
+.colorbg-0-24-35 {
+  background-color: rgb(0, 24, 35);
+}
+
+.color-0-24-39 {
+  color: rgb(0, 24, 39);
+}
+
+.colorbg-0-24-39 {
+  background-color: rgb(0, 24, 39);
+}
+
+.color-0-27-0 {
+  color: rgb(0, 27, 0);
+}
+
+.colorbg-0-27-0 {
+  background-color: rgb(0, 27, 0);
+}
+
+.color-0-27-4 {
+  color: rgb(0, 27, 4);
+}
+
+.colorbg-0-27-4 {
+  background-color: rgb(0, 27, 4);
+}
+
+.color-0-27-8 {
+  color: rgb(0, 27, 8);
+}
+
+.colorbg-0-27-8 {
+  background-color: rgb(0, 27, 8);
+}
+
+.color-0-27-12 {
+  color: rgb(0, 27, 12);
+}
+
+.colorbg-0-27-12 {
+  background-color: rgb(0, 27, 12);
+}
+
+.color-0-27-16 {
+  color: rgb(0, 27, 16);
+}
+
+.colorbg-0-27-16 {
+  background-color: rgb(0, 27, 16);
+}
+
+.color-0-27-20 {
+  color: rgb(0, 27, 20);
+}
+
+.colorbg-0-27-20 {
+  background-color: rgb(0, 27, 20);
+}
+
+.color-0-27-24 {
+  color: rgb(0, 27, 24);
+}
+
+.colorbg-0-27-24 {
+  background-color: rgb(0, 27, 24);
+}
+
+.color-0-27-27 {
+  color: rgb(0, 27, 27);
+}
+
+.colorbg-0-27-27 {
+  background-color: rgb(0, 27, 27);
+}
+
+.color-0-27-31 {
+  color: rgb(0, 27, 31);
+}
+
+.colorbg-0-27-31 {
+  background-color: rgb(0, 27, 31);
+}
+
+.color-0-27-35 {
+  color: rgb(0, 27, 35);
+}
+
+.colorbg-0-27-35 {
+  background-color: rgb(0, 27, 35);
+}
+
+.color-0-27-39 {
+  color: rgb(0, 27, 39);
+}
+
+.colorbg-0-27-39 {
+  background-color: rgb(0, 27, 39);
+}
+
+.color-0-31-0 {
+  color: rgb(0, 31, 0);
+}
+
+.colorbg-0-31-0 {
+  background-color: rgb(0, 31, 0);
+}
+
+.color-0-31-4 {
+  color: rgb(0, 31, 4);
+}
+
+.colorbg-0-31-4 {
+  background-color: rgb(0, 31, 4);
+}
+
+.color-0-31-8 {
+  color: rgb(0, 31, 8);
+}
+
+.colorbg-0-31-8 {
+  background-color: rgb(0, 31, 8);
+}
+
+.color-0-31-12 {
+  color: rgb(0, 31, 12);
+}
+
+.colorbg-0-31-12 {
+  background-color: rgb(0, 31, 12);
+}
+
+.color-0-31-16 {
+  color: rgb(0, 31, 16);
+}
+
+.colorbg-0-31-16 {
+  background-color: rgb(0, 31, 16);
+}
+
+.color-0-31-20 {
+  color: rgb(0, 31, 20);
+}
+
+.colorbg-0-31-20 {
+  background-color: rgb(0, 31, 20);
+}
+
+.color-0-31-24 {
+  color: rgb(0, 31, 24);
+}
+
+.colorbg-0-31-24 {
+  background-color: rgb(0, 31, 24);
+}
+
+.color-0-31-27 {
+  color: rgb(0, 31, 27);
+}
+
+.colorbg-0-31-27 {
+  background-color: rgb(0, 31, 27);
+}
+
+.color-0-31-31 {
+  color: rgb(0, 31, 31);
+}
+
+.colorbg-0-31-31 {
+  background-color: rgb(0, 31, 31);
+}
+
+.color-0-31-35 {
+  color: rgb(0, 31, 35);
+}
+
+.colorbg-0-31-35 {
+  background-color: rgb(0, 31, 35);
+}
+
+.color-0-31-39 {
+  color: rgb(0, 31, 39);
+}
+
+.colorbg-0-31-39 {
+  background-color: rgb(0, 31, 39);
+}
+
+.color-0-35-0 {
+  color: rgb(0, 35, 0);
+}
+
+.colorbg-0-35-0 {
+  background-color: rgb(0, 35, 0);
+}
+
+.color-0-35-4 {
+  color: rgb(0, 35, 4);
+}
+
+.colorbg-0-35-4 {
+  background-color: rgb(0, 35, 4);
+}
+
+.color-0-35-8 {
+  color: rgb(0, 35, 8);
+}
+
+.colorbg-0-35-8 {
+  background-color: rgb(0, 35, 8);
+}
+
+.color-0-35-12 {
+  color: rgb(0, 35, 12);
+}
+
+.colorbg-0-35-12 {
+  background-color: rgb(0, 35, 12);
+}
+
+.color-0-35-16 {
+  color: rgb(0, 35, 16);
+}
+
+.colorbg-0-35-16 {
+  background-color: rgb(0, 35, 16);
+}
+
+.color-0-35-20 {
+  color: rgb(0, 35, 20);
+}
+
+.colorbg-0-35-20 {
+  background-color: rgb(0, 35, 20);
+}
+
+.color-0-35-24 {
+  color: rgb(0, 35, 24);
+}
+
+.colorbg-0-35-24 {
+  background-color: rgb(0, 35, 24);
+}
+
+.color-0-35-27 {
+  color: rgb(0, 35, 27);
+}
+
+.colorbg-0-35-27 {
+  background-color: rgb(0, 35, 27);
+}
+
+.color-0-35-31 {
+  color: rgb(0, 35, 31);
+}
+
+.colorbg-0-35-31 {
+  background-color: rgb(0, 35, 31);
+}
+
+.color-0-35-35 {
+  color: rgb(0, 35, 35);
+}
+
+.colorbg-0-35-35 {
+  background-color: rgb(0, 35, 35);
+}
+
+.color-0-35-39 {
+  color: rgb(0, 35, 39);
+}
+
+.colorbg-0-35-39 {
+  background-color: rgb(0, 35, 39);
+}
+
+.color-0-39-0 {
+  color: rgb(0, 39, 0);
+}
+
+.colorbg-0-39-0 {
+  background-color: rgb(0, 39, 0);
+}
+
+.color-0-39-4 {
+  color: rgb(0, 39, 4);
+}
+
+.colorbg-0-39-4 {
+  background-color: rgb(0, 39, 4);
+}
+
+.color-0-39-8 {
+  color: rgb(0, 39, 8);
+}
+
+.colorbg-0-39-8 {
+  background-color: rgb(0, 39, 8);
+}
+
+.color-0-39-12 {
+  color: rgb(0, 39, 12);
+}
+
+.colorbg-0-39-12 {
+  background-color: rgb(0, 39, 12);
+}
+
+.color-0-39-16 {
+  color: rgb(0, 39, 16);
+}
+
+.colorbg-0-39-16 {
+  background-color: rgb(0, 39, 16);
+}
+
+.color-0-39-20 {
+  color: rgb(0, 39, 20);
+}
+
+.colorbg-0-39-20 {
+  background-color: rgb(0, 39, 20);
+}
+
+.color-0-39-24 {
+  color: rgb(0, 39, 24);
+}
+
+.colorbg-0-39-24 {
+  background-color: rgb(0, 39, 24);
+}
+
+.color-0-39-27 {
+  color: rgb(0, 39, 27);
+}
+
+.colorbg-0-39-27 {
+  background-color: rgb(0, 39, 27);
+}
+
+.color-0-39-31 {
+  color: rgb(0, 39, 31);
+}
+
+.colorbg-0-39-31 {
+  background-color: rgb(0, 39, 31);
+}
+
+.color-0-39-35 {
+  color: rgb(0, 39, 35);
+}
+
+.colorbg-0-39-35 {
+  background-color: rgb(0, 39, 35);
+}
+
+.color-0-39-39 {
+  color: rgb(0, 39, 39);
+}
+
+.colorbg-0-39-39 {
+  background-color: rgb(0, 39, 39);
+}
+
+.color-4-0-0 {
+  color: rgb(4, 0, 0);
+}
+
+.colorbg-4-0-0 {
+  background-color: rgb(4, 0, 0);
+}
+
+.color-4-0-4 {
+  color: rgb(4, 0, 4);
+}
+
+.colorbg-4-0-4 {
+  background-color: rgb(4, 0, 4);
+}
+
+.color-4-0-8 {
+  color: rgb(4, 0, 8);
+}
+
+.colorbg-4-0-8 {
+  background-color: rgb(4, 0, 8);
+}
+
+.color-4-0-12 {
+  color: rgb(4, 0, 12);
+}
+
+.colorbg-4-0-12 {
+  background-color: rgb(4, 0, 12);
+}
+
+.color-4-0-16 {
+  color: rgb(4, 0, 16);
+}
+
+.colorbg-4-0-16 {
+  background-color: rgb(4, 0, 16);
+}
+
+.color-4-0-20 {
+  color: rgb(4, 0, 20);
+}
+
+.colorbg-4-0-20 {
+  background-color: rgb(4, 0, 20);
+}
+
+.color-4-0-24 {
+  color: rgb(4, 0, 24);
+}
+
+.colorbg-4-0-24 {
+  background-color: rgb(4, 0, 24);
+}
+
+.color-4-0-27 {
+  color: rgb(4, 0, 27);
+}
+
+.colorbg-4-0-27 {
+  background-color: rgb(4, 0, 27);
+}
+
+.color-4-0-31 {
+  color: rgb(4, 0, 31);
+}
+
+.colorbg-4-0-31 {
+  background-color: rgb(4, 0, 31);
+}
+
+.color-4-0-35 {
+  color: rgb(4, 0, 35);
+}
+
+.colorbg-4-0-35 {
+  background-color: rgb(4, 0, 35);
+}
+
+.color-4-0-39 {
+  color: rgb(4, 0, 39);
+}
+
+.colorbg-4-0-39 {
+  background-color: rgb(4, 0, 39);
+}
+
+.color-4-4-0 {
+  color: rgb(4, 4, 0);
+}
+
+.colorbg-4-4-0 {
+  background-color: rgb(4, 4, 0);
+}
+
+.color-4-4-4 {
+  color: rgb(4, 4, 4);
+}
+
+.colorbg-4-4-4 {
+  background-color: rgb(4, 4, 4);
+}
+
+.color-4-4-8 {
+  color: rgb(4, 4, 8);
+}
+
+.colorbg-4-4-8 {
+  background-color: rgb(4, 4, 8);
+}
+
+.color-4-4-12 {
+  color: rgb(4, 4, 12);
+}
+
+.colorbg-4-4-12 {
+  background-color: rgb(4, 4, 12);
+}
+
+.color-4-4-16 {
+  color: rgb(4, 4, 16);
+}
+
+.colorbg-4-4-16 {
+  background-color: rgb(4, 4, 16);
+}
+
+.color-4-4-20 {
+  color: rgb(4, 4, 20);
+}
+
+.colorbg-4-4-20 {
+  background-color: rgb(4, 4, 20);
+}
+
+.color-4-4-24 {
+  color: rgb(4, 4, 24);
+}
+
+.colorbg-4-4-24 {
+  background-color: rgb(4, 4, 24);
+}
+
+.color-4-4-27 {
+  color: rgb(4, 4, 27);
+}
+
+.colorbg-4-4-27 {
+  background-color: rgb(4, 4, 27);
+}
+
+.color-4-4-31 {
+  color: rgb(4, 4, 31);
+}
+
+.colorbg-4-4-31 {
+  background-color: rgb(4, 4, 31);
+}
+
+.color-4-4-35 {
+  color: rgb(4, 4, 35);
+}
+
+.colorbg-4-4-35 {
+  background-color: rgb(4, 4, 35);
+}
+
+.color-4-4-39 {
+  color: rgb(4, 4, 39);
+}
+
+.colorbg-4-4-39 {
+  background-color: rgb(4, 4, 39);
+}
+
+.color-4-8-0 {
+  color: rgb(4, 8, 0);
+}
+
+.colorbg-4-8-0 {
+  background-color: rgb(4, 8, 0);
+}
+
+.color-4-8-4 {
+  color: rgb(4, 8, 4);
+}
+
+.colorbg-4-8-4 {
+  background-color: rgb(4, 8, 4);
+}
+
+.color-4-8-8 {
+  color: rgb(4, 8, 8);
+}
+
+.colorbg-4-8-8 {
+  background-color: rgb(4, 8, 8);
+}
+
+.color-4-8-12 {
+  color: rgb(4, 8, 12);
+}
+
+.colorbg-4-8-12 {
+  background-color: rgb(4, 8, 12);
+}
+
+.color-4-8-16 {
+  color: rgb(4, 8, 16);
+}
+
+.colorbg-4-8-16 {
+  background-color: rgb(4, 8, 16);
+}
+
+.color-4-8-20 {
+  color: rgb(4, 8, 20);
+}
+
+.colorbg-4-8-20 {
+  background-color: rgb(4, 8, 20);
+}
+
+.color-4-8-24 {
+  color: rgb(4, 8, 24);
+}
+
+.colorbg-4-8-24 {
+  background-color: rgb(4, 8, 24);
+}
+
+.color-4-8-27 {
+  color: rgb(4, 8, 27);
+}
+
+.colorbg-4-8-27 {
+  background-color: rgb(4, 8, 27);
+}
+
+.color-4-8-31 {
+  color: rgb(4, 8, 31);
+}
+
+.colorbg-4-8-31 {
+  background-color: rgb(4, 8, 31);
+}
+
+.color-4-8-35 {
+  color: rgb(4, 8, 35);
+}
+
+.colorbg-4-8-35 {
+  background-color: rgb(4, 8, 35);
+}
+
+.color-4-8-39 {
+  color: rgb(4, 8, 39);
+}
+
+.colorbg-4-8-39 {
+  background-color: rgb(4, 8, 39);
+}
+
+.color-4-12-0 {
+  color: rgb(4, 12, 0);
+}
+
+.colorbg-4-12-0 {
+  background-color: rgb(4, 12, 0);
+}
+
+.color-4-12-4 {
+  color: rgb(4, 12, 4);
+}
+
+.colorbg-4-12-4 {
+  background-color: rgb(4, 12, 4);
+}
+
+.color-4-12-8 {
+  color: rgb(4, 12, 8);
+}
+
+.colorbg-4-12-8 {
+  background-color: rgb(4, 12, 8);
+}
+
+.color-4-12-12 {
+  color: rgb(4, 12, 12);
+}
+
+.colorbg-4-12-12 {
+  background-color: rgb(4, 12, 12);
+}
+
+.color-4-12-16 {
+  color: rgb(4, 12, 16);
+}
+
+.colorbg-4-12-16 {
+  background-color: rgb(4, 12, 16);
+}
+
+.color-4-12-20 {
+  color: rgb(4, 12, 20);
+}
+
+.colorbg-4-12-20 {
+  background-color: rgb(4, 12, 20);
+}
+
+.color-4-12-24 {
+  color: rgb(4, 12, 24);
+}
+
+.colorbg-4-12-24 {
+  background-color: rgb(4, 12, 24);
+}
+
+.color-4-12-27 {
+  color: rgb(4, 12, 27);
+}
+
+.colorbg-4-12-27 {
+  background-color: rgb(4, 12, 27);
+}
+
+.color-4-12-31 {
+  color: rgb(4, 12, 31);
+}
+
+.colorbg-4-12-31 {
+  background-color: rgb(4, 12, 31);
+}
+
+.color-4-12-35 {
+  color: rgb(4, 12, 35);
+}
+
+.colorbg-4-12-35 {
+  background-color: rgb(4, 12, 35);
+}
+
+.color-4-12-39 {
+  color: rgb(4, 12, 39);
+}
+
+.colorbg-4-12-39 {
+  background-color: rgb(4, 12, 39);
+}
+
+.color-4-16-0 {
+  color: rgb(4, 16, 0);
+}
+
+.colorbg-4-16-0 {
+  background-color: rgb(4, 16, 0);
+}
+
+.color-4-16-4 {
+  color: rgb(4, 16, 4);
+}
+
+.colorbg-4-16-4 {
+  background-color: rgb(4, 16, 4);
+}
+
+.color-4-16-8 {
+  color: rgb(4, 16, 8);
+}
+
+.colorbg-4-16-8 {
+  background-color: rgb(4, 16, 8);
+}
+
+.color-4-16-12 {
+  color: rgb(4, 16, 12);
+}
+
+.colorbg-4-16-12 {
+  background-color: rgb(4, 16, 12);
+}
+
+.color-4-16-16 {
+  color: rgb(4, 16, 16);
+}
+
+.colorbg-4-16-16 {
+  background-color: rgb(4, 16, 16);
+}
+
+.color-4-16-20 {
+  color: rgb(4, 16, 20);
+}
+
+.colorbg-4-16-20 {
+  background-color: rgb(4, 16, 20);
+}
+
+.color-4-16-24 {
+  color: rgb(4, 16, 24);
+}
+
+.colorbg-4-16-24 {
+  background-color: rgb(4, 16, 24);
+}
+
+.color-4-16-27 {
+  color: rgb(4, 16, 27);
+}
+
+.colorbg-4-16-27 {
+  background-color: rgb(4, 16, 27);
+}
+
+.color-4-16-31 {
+  color: rgb(4, 16, 31);
+}
+
+.colorbg-4-16-31 {
+  background-color: rgb(4, 16, 31);
+}
+
+.color-4-16-35 {
+  color: rgb(4, 16, 35);
+}
+
+.colorbg-4-16-35 {
+  background-color: rgb(4, 16, 35);
+}
+
+.color-4-16-39 {
+  color: rgb(4, 16, 39);
+}
+
+.colorbg-4-16-39 {
+  background-color: rgb(4, 16, 39);
+}
+
+.color-4-20-0 {
+  color: rgb(4, 20, 0);
+}
+
+.colorbg-4-20-0 {
+  background-color: rgb(4, 20, 0);
+}
+
+.color-4-20-4 {
+  color: rgb(4, 20, 4);
+}
+
+.colorbg-4-20-4 {
+  background-color: rgb(4, 20, 4);
+}
+
+.color-4-20-8 {
+  color: rgb(4, 20, 8);
+}
+
+.colorbg-4-20-8 {
+  background-color: rgb(4, 20, 8);
+}
+
+.color-4-20-12 {
+  color: rgb(4, 20, 12);
+}
+
+.colorbg-4-20-12 {
+  background-color: rgb(4, 20, 12);
+}
+
+.color-4-20-16 {
+  color: rgb(4, 20, 16);
+}
+
+.colorbg-4-20-16 {
+  background-color: rgb(4, 20, 16);
+}
+
+.color-4-20-20 {
+  color: rgb(4, 20, 20);
+}
+
+.colorbg-4-20-20 {
+  background-color: rgb(4, 20, 20);
+}
+
+.color-4-20-24 {
+  color: rgb(4, 20, 24);
+}
+
+.colorbg-4-20-24 {
+  background-color: rgb(4, 20, 24);
+}
+
+.color-4-20-27 {
+  color: rgb(4, 20, 27);
+}
+
+.colorbg-4-20-27 {
+  background-color: rgb(4, 20, 27);
+}
+
+.color-4-20-31 {
+  color: rgb(4, 20, 31);
+}
+
+.colorbg-4-20-31 {
+  background-color: rgb(4, 20, 31);
+}
+
+.color-4-20-35 {
+  color: rgb(4, 20, 35);
+}
+
+.colorbg-4-20-35 {
+  background-color: rgb(4, 20, 35);
+}
+
+.color-4-20-39 {
+  color: rgb(4, 20, 39);
+}
+
+.colorbg-4-20-39 {
+  background-color: rgb(4, 20, 39);
+}
+
+.color-4-24-0 {
+  color: rgb(4, 24, 0);
+}
+
+.colorbg-4-24-0 {
+  background-color: rgb(4, 24, 0);
+}
+
+.color-4-24-4 {
+  color: rgb(4, 24, 4);
+}
+
+.colorbg-4-24-4 {
+  background-color: rgb(4, 24, 4);
+}
+
+.color-4-24-8 {
+  color: rgb(4, 24, 8);
+}
+
+.colorbg-4-24-8 {
+  background-color: rgb(4, 24, 8);
+}
+
+.color-4-24-12 {
+  color: rgb(4, 24, 12);
+}
+
+.colorbg-4-24-12 {
+  background-color: rgb(4, 24, 12);
+}
+
+.color-4-24-16 {
+  color: rgb(4, 24, 16);
+}
+
+.colorbg-4-24-16 {
+  background-color: rgb(4, 24, 16);
+}
+
+.color-4-24-20 {
+  color: rgb(4, 24, 20);
+}
+
+.colorbg-4-24-20 {
+  background-color: rgb(4, 24, 20);
+}
+
+.color-4-24-24 {
+  color: rgb(4, 24, 24);
+}
+
+.colorbg-4-24-24 {
+  background-color: rgb(4, 24, 24);
+}
+
+.color-4-24-27 {
+  color: rgb(4, 24, 27);
+}
+
+.colorbg-4-24-27 {
+  background-color: rgb(4, 24, 27);
+}
+
+.color-4-24-31 {
+  color: rgb(4, 24, 31);
+}
+
+.colorbg-4-24-31 {
+  background-color: rgb(4, 24, 31);
+}
+
+.color-4-24-35 {
+  color: rgb(4, 24, 35);
+}
+
+.colorbg-4-24-35 {
+  background-color: rgb(4, 24, 35);
+}
+
+.color-4-24-39 {
+  color: rgb(4, 24, 39);
+}
+
+.colorbg-4-24-39 {
+  background-color: rgb(4, 24, 39);
+}
+
+.color-4-27-0 {
+  color: rgb(4, 27, 0);
+}
+
+.colorbg-4-27-0 {
+  background-color: rgb(4, 27, 0);
+}
+
+.color-4-27-4 {
+  color: rgb(4, 27, 4);
+}
+
+.colorbg-4-27-4 {
+  background-color: rgb(4, 27, 4);
+}
+
+.color-4-27-8 {
+  color: rgb(4, 27, 8);
+}
+
+.colorbg-4-27-8 {
+  background-color: rgb(4, 27, 8);
+}
+
+.color-4-27-12 {
+  color: rgb(4, 27, 12);
+}
+
+.colorbg-4-27-12 {
+  background-color: rgb(4, 27, 12);
+}
+
+.color-4-27-16 {
+  color: rgb(4, 27, 16);
+}
+
+.colorbg-4-27-16 {
+  background-color: rgb(4, 27, 16);
+}
+
+.color-4-27-20 {
+  color: rgb(4, 27, 20);
+}
+
+.colorbg-4-27-20 {
+  background-color: rgb(4, 27, 20);
+}
+
+.color-4-27-24 {
+  color: rgb(4, 27, 24);
+}
+
+.colorbg-4-27-24 {
+  background-color: rgb(4, 27, 24);
+}
+
+.color-4-27-27 {
+  color: rgb(4, 27, 27);
+}
+
+.colorbg-4-27-27 {
+  background-color: rgb(4, 27, 27);
+}
+
+.color-4-27-31 {
+  color: rgb(4, 27, 31);
+}
+
+.colorbg-4-27-31 {
+  background-color: rgb(4, 27, 31);
+}
+
+.color-4-27-35 {
+  color: rgb(4, 27, 35);
+}
+
+.colorbg-4-27-35 {
+  background-color: rgb(4, 27, 35);
+}
+
+.color-4-27-39 {
+  color: rgb(4, 27, 39);
+}
+
+.colorbg-4-27-39 {
+  background-color: rgb(4, 27, 39);
+}
+
+.color-4-31-0 {
+  color: rgb(4, 31, 0);
+}
+
+.colorbg-4-31-0 {
+  background-color: rgb(4, 31, 0);
+}
+
+.color-4-31-4 {
+  color: rgb(4, 31, 4);
+}
+
+.colorbg-4-31-4 {
+  background-color: rgb(4, 31, 4);
+}
+
+.color-4-31-8 {
+  color: rgb(4, 31, 8);
+}
+
+.colorbg-4-31-8 {
+  background-color: rgb(4, 31, 8);
+}
+
+.color-4-31-12 {
+  color: rgb(4, 31, 12);
+}
+
+.colorbg-4-31-12 {
+  background-color: rgb(4, 31, 12);
+}
+
+.color-4-31-16 {
+  color: rgb(4, 31, 16);
+}
+
+.colorbg-4-31-16 {
+  background-color: rgb(4, 31, 16);
+}
+
+.color-4-31-20 {
+  color: rgb(4, 31, 20);
+}
+
+.colorbg-4-31-20 {
+  background-color: rgb(4, 31, 20);
+}
+
+.color-4-31-24 {
+  color: rgb(4, 31, 24);
+}
+
+.colorbg-4-31-24 {
+  background-color: rgb(4, 31, 24);
+}
+
+.color-4-31-27 {
+  color: rgb(4, 31, 27);
+}
+
+.colorbg-4-31-27 {
+  background-color: rgb(4, 31, 27);
+}
+
+.color-4-31-31 {
+  color: rgb(4, 31, 31);
+}
+
+.colorbg-4-31-31 {
+  background-color: rgb(4, 31, 31);
+}
+
+.color-4-31-35 {
+  color: rgb(4, 31, 35);
+}
+
+.colorbg-4-31-35 {
+  background-color: rgb(4, 31, 35);
+}
+
+.color-4-31-39 {
+  color: rgb(4, 31, 39);
+}
+
+.colorbg-4-31-39 {
+  background-color: rgb(4, 31, 39);
+}
+
+.color-4-35-0 {
+  color: rgb(4, 35, 0);
+}
+
+.colorbg-4-35-0 {
+  background-color: rgb(4, 35, 0);
+}
+
+.color-4-35-4 {
+  color: rgb(4, 35, 4);
+}
+
+.colorbg-4-35-4 {
+  background-color: rgb(4, 35, 4);
+}
+
+.color-4-35-8 {
+  color: rgb(4, 35, 8);
+}
+
+.colorbg-4-35-8 {
+  background-color: rgb(4, 35, 8);
+}
+
+.color-4-35-12 {
+  color: rgb(4, 35, 12);
+}
+
+.colorbg-4-35-12 {
+  background-color: rgb(4, 35, 12);
+}
+
+.color-4-35-16 {
+  color: rgb(4, 35, 16);
+}
+
+.colorbg-4-35-16 {
+  background-color: rgb(4, 35, 16);
+}
+
+.color-4-35-20 {
+  color: rgb(4, 35, 20);
+}
+
+.colorbg-4-35-20 {
+  background-color: rgb(4, 35, 20);
+}
+
+.color-4-35-24 {
+  color: rgb(4, 35, 24);
+}
+
+.colorbg-4-35-24 {
+  background-color: rgb(4, 35, 24);
+}
+
+.color-4-35-27 {
+  color: rgb(4, 35, 27);
+}
+
+.colorbg-4-35-27 {
+  background-color: rgb(4, 35, 27);
+}
+
+.color-4-35-31 {
+  color: rgb(4, 35, 31);
+}
+
+.colorbg-4-35-31 {
+  background-color: rgb(4, 35, 31);
+}
+
+.color-4-35-35 {
+  color: rgb(4, 35, 35);
+}
+
+.colorbg-4-35-35 {
+  background-color: rgb(4, 35, 35);
+}
+
+.color-4-35-39 {
+  color: rgb(4, 35, 39);
+}
+
+.colorbg-4-35-39 {
+  background-color: rgb(4, 35, 39);
+}
+
+.color-4-39-0 {
+  color: rgb(4, 39, 0);
+}
+
+.colorbg-4-39-0 {
+  background-color: rgb(4, 39, 0);
+}
+
+.color-4-39-4 {
+  color: rgb(4, 39, 4);
+}
+
+.colorbg-4-39-4 {
+  background-color: rgb(4, 39, 4);
+}
+
+.color-4-39-8 {
+  color: rgb(4, 39, 8);
+}
+
+.colorbg-4-39-8 {
+  background-color: rgb(4, 39, 8);
+}
+
+.color-4-39-12 {
+  color: rgb(4, 39, 12);
+}
+
+.colorbg-4-39-12 {
+  background-color: rgb(4, 39, 12);
+}
+
+.color-4-39-16 {
+  color: rgb(4, 39, 16);
+}
+
+.colorbg-4-39-16 {
+  background-color: rgb(4, 39, 16);
+}
+
+.color-4-39-20 {
+  color: rgb(4, 39, 20);
+}
+
+.colorbg-4-39-20 {
+  background-color: rgb(4, 39, 20);
+}
+
+.color-4-39-24 {
+  color: rgb(4, 39, 24);
+}
+
+.colorbg-4-39-24 {
+  background-color: rgb(4, 39, 24);
+}
+
+.color-4-39-27 {
+  color: rgb(4, 39, 27);
+}
+
+.colorbg-4-39-27 {
+  background-color: rgb(4, 39, 27);
+}
+
+.color-4-39-31 {
+  color: rgb(4, 39, 31);
+}
+
+.colorbg-4-39-31 {
+  background-color: rgb(4, 39, 31);
+}
+
+.color-4-39-35 {
+  color: rgb(4, 39, 35);
+}
+
+.colorbg-4-39-35 {
+  background-color: rgb(4, 39, 35);
+}
+
+.color-4-39-39 {
+  color: rgb(4, 39, 39);
+}
+
+.colorbg-4-39-39 {
+  background-color: rgb(4, 39, 39);
+}
+
+.color-8-0-0 {
+  color: rgb(8, 0, 0);
+}
+
+.colorbg-8-0-0 {
+  background-color: rgb(8, 0, 0);
+}
+
+.color-8-0-4 {
+  color: rgb(8, 0, 4);
+}
+
+.colorbg-8-0-4 {
+  background-color: rgb(8, 0, 4);
+}
+
+.color-8-0-8 {
+  color: rgb(8, 0, 8);
+}
+
+.colorbg-8-0-8 {
+  background-color: rgb(8, 0, 8);
+}
+
+.color-8-0-12 {
+  color: rgb(8, 0, 12);
+}
+
+.colorbg-8-0-12 {
+  background-color: rgb(8, 0, 12);
+}
+
+.color-8-0-16 {
+  color: rgb(8, 0, 16);
+}
+
+.colorbg-8-0-16 {
+  background-color: rgb(8, 0, 16);
+}
+
+.color-8-0-20 {
+  color: rgb(8, 0, 20);
+}
+
+.colorbg-8-0-20 {
+  background-color: rgb(8, 0, 20);
+}
+
+.color-8-0-24 {
+  color: rgb(8, 0, 24);
+}
+
+.colorbg-8-0-24 {
+  background-color: rgb(8, 0, 24);
+}
+
+.color-8-0-27 {
+  color: rgb(8, 0, 27);
+}
+
+.colorbg-8-0-27 {
+  background-color: rgb(8, 0, 27);
+}
+
+.color-8-0-31 {
+  color: rgb(8, 0, 31);
+}
+
+.colorbg-8-0-31 {
+  background-color: rgb(8, 0, 31);
+}
+
+.color-8-0-35 {
+  color: rgb(8, 0, 35);
+}
+
+.colorbg-8-0-35 {
+  background-color: rgb(8, 0, 35);
+}
+
+.color-8-0-39 {
+  color: rgb(8, 0, 39);
+}
+
+.colorbg-8-0-39 {
+  background-color: rgb(8, 0, 39);
+}
+
+.color-8-4-0 {
+  color: rgb(8, 4, 0);
+}
+
+.colorbg-8-4-0 {
+  background-color: rgb(8, 4, 0);
+}
+
+.color-8-4-4 {
+  color: rgb(8, 4, 4);
+}
+
+.colorbg-8-4-4 {
+  background-color: rgb(8, 4, 4);
+}
+
+.color-8-4-8 {
+  color: rgb(8, 4, 8);
+}
+
+.colorbg-8-4-8 {
+  background-color: rgb(8, 4, 8);
+}
+
+.color-8-4-12 {
+  color: rgb(8, 4, 12);
+}
+
+.colorbg-8-4-12 {
+  background-color: rgb(8, 4, 12);
+}
+
+.color-8-4-16 {
+  color: rgb(8, 4, 16);
+}
+
+.colorbg-8-4-16 {
+  background-color: rgb(8, 4, 16);
+}
+
+.color-8-4-20 {
+  color: rgb(8, 4, 20);
+}
+
+.colorbg-8-4-20 {
+  background-color: rgb(8, 4, 20);
+}
+
+.color-8-4-24 {
+  color: rgb(8, 4, 24);
+}
+
+.colorbg-8-4-24 {
+  background-color: rgb(8, 4, 24);
+}
+
+.color-8-4-27 {
+  color: rgb(8, 4, 27);
+}
+
+.colorbg-8-4-27 {
+  background-color: rgb(8, 4, 27);
+}
+
+.color-8-4-31 {
+  color: rgb(8, 4, 31);
+}
+
+.colorbg-8-4-31 {
+  background-color: rgb(8, 4, 31);
+}
+
+.color-8-4-35 {
+  color: rgb(8, 4, 35);
+}
+
+.colorbg-8-4-35 {
+  background-color: rgb(8, 4, 35);
+}
+
+.color-8-4-39 {
+  color: rgb(8, 4, 39);
+}
+
+.colorbg-8-4-39 {
+  background-color: rgb(8, 4, 39);
+}
+
+.color-8-8-0 {
+  color: rgb(8, 8, 0);
+}
+
+.colorbg-8-8-0 {
+  background-color: rgb(8, 8, 0);
+}
+
+.color-8-8-4 {
+  color: rgb(8, 8, 4);
+}
+
+.colorbg-8-8-4 {
+  background-color: rgb(8, 8, 4);
+}
+
+.color-8-8-8 {
+  color: rgb(8, 8, 8);
+}
+
+.colorbg-8-8-8 {
+  background-color: rgb(8, 8, 8);
+}
+
+.color-8-8-12 {
+  color: rgb(8, 8, 12);
+}
+
+.colorbg-8-8-12 {
+  background-color: rgb(8, 8, 12);
+}
+
+.color-8-8-16 {
+  color: rgb(8, 8, 16);
+}
+
+.colorbg-8-8-16 {
+  background-color: rgb(8, 8, 16);
+}
+
+.color-8-8-20 {
+  color: rgb(8, 8, 20);
+}
+
+.colorbg-8-8-20 {
+  background-color: rgb(8, 8, 20);
+}
+
+.color-8-8-24 {
+  color: rgb(8, 8, 24);
+}
+
+.colorbg-8-8-24 {
+  background-color: rgb(8, 8, 24);
+}
+
+.color-8-8-27 {
+  color: rgb(8, 8, 27);
+}
+
+.colorbg-8-8-27 {
+  background-color: rgb(8, 8, 27);
+}
+
+.color-8-8-31 {
+  color: rgb(8, 8, 31);
+}
+
+.colorbg-8-8-31 {
+  background-color: rgb(8, 8, 31);
+}
+
+.color-8-8-35 {
+  color: rgb(8, 8, 35);
+}
+
+.colorbg-8-8-35 {
+  background-color: rgb(8, 8, 35);
+}
+
+.color-8-8-39 {
+  color: rgb(8, 8, 39);
+}
+
+.colorbg-8-8-39 {
+  background-color: rgb(8, 8, 39);
+}
+
+.color-8-12-0 {
+  color: rgb(8, 12, 0);
+}
+
+.colorbg-8-12-0 {
+  background-color: rgb(8, 12, 0);
+}
+
+.color-8-12-4 {
+  color: rgb(8, 12, 4);
+}
+
+.colorbg-8-12-4 {
+  background-color: rgb(8, 12, 4);
+}
+
+.color-8-12-8 {
+  color: rgb(8, 12, 8);
+}
+
+.colorbg-8-12-8 {
+  background-color: rgb(8, 12, 8);
+}
+
+.color-8-12-12 {
+  color: rgb(8, 12, 12);
+}
+
+.colorbg-8-12-12 {
+  background-color: rgb(8, 12, 12);
+}
+
+.color-8-12-16 {
+  color: rgb(8, 12, 16);
+}
+
+.colorbg-8-12-16 {
+  background-color: rgb(8, 12, 16);
+}
+
+.color-8-12-20 {
+  color: rgb(8, 12, 20);
+}
+
+.colorbg-8-12-20 {
+  background-color: rgb(8, 12, 20);
+}
+
+.color-8-12-24 {
+  color: rgb(8, 12, 24);
+}
+
+.colorbg-8-12-24 {
+  background-color: rgb(8, 12, 24);
+}
+
+.color-8-12-27 {
+  color: rgb(8, 12, 27);
+}
+
+.colorbg-8-12-27 {
+  background-color: rgb(8, 12, 27);
+}
+
+.color-8-12-31 {
+  color: rgb(8, 12, 31);
+}
+
+.colorbg-8-12-31 {
+  background-color: rgb(8, 12, 31);
+}
+
+.color-8-12-35 {
+  color: rgb(8, 12, 35);
+}
+
+.colorbg-8-12-35 {
+  background-color: rgb(8, 12, 35);
+}
+
+.color-8-12-39 {
+  color: rgb(8, 12, 39);
+}
+
+.colorbg-8-12-39 {
+  background-color: rgb(8, 12, 39);
+}
+
+.color-8-16-0 {
+  color: rgb(8, 16, 0);
+}
+
+.colorbg-8-16-0 {
+  background-color: rgb(8, 16, 0);
+}
+
+.color-8-16-4 {
+  color: rgb(8, 16, 4);
+}
+
+.colorbg-8-16-4 {
+  background-color: rgb(8, 16, 4);
+}
+
+.color-8-16-8 {
+  color: rgb(8, 16, 8);
+}
+
+.colorbg-8-16-8 {
+  background-color: rgb(8, 16, 8);
+}
+
+.color-8-16-12 {
+  color: rgb(8, 16, 12);
+}
+
+.colorbg-8-16-12 {
+  background-color: rgb(8, 16, 12);
+}
+
+.color-8-16-16 {
+  color: rgb(8, 16, 16);
+}
+
+.colorbg-8-16-16 {
+  background-color: rgb(8, 16, 16);
+}
+
+.color-8-16-20 {
+  color: rgb(8, 16, 20);
+}
+
+.colorbg-8-16-20 {
+  background-color: rgb(8, 16, 20);
+}
+
+.color-8-16-24 {
+  color: rgb(8, 16, 24);
+}
+
+.colorbg-8-16-24 {
+  background-color: rgb(8, 16, 24);
+}
+
+.color-8-16-27 {
+  color: rgb(8, 16, 27);
+}
+
+.colorbg-8-16-27 {
+  background-color: rgb(8, 16, 27);
+}
+
+.color-8-16-31 {
+  color: rgb(8, 16, 31);
+}
+
+.colorbg-8-16-31 {
+  background-color: rgb(8, 16, 31);
+}
+
+.color-8-16-35 {
+  color: rgb(8, 16, 35);
+}
+
+.colorbg-8-16-35 {
+  background-color: rgb(8, 16, 35);
+}
+
+.color-8-16-39 {
+  color: rgb(8, 16, 39);
+}
+
+.colorbg-8-16-39 {
+  background-color: rgb(8, 16, 39);
+}
+
+.color-8-20-0 {
+  color: rgb(8, 20, 0);
+}
+
+.colorbg-8-20-0 {
+  background-color: rgb(8, 20, 0);
+}
+
+.color-8-20-4 {
+  color: rgb(8, 20, 4);
+}
+
+.colorbg-8-20-4 {
+  background-color: rgb(8, 20, 4);
+}
+
+.color-8-20-8 {
+  color: rgb(8, 20, 8);
+}
+
+.colorbg-8-20-8 {
+  background-color: rgb(8, 20, 8);
+}
+
+.color-8-20-12 {
+  color: rgb(8, 20, 12);
+}
+
+.colorbg-8-20-12 {
+  background-color: rgb(8, 20, 12);
+}
+
+.color-8-20-16 {
+  color: rgb(8, 20, 16);
+}
+
+.colorbg-8-20-16 {
+  background-color: rgb(8, 20, 16);
+}
+
+.color-8-20-20 {
+  color: rgb(8, 20, 20);
+}
+
+.colorbg-8-20-20 {
+  background-color: rgb(8, 20, 20);
+}
+
+.color-8-20-24 {
+  color: rgb(8, 20, 24);
+}
+
+.colorbg-8-20-24 {
+  background-color: rgb(8, 20, 24);
+}
+
+.color-8-20-27 {
+  color: rgb(8, 20, 27);
+}
+
+.colorbg-8-20-27 {
+  background-color: rgb(8, 20, 27);
+}
+
+.color-8-20-31 {
+  color: rgb(8, 20, 31);
+}
+
+.colorbg-8-20-31 {
+  background-color: rgb(8, 20, 31);
+}
+
+.color-8-20-35 {
+  color: rgb(8, 20, 35);
+}
+
+.colorbg-8-20-35 {
+  background-color: rgb(8, 20, 35);
+}
+
+.color-8-20-39 {
+  color: rgb(8, 20, 39);
+}
+
+.colorbg-8-20-39 {
+  background-color: rgb(8, 20, 39);
+}
+
+.color-8-24-0 {
+  color: rgb(8, 24, 0);
+}
+
+.colorbg-8-24-0 {
+  background-color: rgb(8, 24, 0);
+}
+
+.color-8-24-4 {
+  color: rgb(8, 24, 4);
+}
+
+.colorbg-8-24-4 {
+  background-color: rgb(8, 24, 4);
+}
+
+.color-8-24-8 {
+  color: rgb(8, 24, 8);
+}
+
+.colorbg-8-24-8 {
+  background-color: rgb(8, 24, 8);
+}
+
+.color-8-24-12 {
+  color: rgb(8, 24, 12);
+}
+
+.colorbg-8-24-12 {
+  background-color: rgb(8, 24, 12);
+}
+
+.color-8-24-16 {
+  color: rgb(8, 24, 16);
+}
+
+.colorbg-8-24-16 {
+  background-color: rgb(8, 24, 16);
+}
+
+.color-8-24-20 {
+  color: rgb(8, 24, 20);
+}
+
+.colorbg-8-24-20 {
+  background-color: rgb(8, 24, 20);
+}
+
+.color-8-24-24 {
+  color: rgb(8, 24, 24);
+}
+
+.colorbg-8-24-24 {
+  background-color: rgb(8, 24, 24);
+}
+
+.color-8-24-27 {
+  color: rgb(8, 24, 27);
+}
+
+.colorbg-8-24-27 {
+  background-color: rgb(8, 24, 27);
+}
+
+.color-8-24-31 {
+  color: rgb(8, 24, 31);
+}
+
+.colorbg-8-24-31 {
+  background-color: rgb(8, 24, 31);
+}
+
+.color-8-24-35 {
+  color: rgb(8, 24, 35);
+}
+
+.colorbg-8-24-35 {
+  background-color: rgb(8, 24, 35);
+}
+
+.color-8-24-39 {
+  color: rgb(8, 24, 39);
+}
+
+.colorbg-8-24-39 {
+  background-color: rgb(8, 24, 39);
+}
+
+.color-8-27-0 {
+  color: rgb(8, 27, 0);
+}
+
+.colorbg-8-27-0 {
+  background-color: rgb(8, 27, 0);
+}
+
+.color-8-27-4 {
+  color: rgb(8, 27, 4);
+}
+
+.colorbg-8-27-4 {
+  background-color: rgb(8, 27, 4);
+}
+
+.color-8-27-8 {
+  color: rgb(8, 27, 8);
+}
+
+.colorbg-8-27-8 {
+  background-color: rgb(8, 27, 8);
+}
+
+.color-8-27-12 {
+  color: rgb(8, 27, 12);
+}
+
+.colorbg-8-27-12 {
+  background-color: rgb(8, 27, 12);
+}
+
+.color-8-27-16 {
+  color: rgb(8, 27, 16);
+}
+
+.colorbg-8-27-16 {
+  background-color: rgb(8, 27, 16);
+}
+
+.color-8-27-20 {
+  color: rgb(8, 27, 20);
+}
+
+.colorbg-8-27-20 {
+  background-color: rgb(8, 27, 20);
+}
+
+.color-8-27-24 {
+  color: rgb(8, 27, 24);
+}
+
+.colorbg-8-27-24 {
+  background-color: rgb(8, 27, 24);
+}
+
+.color-8-27-27 {
+  color: rgb(8, 27, 27);
+}
+
+.colorbg-8-27-27 {
+  background-color: rgb(8, 27, 27);
+}
+
+.color-8-27-31 {
+  color: rgb(8, 27, 31);
+}
+
+.colorbg-8-27-31 {
+  background-color: rgb(8, 27, 31);
+}
+
+.color-8-27-35 {
+  color: rgb(8, 27, 35);
+}
+
+.colorbg-8-27-35 {
+  background-color: rgb(8, 27, 35);
+}
+
+.color-8-27-39 {
+  color: rgb(8, 27, 39);
+}
+
+.colorbg-8-27-39 {
+  background-color: rgb(8, 27, 39);
+}
+
+.color-8-31-0 {
+  color: rgb(8, 31, 0);
+}
+
+.colorbg-8-31-0 {
+  background-color: rgb(8, 31, 0);
+}
+
+.color-8-31-4 {
+  color: rgb(8, 31, 4);
+}
+
+.colorbg-8-31-4 {
+  background-color: rgb(8, 31, 4);
+}
+
+.color-8-31-8 {
+  color: rgb(8, 31, 8);
+}
+
+.colorbg-8-31-8 {
+  background-color: rgb(8, 31, 8);
+}
+
+.color-8-31-12 {
+  color: rgb(8, 31, 12);
+}
+
+.colorbg-8-31-12 {
+  background-color: rgb(8, 31, 12);
+}
+
+.color-8-31-16 {
+  color: rgb(8, 31, 16);
+}
+
+.colorbg-8-31-16 {
+  background-color: rgb(8, 31, 16);
+}
+
+.color-8-31-20 {
+  color: rgb(8, 31, 20);
+}
+
+.colorbg-8-31-20 {
+  background-color: rgb(8, 31, 20);
+}
+
+.color-8-31-24 {
+  color: rgb(8, 31, 24);
+}
+
+.colorbg-8-31-24 {
+  background-color: rgb(8, 31, 24);
+}
+
+.color-8-31-27 {
+  color: rgb(8, 31, 27);
+}
+
+.colorbg-8-31-27 {
+  background-color: rgb(8, 31, 27);
+}
+
+.color-8-31-31 {
+  color: rgb(8, 31, 31);
+}
+
+.colorbg-8-31-31 {
+  background-color: rgb(8, 31, 31);
+}
+
+.color-8-31-35 {
+  color: rgb(8, 31, 35);
+}
+
+.colorbg-8-31-35 {
+  background-color: rgb(8, 31, 35);
+}
+
+.color-8-31-39 {
+  color: rgb(8, 31, 39);
+}
+
+.colorbg-8-31-39 {
+  background-color: rgb(8, 31, 39);
+}
+
+.color-8-35-0 {
+  color: rgb(8, 35, 0);
+}
+
+.colorbg-8-35-0 {
+  background-color: rgb(8, 35, 0);
+}
+
+.color-8-35-4 {
+  color: rgb(8, 35, 4);
+}
+
+.colorbg-8-35-4 {
+  background-color: rgb(8, 35, 4);
+}
+
+.color-8-35-8 {
+  color: rgb(8, 35, 8);
+}
+
+.colorbg-8-35-8 {
+  background-color: rgb(8, 35, 8);
+}
+
+.color-8-35-12 {
+  color: rgb(8, 35, 12);
+}
+
+.colorbg-8-35-12 {
+  background-color: rgb(8, 35, 12);
+}
+
+.color-8-35-16 {
+  color: rgb(8, 35, 16);
+}
+
+.colorbg-8-35-16 {
+  background-color: rgb(8, 35, 16);
+}
+
+.color-8-35-20 {
+  color: rgb(8, 35, 20);
+}
+
+.colorbg-8-35-20 {
+  background-color: rgb(8, 35, 20);
+}
+
+.color-8-35-24 {
+  color: rgb(8, 35, 24);
+}
+
+.colorbg-8-35-24 {
+  background-color: rgb(8, 35, 24);
+}
+
+.color-8-35-27 {
+  color: rgb(8, 35, 27);
+}
+
+.colorbg-8-35-27 {
+  background-color: rgb(8, 35, 27);
+}
+
+.color-8-35-31 {
+  color: rgb(8, 35, 31);
+}
+
+.colorbg-8-35-31 {
+  background-color: rgb(8, 35, 31);
+}
+
+.color-8-35-35 {
+  color: rgb(8, 35, 35);
+}
+
+.colorbg-8-35-35 {
+  background-color: rgb(8, 35, 35);
+}
+
+.color-8-35-39 {
+  color: rgb(8, 35, 39);
+}
+
+.colorbg-8-35-39 {
+  background-color: rgb(8, 35, 39);
+}
+
+.color-8-39-0 {
+  color: rgb(8, 39, 0);
+}
+
+.colorbg-8-39-0 {
+  background-color: rgb(8, 39, 0);
+}
+
+.color-8-39-4 {
+  color: rgb(8, 39, 4);
+}
+
+.colorbg-8-39-4 {
+  background-color: rgb(8, 39, 4);
+}
+
+.color-8-39-8 {
+  color: rgb(8, 39, 8);
+}
+
+.colorbg-8-39-8 {
+  background-color: rgb(8, 39, 8);
+}
+
+.color-8-39-12 {
+  color: rgb(8, 39, 12);
+}
+
+.colorbg-8-39-12 {
+  background-color: rgb(8, 39, 12);
+}
+
+.color-8-39-16 {
+  color: rgb(8, 39, 16);
+}
+
+.colorbg-8-39-16 {
+  background-color: rgb(8, 39, 16);
+}
+
+.color-8-39-20 {
+  color: rgb(8, 39, 20);
+}
+
+.colorbg-8-39-20 {
+  background-color: rgb(8, 39, 20);
+}
+
+.color-8-39-24 {
+  color: rgb(8, 39, 24);
+}
+
+.colorbg-8-39-24 {
+  background-color: rgb(8, 39, 24);
+}
+
+.color-8-39-27 {
+  color: rgb(8, 39, 27);
+}
+
+.colorbg-8-39-27 {
+  background-color: rgb(8, 39, 27);
+}
+
+.color-8-39-31 {
+  color: rgb(8, 39, 31);
+}
+
+.colorbg-8-39-31 {
+  background-color: rgb(8, 39, 31);
+}
+
+.color-8-39-35 {
+  color: rgb(8, 39, 35);
+}
+
+.colorbg-8-39-35 {
+  background-color: rgb(8, 39, 35);
+}
+
+.color-8-39-39 {
+  color: rgb(8, 39, 39);
+}
+
+.colorbg-8-39-39 {
+  background-color: rgb(8, 39, 39);
+}
+
+.color-12-0-0 {
+  color: rgb(12, 0, 0);
+}
+
+.colorbg-12-0-0 {
+  background-color: rgb(12, 0, 0);
+}
+
+.color-12-0-4 {
+  color: rgb(12, 0, 4);
+}
+
+.colorbg-12-0-4 {
+  background-color: rgb(12, 0, 4);
+}
+
+.color-12-0-8 {
+  color: rgb(12, 0, 8);
+}
+
+.colorbg-12-0-8 {
+  background-color: rgb(12, 0, 8);
+}
+
+.color-12-0-12 {
+  color: rgb(12, 0, 12);
+}
+
+.colorbg-12-0-12 {
+  background-color: rgb(12, 0, 12);
+}
+
+.color-12-0-16 {
+  color: rgb(12, 0, 16);
+}
+
+.colorbg-12-0-16 {
+  background-color: rgb(12, 0, 16);
+}
+
+.color-12-0-20 {
+  color: rgb(12, 0, 20);
+}
+
+.colorbg-12-0-20 {
+  background-color: rgb(12, 0, 20);
+}
+
+.color-12-0-24 {
+  color: rgb(12, 0, 24);
+}
+
+.colorbg-12-0-24 {
+  background-color: rgb(12, 0, 24);
+}
+
+.color-12-0-27 {
+  color: rgb(12, 0, 27);
+}
+
+.colorbg-12-0-27 {
+  background-color: rgb(12, 0, 27);
+}
+
+.color-12-0-31 {
+  color: rgb(12, 0, 31);
+}
+
+.colorbg-12-0-31 {
+  background-color: rgb(12, 0, 31);
+}
+
+.color-12-0-35 {
+  color: rgb(12, 0, 35);
+}
+
+.colorbg-12-0-35 {
+  background-color: rgb(12, 0, 35);
+}
+
+.color-12-0-39 {
+  color: rgb(12, 0, 39);
+}
+
+.colorbg-12-0-39 {
+  background-color: rgb(12, 0, 39);
+}
+
+.color-12-4-0 {
+  color: rgb(12, 4, 0);
+}
+
+.colorbg-12-4-0 {
+  background-color: rgb(12, 4, 0);
+}
+
+.color-12-4-4 {
+  color: rgb(12, 4, 4);
+}
+
+.colorbg-12-4-4 {
+  background-color: rgb(12, 4, 4);
+}
+
+.color-12-4-8 {
+  color: rgb(12, 4, 8);
+}
+
+.colorbg-12-4-8 {
+  background-color: rgb(12, 4, 8);
+}
+
+.color-12-4-12 {
+  color: rgb(12, 4, 12);
+}
+
+.colorbg-12-4-12 {
+  background-color: rgb(12, 4, 12);
+}
+
+.color-12-4-16 {
+  color: rgb(12, 4, 16);
+}
+
+.colorbg-12-4-16 {
+  background-color: rgb(12, 4, 16);
+}
+
+.color-12-4-20 {
+  color: rgb(12, 4, 20);
+}
+
+.colorbg-12-4-20 {
+  background-color: rgb(12, 4, 20);
+}
+
+.color-12-4-24 {
+  color: rgb(12, 4, 24);
+}
+
+.colorbg-12-4-24 {
+  background-color: rgb(12, 4, 24);
+}
+
+.color-12-4-27 {
+  color: rgb(12, 4, 27);
+}
+
+.colorbg-12-4-27 {
+  background-color: rgb(12, 4, 27);
+}
+
+.color-12-4-31 {
+  color: rgb(12, 4, 31);
+}
+
+.colorbg-12-4-31 {
+  background-color: rgb(12, 4, 31);
+}
+
+.color-12-4-35 {
+  color: rgb(12, 4, 35);
+}
+
+.colorbg-12-4-35 {
+  background-color: rgb(12, 4, 35);
+}
+
+.color-12-4-39 {
+  color: rgb(12, 4, 39);
+}
+
+.colorbg-12-4-39 {
+  background-color: rgb(12, 4, 39);
+}
+
+.color-12-8-0 {
+  color: rgb(12, 8, 0);
+}
+
+.colorbg-12-8-0 {
+  background-color: rgb(12, 8, 0);
+}
+
+.color-12-8-4 {
+  color: rgb(12, 8, 4);
+}
+
+.colorbg-12-8-4 {
+  background-color: rgb(12, 8, 4);
+}
+
+.color-12-8-8 {
+  color: rgb(12, 8, 8);
+}
+
+.colorbg-12-8-8 {
+  background-color: rgb(12, 8, 8);
+}
+
+.color-12-8-12 {
+  color: rgb(12, 8, 12);
+}
+
+.colorbg-12-8-12 {
+  background-color: rgb(12, 8, 12);
+}
+
+.color-12-8-16 {
+  color: rgb(12, 8, 16);
+}
+
+.colorbg-12-8-16 {
+  background-color: rgb(12, 8, 16);
+}
+
+.color-12-8-20 {
+  color: rgb(12, 8, 20);
+}
+
+.colorbg-12-8-20 {
+  background-color: rgb(12, 8, 20);
+}
+
+.color-12-8-24 {
+  color: rgb(12, 8, 24);
+}
+
+.colorbg-12-8-24 {
+  background-color: rgb(12, 8, 24);
+}
+
+.color-12-8-27 {
+  color: rgb(12, 8, 27);
+}
+
+.colorbg-12-8-27 {
+  background-color: rgb(12, 8, 27);
+}
+
+.color-12-8-31 {
+  color: rgb(12, 8, 31);
+}
+
+.colorbg-12-8-31 {
+  background-color: rgb(12, 8, 31);
+}
+
+.color-12-8-35 {
+  color: rgb(12, 8, 35);
+}
+
+.colorbg-12-8-35 {
+  background-color: rgb(12, 8, 35);
+}
+
+.color-12-8-39 {
+  color: rgb(12, 8, 39);
+}
+
+.colorbg-12-8-39 {
+  background-color: rgb(12, 8, 39);
+}
+
+.color-12-12-0 {
+  color: rgb(12, 12, 0);
+}
+
+.colorbg-12-12-0 {
+  background-color: rgb(12, 12, 0);
+}
+
+.color-12-12-4 {
+  color: rgb(12, 12, 4);
+}
+
+.colorbg-12-12-4 {
+  background-color: rgb(12, 12, 4);
+}
+
+.color-12-12-8 {
+  color: rgb(12, 12, 8);
+}
+
+.colorbg-12-12-8 {
+  background-color: rgb(12, 12, 8);
+}
+
+.color-12-12-12 {
+  color: rgb(12, 12, 12);
+}
+
+.colorbg-12-12-12 {
+  background-color: rgb(12, 12, 12);
+}
+
+.color-12-12-16 {
+  color: rgb(12, 12, 16);
+}
+
+.colorbg-12-12-16 {
+  background-color: rgb(12, 12, 16);
+}
+
+.color-12-12-20 {
+  color: rgb(12, 12, 20);
+}
+
+.colorbg-12-12-20 {
+  background-color: rgb(12, 12, 20);
+}
+
+.color-12-12-24 {
+  color: rgb(12, 12, 24);
+}
+
+.colorbg-12-12-24 {
+  background-color: rgb(12, 12, 24);
+}
+
+.color-12-12-27 {
+  color: rgb(12, 12, 27);
+}
+
+.colorbg-12-12-27 {
+  background-color: rgb(12, 12, 27);
+}
+
+.color-12-12-31 {
+  color: rgb(12, 12, 31);
+}
+
+.colorbg-12-12-31 {
+  background-color: rgb(12, 12, 31);
+}
+
+.color-12-12-35 {
+  color: rgb(12, 12, 35);
+}
+
+.colorbg-12-12-35 {
+  background-color: rgb(12, 12, 35);
+}
+
+.color-12-12-39 {
+  color: rgb(12, 12, 39);
+}
+
+.colorbg-12-12-39 {
+  background-color: rgb(12, 12, 39);
+}
+
+.color-12-16-0 {
+  color: rgb(12, 16, 0);
+}
+
+.colorbg-12-16-0 {
+  background-color: rgb(12, 16, 0);
+}
+
+.color-12-16-4 {
+  color: rgb(12, 16, 4);
+}
+
+.colorbg-12-16-4 {
+  background-color: rgb(12, 16, 4);
+}
+
+.color-12-16-8 {
+  color: rgb(12, 16, 8);
+}
+
+.colorbg-12-16-8 {
+  background-color: rgb(12, 16, 8);
+}
+
+.color-12-16-12 {
+  color: rgb(12, 16, 12);
+}
+
+.colorbg-12-16-12 {
+  background-color: rgb(12, 16, 12);
+}
+
+.color-12-16-16 {
+  color: rgb(12, 16, 16);
+}
+
+.colorbg-12-16-16 {
+  background-color: rgb(12, 16, 16);
+}
+
+.color-12-16-20 {
+  color: rgb(12, 16, 20);
+}
+
+.colorbg-12-16-20 {
+  background-color: rgb(12, 16, 20);
+}
+
+.color-12-16-24 {
+  color: rgb(12, 16, 24);
+}
+
+.colorbg-12-16-24 {
+  background-color: rgb(12, 16, 24);
+}
+
+.color-12-16-27 {
+  color: rgb(12, 16, 27);
+}
+
+.colorbg-12-16-27 {
+  background-color: rgb(12, 16, 27);
+}
+
+.color-12-16-31 {
+  color: rgb(12, 16, 31);
+}
+
+.colorbg-12-16-31 {
+  background-color: rgb(12, 16, 31);
+}
+
+.color-12-16-35 {
+  color: rgb(12, 16, 35);
+}
+
+.colorbg-12-16-35 {
+  background-color: rgb(12, 16, 35);
+}
+
+.color-12-16-39 {
+  color: rgb(12, 16, 39);
+}
+
+.colorbg-12-16-39 {
+  background-color: rgb(12, 16, 39);
+}
+
+.color-12-20-0 {
+  color: rgb(12, 20, 0);
+}
+
+.colorbg-12-20-0 {
+  background-color: rgb(12, 20, 0);
+}
+
+.color-12-20-4 {
+  color: rgb(12, 20, 4);
+}
+
+.colorbg-12-20-4 {
+  background-color: rgb(12, 20, 4);
+}
+
+.color-12-20-8 {
+  color: rgb(12, 20, 8);
+}
+
+.colorbg-12-20-8 {
+  background-color: rgb(12, 20, 8);
+}
+
+.color-12-20-12 {
+  color: rgb(12, 20, 12);
+}
+
+.colorbg-12-20-12 {
+  background-color: rgb(12, 20, 12);
+}
+
+.color-12-20-16 {
+  color: rgb(12, 20, 16);
+}
+
+.colorbg-12-20-16 {
+  background-color: rgb(12, 20, 16);
+}
+
+.color-12-20-20 {
+  color: rgb(12, 20, 20);
+}
+
+.colorbg-12-20-20 {
+  background-color: rgb(12, 20, 20);
+}
+
+.color-12-20-24 {
+  color: rgb(12, 20, 24);
+}
+
+.colorbg-12-20-24 {
+  background-color: rgb(12, 20, 24);
+}
+
+.color-12-20-27 {
+  color: rgb(12, 20, 27);
+}
+
+.colorbg-12-20-27 {
+  background-color: rgb(12, 20, 27);
+}
+
+.color-12-20-31 {
+  color: rgb(12, 20, 31);
+}
+
+.colorbg-12-20-31 {
+  background-color: rgb(12, 20, 31);
+}
+
+.color-12-20-35 {
+  color: rgb(12, 20, 35);
+}
+
+.colorbg-12-20-35 {
+  background-color: rgb(12, 20, 35);
+}
+
+.color-12-20-39 {
+  color: rgb(12, 20, 39);
+}
+
+.colorbg-12-20-39 {
+  background-color: rgb(12, 20, 39);
+}
+
+.color-12-24-0 {
+  color: rgb(12, 24, 0);
+}
+
+.colorbg-12-24-0 {
+  background-color: rgb(12, 24, 0);
+}
+
+.color-12-24-4 {
+  color: rgb(12, 24, 4);
+}
+
+.colorbg-12-24-4 {
+  background-color: rgb(12, 24, 4);
+}
+
+.color-12-24-8 {
+  color: rgb(12, 24, 8);
+}
+
+.colorbg-12-24-8 {
+  background-color: rgb(12, 24, 8);
+}
+
+.color-12-24-12 {
+  color: rgb(12, 24, 12);
+}
+
+.colorbg-12-24-12 {
+  background-color: rgb(12, 24, 12);
+}
+
+.color-12-24-16 {
+  color: rgb(12, 24, 16);
+}
+
+.colorbg-12-24-16 {
+  background-color: rgb(12, 24, 16);
+}
+
+.color-12-24-20 {
+  color: rgb(12, 24, 20);
+}
+
+.colorbg-12-24-20 {
+  background-color: rgb(12, 24, 20);
+}
+
+.color-12-24-24 {
+  color: rgb(12, 24, 24);
+}
+
+.colorbg-12-24-24 {
+  background-color: rgb(12, 24, 24);
+}
+
+.color-12-24-27 {
+  color: rgb(12, 24, 27);
+}
+
+.colorbg-12-24-27 {
+  background-color: rgb(12, 24, 27);
+}
+
+.color-12-24-31 {
+  color: rgb(12, 24, 31);
+}
+
+.colorbg-12-24-31 {
+  background-color: rgb(12, 24, 31);
+}
+
+.color-12-24-35 {
+  color: rgb(12, 24, 35);
+}
+
+.colorbg-12-24-35 {
+  background-color: rgb(12, 24, 35);
+}
+
+.color-12-24-39 {
+  color: rgb(12, 24, 39);
+}
+
+.colorbg-12-24-39 {
+  background-color: rgb(12, 24, 39);
+}
+
+.color-12-27-0 {
+  color: rgb(12, 27, 0);
+}
+
+.colorbg-12-27-0 {
+  background-color: rgb(12, 27, 0);
+}
+
+.color-12-27-4 {
+  color: rgb(12, 27, 4);
+}
+
+.colorbg-12-27-4 {
+  background-color: rgb(12, 27, 4);
+}
+
+.color-12-27-8 {
+  color: rgb(12, 27, 8);
+}
+
+.colorbg-12-27-8 {
+  background-color: rgb(12, 27, 8);
+}
+
+.color-12-27-12 {
+  color: rgb(12, 27, 12);
+}
+
+.colorbg-12-27-12 {
+  background-color: rgb(12, 27, 12);
+}
+
+.color-12-27-16 {
+  color: rgb(12, 27, 16);
+}
+
+.colorbg-12-27-16 {
+  background-color: rgb(12, 27, 16);
+}
+
+.color-12-27-20 {
+  color: rgb(12, 27, 20);
+}
+
+.colorbg-12-27-20 {
+  background-color: rgb(12, 27, 20);
+}
+
+.color-12-27-24 {
+  color: rgb(12, 27, 24);
+}
+
+.colorbg-12-27-24 {
+  background-color: rgb(12, 27, 24);
+}
+
+.color-12-27-27 {
+  color: rgb(12, 27, 27);
+}
+
+.colorbg-12-27-27 {
+  background-color: rgb(12, 27, 27);
+}
+
+.color-12-27-31 {
+  color: rgb(12, 27, 31);
+}
+
+.colorbg-12-27-31 {
+  background-color: rgb(12, 27, 31);
+}
+
+.color-12-27-35 {
+  color: rgb(12, 27, 35);
+}
+
+.colorbg-12-27-35 {
+  background-color: rgb(12, 27, 35);
+}
+
+.color-12-27-39 {
+  color: rgb(12, 27, 39);
+}
+
+.colorbg-12-27-39 {
+  background-color: rgb(12, 27, 39);
+}
+
+.color-12-31-0 {
+  color: rgb(12, 31, 0);
+}
+
+.colorbg-12-31-0 {
+  background-color: rgb(12, 31, 0);
+}
+
+.color-12-31-4 {
+  color: rgb(12, 31, 4);
+}
+
+.colorbg-12-31-4 {
+  background-color: rgb(12, 31, 4);
+}
+
+.color-12-31-8 {
+  color: rgb(12, 31, 8);
+}
+
+.colorbg-12-31-8 {
+  background-color: rgb(12, 31, 8);
+}
+
+.color-12-31-12 {
+  color: rgb(12, 31, 12);
+}
+
+.colorbg-12-31-12 {
+  background-color: rgb(12, 31, 12);
+}
+
+.color-12-31-16 {
+  color: rgb(12, 31, 16);
+}
+
+.colorbg-12-31-16 {
+  background-color: rgb(12, 31, 16);
+}
+
+.color-12-31-20 {
+  color: rgb(12, 31, 20);
+}
+
+.colorbg-12-31-20 {
+  background-color: rgb(12, 31, 20);
+}
+
+.color-12-31-24 {
+  color: rgb(12, 31, 24);
+}
+
+.colorbg-12-31-24 {
+  background-color: rgb(12, 31, 24);
+}
+
+.color-12-31-27 {
+  color: rgb(12, 31, 27);
+}
+
+.colorbg-12-31-27 {
+  background-color: rgb(12, 31, 27);
+}
+
+.color-12-31-31 {
+  color: rgb(12, 31, 31);
+}
+
+.colorbg-12-31-31 {
+  background-color: rgb(12, 31, 31);
+}
+
+.color-12-31-35 {
+  color: rgb(12, 31, 35);
+}
+
+.colorbg-12-31-35 {
+  background-color: rgb(12, 31, 35);
+}
+
+.color-12-31-39 {
+  color: rgb(12, 31, 39);
+}
+
+.colorbg-12-31-39 {
+  background-color: rgb(12, 31, 39);
+}
+
+.color-12-35-0 {
+  color: rgb(12, 35, 0);
+}
+
+.colorbg-12-35-0 {
+  background-color: rgb(12, 35, 0);
+}
+
+.color-12-35-4 {
+  color: rgb(12, 35, 4);
+}
+
+.colorbg-12-35-4 {
+  background-color: rgb(12, 35, 4);
+}
+
+.color-12-35-8 {
+  color: rgb(12, 35, 8);
+}
+
+.colorbg-12-35-8 {
+  background-color: rgb(12, 35, 8);
+}
+
+.color-12-35-12 {
+  color: rgb(12, 35, 12);
+}
+
+.colorbg-12-35-12 {
+  background-color: rgb(12, 35, 12);
+}
+
+.color-12-35-16 {
+  color: rgb(12, 35, 16);
+}
+
+.colorbg-12-35-16 {
+  background-color: rgb(12, 35, 16);
+}
+
+.color-12-35-20 {
+  color: rgb(12, 35, 20);
+}
+
+.colorbg-12-35-20 {
+  background-color: rgb(12, 35, 20);
+}
+
+.color-12-35-24 {
+  color: rgb(12, 35, 24);
+}
+
+.colorbg-12-35-24 {
+  background-color: rgb(12, 35, 24);
+}
+
+.color-12-35-27 {
+  color: rgb(12, 35, 27);
+}
+
+.colorbg-12-35-27 {
+  background-color: rgb(12, 35, 27);
+}
+
+.color-12-35-31 {
+  color: rgb(12, 35, 31);
+}
+
+.colorbg-12-35-31 {
+  background-color: rgb(12, 35, 31);
+}
+
+.color-12-35-35 {
+  color: rgb(12, 35, 35);
+}
+
+.colorbg-12-35-35 {
+  background-color: rgb(12, 35, 35);
+}
+
+.color-12-35-39 {
+  color: rgb(12, 35, 39);
+}
+
+.colorbg-12-35-39 {
+  background-color: rgb(12, 35, 39);
+}
+
+.color-12-39-0 {
+  color: rgb(12, 39, 0);
+}
+
+.colorbg-12-39-0 {
+  background-color: rgb(12, 39, 0);
+}
+
+.color-12-39-4 {
+  color: rgb(12, 39, 4);
+}
+
+.colorbg-12-39-4 {
+  background-color: rgb(12, 39, 4);
+}
+
+.color-12-39-8 {
+  color: rgb(12, 39, 8);
+}
+
+.colorbg-12-39-8 {
+  background-color: rgb(12, 39, 8);
+}
+
+.color-12-39-12 {
+  color: rgb(12, 39, 12);
+}
+
+.colorbg-12-39-12 {
+  background-color: rgb(12, 39, 12);
+}
+
+.color-12-39-16 {
+  color: rgb(12, 39, 16);
+}
+
+.colorbg-12-39-16 {
+  background-color: rgb(12, 39, 16);
+}
+
+.color-12-39-20 {
+  color: rgb(12, 39, 20);
+}
+
+.colorbg-12-39-20 {
+  background-color: rgb(12, 39, 20);
+}
+
+.color-12-39-24 {
+  color: rgb(12, 39, 24);
+}
+
+.colorbg-12-39-24 {
+  background-color: rgb(12, 39, 24);
+}
+
+.color-12-39-27 {
+  color: rgb(12, 39, 27);
+}
+
+.colorbg-12-39-27 {
+  background-color: rgb(12, 39, 27);
+}
+
+.color-12-39-31 {
+  color: rgb(12, 39, 31);
+}
+
+.colorbg-12-39-31 {
+  background-color: rgb(12, 39, 31);
+}
+
+.color-12-39-35 {
+  color: rgb(12, 39, 35);
+}
+
+.colorbg-12-39-35 {
+  background-color: rgb(12, 39, 35);
+}
+
+.color-12-39-39 {
+  color: rgb(12, 39, 39);
+}
+
+.colorbg-12-39-39 {
+  background-color: rgb(12, 39, 39);
+}
+
+.color-16-0-0 {
+  color: rgb(16, 0, 0);
+}
+
+.colorbg-16-0-0 {
+  background-color: rgb(16, 0, 0);
+}
+
+.color-16-0-4 {
+  color: rgb(16, 0, 4);
+}
+
+.colorbg-16-0-4 {
+  background-color: rgb(16, 0, 4);
+}
+
+.color-16-0-8 {
+  color: rgb(16, 0, 8);
+}
+
+.colorbg-16-0-8 {
+  background-color: rgb(16, 0, 8);
+}
+
+.color-16-0-12 {
+  color: rgb(16, 0, 12);
+}
+
+.colorbg-16-0-12 {
+  background-color: rgb(16, 0, 12);
+}
+
+.color-16-0-16 {
+  color: rgb(16, 0, 16);
+}
+
+.colorbg-16-0-16 {
+  background-color: rgb(16, 0, 16);
+}
+
+.color-16-0-20 {
+  color: rgb(16, 0, 20);
+}
+
+.colorbg-16-0-20 {
+  background-color: rgb(16, 0, 20);
+}
+
+.color-16-0-24 {
+  color: rgb(16, 0, 24);
+}
+
+.colorbg-16-0-24 {
+  background-color: rgb(16, 0, 24);
+}
+
+.color-16-0-27 {
+  color: rgb(16, 0, 27);
+}
+
+.colorbg-16-0-27 {
+  background-color: rgb(16, 0, 27);
+}
+
+.color-16-0-31 {
+  color: rgb(16, 0, 31);
+}
+
+.colorbg-16-0-31 {
+  background-color: rgb(16, 0, 31);
+}
+
+.color-16-0-35 {
+  color: rgb(16, 0, 35);
+}
+
+.colorbg-16-0-35 {
+  background-color: rgb(16, 0, 35);
+}
+
+.color-16-0-39 {
+  color: rgb(16, 0, 39);
+}
+
+.colorbg-16-0-39 {
+  background-color: rgb(16, 0, 39);
+}
+
+.color-16-4-0 {
+  color: rgb(16, 4, 0);
+}
+
+.colorbg-16-4-0 {
+  background-color: rgb(16, 4, 0);
+}
+
+.color-16-4-4 {
+  color: rgb(16, 4, 4);
+}
+
+.colorbg-16-4-4 {
+  background-color: rgb(16, 4, 4);
+}
+
+.color-16-4-8 {
+  color: rgb(16, 4, 8);
+}
+
+.colorbg-16-4-8 {
+  background-color: rgb(16, 4, 8);
+}
+
+.color-16-4-12 {
+  color: rgb(16, 4, 12);
+}
+
+.colorbg-16-4-12 {
+  background-color: rgb(16, 4, 12);
+}
+
+.color-16-4-16 {
+  color: rgb(16, 4, 16);
+}
+
+.colorbg-16-4-16 {
+  background-color: rgb(16, 4, 16);
+}
+
+.color-16-4-20 {
+  color: rgb(16, 4, 20);
+}
+
+.colorbg-16-4-20 {
+  background-color: rgb(16, 4, 20);
+}
+
+.color-16-4-24 {
+  color: rgb(16, 4, 24);
+}
+
+.colorbg-16-4-24 {
+  background-color: rgb(16, 4, 24);
+}
+
+.color-16-4-27 {
+  color: rgb(16, 4, 27);
+}
+
+.colorbg-16-4-27 {
+  background-color: rgb(16, 4, 27);
+}
+
+.color-16-4-31 {
+  color: rgb(16, 4, 31);
+}
+
+.colorbg-16-4-31 {
+  background-color: rgb(16, 4, 31);
+}
+
+.color-16-4-35 {
+  color: rgb(16, 4, 35);
+}
+
+.colorbg-16-4-35 {
+  background-color: rgb(16, 4, 35);
+}
+
+.color-16-4-39 {
+  color: rgb(16, 4, 39);
+}
+
+.colorbg-16-4-39 {
+  background-color: rgb(16, 4, 39);
+}
+
+.color-16-8-0 {
+  color: rgb(16, 8, 0);
+}
+
+.colorbg-16-8-0 {
+  background-color: rgb(16, 8, 0);
+}
+
+.color-16-8-4 {
+  color: rgb(16, 8, 4);
+}
+
+.colorbg-16-8-4 {
+  background-color: rgb(16, 8, 4);
+}
+
+.color-16-8-8 {
+  color: rgb(16, 8, 8);
+}
+
+.colorbg-16-8-8 {
+  background-color: rgb(16, 8, 8);
+}
+
+.color-16-8-12 {
+  color: rgb(16, 8, 12);
+}
+
+.colorbg-16-8-12 {
+  background-color: rgb(16, 8, 12);
+}
+
+.color-16-8-16 {
+  color: rgb(16, 8, 16);
+}
+
+.colorbg-16-8-16 {
+  background-color: rgb(16, 8, 16);
+}
+
+.color-16-8-20 {
+  color: rgb(16, 8, 20);
+}
+
+.colorbg-16-8-20 {
+  background-color: rgb(16, 8, 20);
+}
+
+.color-16-8-24 {
+  color: rgb(16, 8, 24);
+}
+
+.colorbg-16-8-24 {
+  background-color: rgb(16, 8, 24);
+}
+
+.color-16-8-27 {
+  color: rgb(16, 8, 27);
+}
+
+.colorbg-16-8-27 {
+  background-color: rgb(16, 8, 27);
+}
+
+.color-16-8-31 {
+  color: rgb(16, 8, 31);
+}
+
+.colorbg-16-8-31 {
+  background-color: rgb(16, 8, 31);
+}
+
+.color-16-8-35 {
+  color: rgb(16, 8, 35);
+}
+
+.colorbg-16-8-35 {
+  background-color: rgb(16, 8, 35);
+}
+
+.color-16-8-39 {
+  color: rgb(16, 8, 39);
+}
+
+.colorbg-16-8-39 {
+  background-color: rgb(16, 8, 39);
+}
+
+.color-16-12-0 {
+  color: rgb(16, 12, 0);
+}
+
+.colorbg-16-12-0 {
+  background-color: rgb(16, 12, 0);
+}
+
+.color-16-12-4 {
+  color: rgb(16, 12, 4);
+}
+
+.colorbg-16-12-4 {
+  background-color: rgb(16, 12, 4);
+}
+
+.color-16-12-8 {
+  color: rgb(16, 12, 8);
+}
+
+.colorbg-16-12-8 {
+  background-color: rgb(16, 12, 8);
+}
+
+.color-16-12-12 {
+  color: rgb(16, 12, 12);
+}
+
+.colorbg-16-12-12 {
+  background-color: rgb(16, 12, 12);
+}
+
+.color-16-12-16 {
+  color: rgb(16, 12, 16);
+}
+
+.colorbg-16-12-16 {
+  background-color: rgb(16, 12, 16);
+}
+
+.color-16-12-20 {
+  color: rgb(16, 12, 20);
+}
+
+.colorbg-16-12-20 {
+  background-color: rgb(16, 12, 20);
+}
+
+.color-16-12-24 {
+  color: rgb(16, 12, 24);
+}
+
+.colorbg-16-12-24 {
+  background-color: rgb(16, 12, 24);
+}
+
+.color-16-12-27 {
+  color: rgb(16, 12, 27);
+}
+
+.colorbg-16-12-27 {
+  background-color: rgb(16, 12, 27);
+}
+
+.color-16-12-31 {
+  color: rgb(16, 12, 31);
+}
+
+.colorbg-16-12-31 {
+  background-color: rgb(16, 12, 31);
+}
+
+.color-16-12-35 {
+  color: rgb(16, 12, 35);
+}
+
+.colorbg-16-12-35 {
+  background-color: rgb(16, 12, 35);
+}
+
+.color-16-12-39 {
+  color: rgb(16, 12, 39);
+}
+
+.colorbg-16-12-39 {
+  background-color: rgb(16, 12, 39);
+}
+
+.color-16-16-0 {
+  color: rgb(16, 16, 0);
+}
+
+.colorbg-16-16-0 {
+  background-color: rgb(16, 16, 0);
+}
+
+.color-16-16-4 {
+  color: rgb(16, 16, 4);
+}
+
+.colorbg-16-16-4 {
+  background-color: rgb(16, 16, 4);
+}
+
+.color-16-16-8 {
+  color: rgb(16, 16, 8);
+}
+
+.colorbg-16-16-8 {
+  background-color: rgb(16, 16, 8);
+}
+
+.color-16-16-12 {
+  color: rgb(16, 16, 12);
+}
+
+.colorbg-16-16-12 {
+  background-color: rgb(16, 16, 12);
+}
+
+.color-16-16-16 {
+  color: rgb(16, 16, 16);
+}
+
+.colorbg-16-16-16 {
+  background-color: rgb(16, 16, 16);
+}
+
+.color-16-16-20 {
+  color: rgb(16, 16, 20);
+}
+
+.colorbg-16-16-20 {
+  background-color: rgb(16, 16, 20);
+}
+
+.color-16-16-24 {
+  color: rgb(16, 16, 24);
+}
+
+.colorbg-16-16-24 {
+  background-color: rgb(16, 16, 24);
+}
+
+.color-16-16-27 {
+  color: rgb(16, 16, 27);
+}
+
+.colorbg-16-16-27 {
+  background-color: rgb(16, 16, 27);
+}
+
+.color-16-16-31 {
+  color: rgb(16, 16, 31);
+}
+
+.colorbg-16-16-31 {
+  background-color: rgb(16, 16, 31);
+}
+
+.color-16-16-35 {
+  color: rgb(16, 16, 35);
+}
+
+.colorbg-16-16-35 {
+  background-color: rgb(16, 16, 35);
+}
+
+.color-16-16-39 {
+  color: rgb(16, 16, 39);
+}
+
+.colorbg-16-16-39 {
+  background-color: rgb(16, 16, 39);
+}
+
+.color-16-20-0 {
+  color: rgb(16, 20, 0);
+}
+
+.colorbg-16-20-0 {
+  background-color: rgb(16, 20, 0);
+}
+
+.color-16-20-4 {
+  color: rgb(16, 20, 4);
+}
+
+.colorbg-16-20-4 {
+  background-color: rgb(16, 20, 4);
+}
+
+.color-16-20-8 {
+  color: rgb(16, 20, 8);
+}
+
+.colorbg-16-20-8 {
+  background-color: rgb(16, 20, 8);
+}
+
+.color-16-20-12 {
+  color: rgb(16, 20, 12);
+}
+
+.colorbg-16-20-12 {
+  background-color: rgb(16, 20, 12);
+}
+
+.color-16-20-16 {
+  color: rgb(16, 20, 16);
+}
+
+.colorbg-16-20-16 {
+  background-color: rgb(16, 20, 16);
+}
+
+.color-16-20-20 {
+  color: rgb(16, 20, 20);
+}
+
+.colorbg-16-20-20 {
+  background-color: rgb(16, 20, 20);
+}
+
+.color-16-20-24 {
+  color: rgb(16, 20, 24);
+}
+
+.colorbg-16-20-24 {
+  background-color: rgb(16, 20, 24);
+}
+
+.color-16-20-27 {
+  color: rgb(16, 20, 27);
+}
+
+.colorbg-16-20-27 {
+  background-color: rgb(16, 20, 27);
+}
+
+.color-16-20-31 {
+  color: rgb(16, 20, 31);
+}
+
+.colorbg-16-20-31 {
+  background-color: rgb(16, 20, 31);
+}
+
+.color-16-20-35 {
+  color: rgb(16, 20, 35);
+}
+
+.colorbg-16-20-35 {
+  background-color: rgb(16, 20, 35);
+}
+
+.color-16-20-39 {
+  color: rgb(16, 20, 39);
+}
+
+.colorbg-16-20-39 {
+  background-color: rgb(16, 20, 39);
+}
+
+.color-16-24-0 {
+  color: rgb(16, 24, 0);
+}
+
+.colorbg-16-24-0 {
+  background-color: rgb(16, 24, 0);
+}
+
+.color-16-24-4 {
+  color: rgb(16, 24, 4);
+}
+
+.colorbg-16-24-4 {
+  background-color: rgb(16, 24, 4);
+}
+
+.color-16-24-8 {
+  color: rgb(16, 24, 8);
+}
+
+.colorbg-16-24-8 {
+  background-color: rgb(16, 24, 8);
+}
+
+.color-16-24-12 {
+  color: rgb(16, 24, 12);
+}
+
+.colorbg-16-24-12 {
+  background-color: rgb(16, 24, 12);
+}
+
+.color-16-24-16 {
+  color: rgb(16, 24, 16);
+}
+
+.colorbg-16-24-16 {
+  background-color: rgb(16, 24, 16);
+}
+
+.color-16-24-20 {
+  color: rgb(16, 24, 20);
+}
+
+.colorbg-16-24-20 {
+  background-color: rgb(16, 24, 20);
+}
+
+.color-16-24-24 {
+  color: rgb(16, 24, 24);
+}
+
+.colorbg-16-24-24 {
+  background-color: rgb(16, 24, 24);
+}
+
+.color-16-24-27 {
+  color: rgb(16, 24, 27);
+}
+
+.colorbg-16-24-27 {
+  background-color: rgb(16, 24, 27);
+}
+
+.color-16-24-31 {
+  color: rgb(16, 24, 31);
+}
+
+.colorbg-16-24-31 {
+  background-color: rgb(16, 24, 31);
+}
+
+.color-16-24-35 {
+  color: rgb(16, 24, 35);
+}
+
+.colorbg-16-24-35 {
+  background-color: rgb(16, 24, 35);
+}
+
+.color-16-24-39 {
+  color: rgb(16, 24, 39);
+}
+
+.colorbg-16-24-39 {
+  background-color: rgb(16, 24, 39);
+}
+
+.color-16-27-0 {
+  color: rgb(16, 27, 0);
+}
+
+.colorbg-16-27-0 {
+  background-color: rgb(16, 27, 0);
+}
+
+.color-16-27-4 {
+  color: rgb(16, 27, 4);
+}
+
+.colorbg-16-27-4 {
+  background-color: rgb(16, 27, 4);
+}
+
+.color-16-27-8 {
+  color: rgb(16, 27, 8);
+}
+
+.colorbg-16-27-8 {
+  background-color: rgb(16, 27, 8);
+}
+
+.color-16-27-12 {
+  color: rgb(16, 27, 12);
+}
+
+.colorbg-16-27-12 {
+  background-color: rgb(16, 27, 12);
+}
+
+.color-16-27-16 {
+  color: rgb(16, 27, 16);
+}
+
+.colorbg-16-27-16 {
+  background-color: rgb(16, 27, 16);
+}
+
+.color-16-27-20 {
+  color: rgb(16, 27, 20);
+}
+
+.colorbg-16-27-20 {
+  background-color: rgb(16, 27, 20);
+}
+
+.color-16-27-24 {
+  color: rgb(16, 27, 24);
+}
+
+.colorbg-16-27-24 {
+  background-color: rgb(16, 27, 24);
+}
+
+.color-16-27-27 {
+  color: rgb(16, 27, 27);
+}
+
+.colorbg-16-27-27 {
+  background-color: rgb(16, 27, 27);
+}
+
+.color-16-27-31 {
+  color: rgb(16, 27, 31);
+}
+
+.colorbg-16-27-31 {
+  background-color: rgb(16, 27, 31);
+}
+
+.color-16-27-35 {
+  color: rgb(16, 27, 35);
+}
+
+.colorbg-16-27-35 {
+  background-color: rgb(16, 27, 35);
+}
+
+.color-16-27-39 {
+  color: rgb(16, 27, 39);
+}
+
+.colorbg-16-27-39 {
+  background-color: rgb(16, 27, 39);
+}
+
+.color-16-31-0 {
+  color: rgb(16, 31, 0);
+}
+
+.colorbg-16-31-0 {
+  background-color: rgb(16, 31, 0);
+}
+
+.color-16-31-4 {
+  color: rgb(16, 31, 4);
+}
+
+.colorbg-16-31-4 {
+  background-color: rgb(16, 31, 4);
+}
+
+.color-16-31-8 {
+  color: rgb(16, 31, 8);
+}
+
+.colorbg-16-31-8 {
+  background-color: rgb(16, 31, 8);
+}
+
+.color-16-31-12 {
+  color: rgb(16, 31, 12);
+}
+
+.colorbg-16-31-12 {
+  background-color: rgb(16, 31, 12);
+}
+
+.color-16-31-16 {
+  color: rgb(16, 31, 16);
+}
+
+.colorbg-16-31-16 {
+  background-color: rgb(16, 31, 16);
+}
+
+.color-16-31-20 {
+  color: rgb(16, 31, 20);
+}
+
+.colorbg-16-31-20 {
+  background-color: rgb(16, 31, 20);
+}
+
+.color-16-31-24 {
+  color: rgb(16, 31, 24);
+}
+
+.colorbg-16-31-24 {
+  background-color: rgb(16, 31, 24);
+}
+
+.color-16-31-27 {
+  color: rgb(16, 31, 27);
+}
+
+.colorbg-16-31-27 {
+  background-color: rgb(16, 31, 27);
+}
+
+.color-16-31-31 {
+  color: rgb(16, 31, 31);
+}
+
+.colorbg-16-31-31 {
+  background-color: rgb(16, 31, 31);
+}
+
+.color-16-31-35 {
+  color: rgb(16, 31, 35);
+}
+
+.colorbg-16-31-35 {
+  background-color: rgb(16, 31, 35);
+}
+
+.color-16-31-39 {
+  color: rgb(16, 31, 39);
+}
+
+.colorbg-16-31-39 {
+  background-color: rgb(16, 31, 39);
+}
+
+.color-16-35-0 {
+  color: rgb(16, 35, 0);
+}
+
+.colorbg-16-35-0 {
+  background-color: rgb(16, 35, 0);
+}
+
+.color-16-35-4 {
+  color: rgb(16, 35, 4);
+}
+
+.colorbg-16-35-4 {
+  background-color: rgb(16, 35, 4);
+}
+
+.color-16-35-8 {
+  color: rgb(16, 35, 8);
+}
+
+.colorbg-16-35-8 {
+  background-color: rgb(16, 35, 8);
+}
+
+.color-16-35-12 {
+  color: rgb(16, 35, 12);
+}
+
+.colorbg-16-35-12 {
+  background-color: rgb(16, 35, 12);
+}
+
+.color-16-35-16 {
+  color: rgb(16, 35, 16);
+}
+
+.colorbg-16-35-16 {
+  background-color: rgb(16, 35, 16);
+}
+
+.color-16-35-20 {
+  color: rgb(16, 35, 20);
+}
+
+.colorbg-16-35-20 {
+  background-color: rgb(16, 35, 20);
+}
+
+.color-16-35-24 {
+  color: rgb(16, 35, 24);
+}
+
+.colorbg-16-35-24 {
+  background-color: rgb(16, 35, 24);
+}
+
+.color-16-35-27 {
+  color: rgb(16, 35, 27);
+}
+
+.colorbg-16-35-27 {
+  background-color: rgb(16, 35, 27);
+}
+
+.color-16-35-31 {
+  color: rgb(16, 35, 31);
+}
+
+.colorbg-16-35-31 {
+  background-color: rgb(16, 35, 31);
+}
+
+.color-16-35-35 {
+  color: rgb(16, 35, 35);
+}
+
+.colorbg-16-35-35 {
+  background-color: rgb(16, 35, 35);
+}
+
+.color-16-35-39 {
+  color: rgb(16, 35, 39);
+}
+
+.colorbg-16-35-39 {
+  background-color: rgb(16, 35, 39);
+}
+
+.color-16-39-0 {
+  color: rgb(16, 39, 0);
+}
+
+.colorbg-16-39-0 {
+  background-color: rgb(16, 39, 0);
+}
+
+.color-16-39-4 {
+  color: rgb(16, 39, 4);
+}
+
+.colorbg-16-39-4 {
+  background-color: rgb(16, 39, 4);
+}
+
+.color-16-39-8 {
+  color: rgb(16, 39, 8);
+}
+
+.colorbg-16-39-8 {
+  background-color: rgb(16, 39, 8);
+}
+
+.color-16-39-12 {
+  color: rgb(16, 39, 12);
+}
+
+.colorbg-16-39-12 {
+  background-color: rgb(16, 39, 12);
+}
+
+.color-16-39-16 {
+  color: rgb(16, 39, 16);
+}
+
+.colorbg-16-39-16 {
+  background-color: rgb(16, 39, 16);
+}
+
+.color-16-39-20 {
+  color: rgb(16, 39, 20);
+}
+
+.colorbg-16-39-20 {
+  background-color: rgb(16, 39, 20);
+}
+
+.color-16-39-24 {
+  color: rgb(16, 39, 24);
+}
+
+.colorbg-16-39-24 {
+  background-color: rgb(16, 39, 24);
+}
+
+.color-16-39-27 {
+  color: rgb(16, 39, 27);
+}
+
+.colorbg-16-39-27 {
+  background-color: rgb(16, 39, 27);
+}
+
+.color-16-39-31 {
+  color: rgb(16, 39, 31);
+}
+
+.colorbg-16-39-31 {
+  background-color: rgb(16, 39, 31);
+}
+
+.color-16-39-35 {
+  color: rgb(16, 39, 35);
+}
+
+.colorbg-16-39-35 {
+  background-color: rgb(16, 39, 35);
+}
+
+.color-16-39-39 {
+  color: rgb(16, 39, 39);
+}
+
+.colorbg-16-39-39 {
+  background-color: rgb(16, 39, 39);
+}
+
+.color-20-0-0 {
+  color: rgb(20, 0, 0);
+}
+
+.colorbg-20-0-0 {
+  background-color: rgb(20, 0, 0);
+}
+
+.color-20-0-4 {
+  color: rgb(20, 0, 4);
+}
+
+.colorbg-20-0-4 {
+  background-color: rgb(20, 0, 4);
+}
+
+.color-20-0-8 {
+  color: rgb(20, 0, 8);
+}
+
+.colorbg-20-0-8 {
+  background-color: rgb(20, 0, 8);
+}
+
+.color-20-0-12 {
+  color: rgb(20, 0, 12);
+}
+
+.colorbg-20-0-12 {
+  background-color: rgb(20, 0, 12);
+}
+
+.color-20-0-16 {
+  color: rgb(20, 0, 16);
+}
+
+.colorbg-20-0-16 {
+  background-color: rgb(20, 0, 16);
+}
+
+.color-20-0-20 {
+  color: rgb(20, 0, 20);
+}
+
+.colorbg-20-0-20 {
+  background-color: rgb(20, 0, 20);
+}
+
+.color-20-0-24 {
+  color: rgb(20, 0, 24);
+}
+
+.colorbg-20-0-24 {
+  background-color: rgb(20, 0, 24);
+}
+
+.color-20-0-27 {
+  color: rgb(20, 0, 27);
+}
+
+.colorbg-20-0-27 {
+  background-color: rgb(20, 0, 27);
+}
+
+.color-20-0-31 {
+  color: rgb(20, 0, 31);
+}
+
+.colorbg-20-0-31 {
+  background-color: rgb(20, 0, 31);
+}
+
+.color-20-0-35 {
+  color: rgb(20, 0, 35);
+}
+
+.colorbg-20-0-35 {
+  background-color: rgb(20, 0, 35);
+}
+
+.color-20-0-39 {
+  color: rgb(20, 0, 39);
+}
+
+.colorbg-20-0-39 {
+  background-color: rgb(20, 0, 39);
+}
+
+.color-20-4-0 {
+  color: rgb(20, 4, 0);
+}
+
+.colorbg-20-4-0 {
+  background-color: rgb(20, 4, 0);
+}
+
+.color-20-4-4 {
+  color: rgb(20, 4, 4);
+}
+
+.colorbg-20-4-4 {
+  background-color: rgb(20, 4, 4);
+}
+
+.color-20-4-8 {
+  color: rgb(20, 4, 8);
+}
+
+.colorbg-20-4-8 {
+  background-color: rgb(20, 4, 8);
+}
+
+.color-20-4-12 {
+  color: rgb(20, 4, 12);
+}
+
+.colorbg-20-4-12 {
+  background-color: rgb(20, 4, 12);
+}
+
+.color-20-4-16 {
+  color: rgb(20, 4, 16);
+}
+
+.colorbg-20-4-16 {
+  background-color: rgb(20, 4, 16);
+}
+
+.color-20-4-20 {
+  color: rgb(20, 4, 20);
+}
+
+.colorbg-20-4-20 {
+  background-color: rgb(20, 4, 20);
+}
+
+.color-20-4-24 {
+  color: rgb(20, 4, 24);
+}
+
+.colorbg-20-4-24 {
+  background-color: rgb(20, 4, 24);
+}
+
+.color-20-4-27 {
+  color: rgb(20, 4, 27);
+}
+
+.colorbg-20-4-27 {
+  background-color: rgb(20, 4, 27);
+}
+
+.color-20-4-31 {
+  color: rgb(20, 4, 31);
+}
+
+.colorbg-20-4-31 {
+  background-color: rgb(20, 4, 31);
+}
+
+.color-20-4-35 {
+  color: rgb(20, 4, 35);
+}
+
+.colorbg-20-4-35 {
+  background-color: rgb(20, 4, 35);
+}
+
+.color-20-4-39 {
+  color: rgb(20, 4, 39);
+}
+
+.colorbg-20-4-39 {
+  background-color: rgb(20, 4, 39);
+}
+
+.color-20-8-0 {
+  color: rgb(20, 8, 0);
+}
+
+.colorbg-20-8-0 {
+  background-color: rgb(20, 8, 0);
+}
+
+.color-20-8-4 {
+  color: rgb(20, 8, 4);
+}
+
+.colorbg-20-8-4 {
+  background-color: rgb(20, 8, 4);
+}
+
+.color-20-8-8 {
+  color: rgb(20, 8, 8);
+}
+
+.colorbg-20-8-8 {
+  background-color: rgb(20, 8, 8);
+}
+
+.color-20-8-12 {
+  color: rgb(20, 8, 12);
+}
+
+.colorbg-20-8-12 {
+  background-color: rgb(20, 8, 12);
+}
+
+.color-20-8-16 {
+  color: rgb(20, 8, 16);
+}
+
+.colorbg-20-8-16 {
+  background-color: rgb(20, 8, 16);
+}
+
+.color-20-8-20 {
+  color: rgb(20, 8, 20);
+}
+
+.colorbg-20-8-20 {
+  background-color: rgb(20, 8, 20);
+}
+
+.color-20-8-24 {
+  color: rgb(20, 8, 24);
+}
+
+.colorbg-20-8-24 {
+  background-color: rgb(20, 8, 24);
+}
+
+.color-20-8-27 {
+  color: rgb(20, 8, 27);
+}
+
+.colorbg-20-8-27 {
+  background-color: rgb(20, 8, 27);
+}
+
+.color-20-8-31 {
+  color: rgb(20, 8, 31);
+}
+
+.colorbg-20-8-31 {
+  background-color: rgb(20, 8, 31);
+}
+
+.color-20-8-35 {
+  color: rgb(20, 8, 35);
+}
+
+.colorbg-20-8-35 {
+  background-color: rgb(20, 8, 35);
+}
+
+.color-20-8-39 {
+  color: rgb(20, 8, 39);
+}
+
+.colorbg-20-8-39 {
+  background-color: rgb(20, 8, 39);
+}
+
+.color-20-12-0 {
+  color: rgb(20, 12, 0);
+}
+
+.colorbg-20-12-0 {
+  background-color: rgb(20, 12, 0);
+}
+
+.color-20-12-4 {
+  color: rgb(20, 12, 4);
+}
+
+.colorbg-20-12-4 {
+  background-color: rgb(20, 12, 4);
+}
+
+.color-20-12-8 {
+  color: rgb(20, 12, 8);
+}
+
+.colorbg-20-12-8 {
+  background-color: rgb(20, 12, 8);
+}
+
+.color-20-12-12 {
+  color: rgb(20, 12, 12);
+}
+
+.colorbg-20-12-12 {
+  background-color: rgb(20, 12, 12);
+}
+
+.color-20-12-16 {
+  color: rgb(20, 12, 16);
+}
+
+.colorbg-20-12-16 {
+  background-color: rgb(20, 12, 16);
+}
+
+.color-20-12-20 {
+  color: rgb(20, 12, 20);
+}
+
+.colorbg-20-12-20 {
+  background-color: rgb(20, 12, 20);
+}
+
+.color-20-12-24 {
+  color: rgb(20, 12, 24);
+}
+
+.colorbg-20-12-24 {
+  background-color: rgb(20, 12, 24);
+}
+
+.color-20-12-27 {
+  color: rgb(20, 12, 27);
+}
+
+.colorbg-20-12-27 {
+  background-color: rgb(20, 12, 27);
+}
+
+.color-20-12-31 {
+  color: rgb(20, 12, 31);
+}
+
+.colorbg-20-12-31 {
+  background-color: rgb(20, 12, 31);
+}
+
+.color-20-12-35 {
+  color: rgb(20, 12, 35);
+}
+
+.colorbg-20-12-35 {
+  background-color: rgb(20, 12, 35);
+}
+
+.color-20-12-39 {
+  color: rgb(20, 12, 39);
+}
+
+.colorbg-20-12-39 {
+  background-color: rgb(20, 12, 39);
+}
+
+.color-20-16-0 {
+  color: rgb(20, 16, 0);
+}
+
+.colorbg-20-16-0 {
+  background-color: rgb(20, 16, 0);
+}
+
+.color-20-16-4 {
+  color: rgb(20, 16, 4);
+}
+
+.colorbg-20-16-4 {
+  background-color: rgb(20, 16, 4);
+}
+
+.color-20-16-8 {
+  color: rgb(20, 16, 8);
+}
+
+.colorbg-20-16-8 {
+  background-color: rgb(20, 16, 8);
+}
+
+.color-20-16-12 {
+  color: rgb(20, 16, 12);
+}
+
+.colorbg-20-16-12 {
+  background-color: rgb(20, 16, 12);
+}
+
+.color-20-16-16 {
+  color: rgb(20, 16, 16);
+}
+
+.colorbg-20-16-16 {
+  background-color: rgb(20, 16, 16);
+}
+
+.color-20-16-20 {
+  color: rgb(20, 16, 20);
+}
+
+.colorbg-20-16-20 {
+  background-color: rgb(20, 16, 20);
+}
+
+.color-20-16-24 {
+  color: rgb(20, 16, 24);
+}
+
+.colorbg-20-16-24 {
+  background-color: rgb(20, 16, 24);
+}
+
+.color-20-16-27 {
+  color: rgb(20, 16, 27);
+}
+
+.colorbg-20-16-27 {
+  background-color: rgb(20, 16, 27);
+}
+
+.color-20-16-31 {
+  color: rgb(20, 16, 31);
+}
+
+.colorbg-20-16-31 {
+  background-color: rgb(20, 16, 31);
+}
+
+.color-20-16-35 {
+  color: rgb(20, 16, 35);
+}
+
+.colorbg-20-16-35 {
+  background-color: rgb(20, 16, 35);
+}
+
+.color-20-16-39 {
+  color: rgb(20, 16, 39);
+}
+
+.colorbg-20-16-39 {
+  background-color: rgb(20, 16, 39);
+}
+
+.color-20-20-0 {
+  color: rgb(20, 20, 0);
+}
+
+.colorbg-20-20-0 {
+  background-color: rgb(20, 20, 0);
+}
+
+.color-20-20-4 {
+  color: rgb(20, 20, 4);
+}
+
+.colorbg-20-20-4 {
+  background-color: rgb(20, 20, 4);
+}
+
+.color-20-20-8 {
+  color: rgb(20, 20, 8);
+}
+
+.colorbg-20-20-8 {
+  background-color: rgb(20, 20, 8);
+}
+
+.color-20-20-12 {
+  color: rgb(20, 20, 12);
+}
+
+.colorbg-20-20-12 {
+  background-color: rgb(20, 20, 12);
+}
+
+.color-20-20-16 {
+  color: rgb(20, 20, 16);
+}
+
+.colorbg-20-20-16 {
+  background-color: rgb(20, 20, 16);
+}
+
+.color-20-20-20 {
+  color: rgb(20, 20, 20);
+}
+
+.colorbg-20-20-20 {
+  background-color: rgb(20, 20, 20);
+}
+
+.color-20-20-24 {
+  color: rgb(20, 20, 24);
+}
+
+.colorbg-20-20-24 {
+  background-color: rgb(20, 20, 24);
+}
+
+.color-20-20-27 {
+  color: rgb(20, 20, 27);
+}
+
+.colorbg-20-20-27 {
+  background-color: rgb(20, 20, 27);
+}
+
+.color-20-20-31 {
+  color: rgb(20, 20, 31);
+}
+
+.colorbg-20-20-31 {
+  background-color: rgb(20, 20, 31);
+}
+
+.color-20-20-35 {
+  color: rgb(20, 20, 35);
+}
+
+.colorbg-20-20-35 {
+  background-color: rgb(20, 20, 35);
+}
+
+.color-20-20-39 {
+  color: rgb(20, 20, 39);
+}
+
+.colorbg-20-20-39 {
+  background-color: rgb(20, 20, 39);
+}
+
+.color-20-24-0 {
+  color: rgb(20, 24, 0);
+}
+
+.colorbg-20-24-0 {
+  background-color: rgb(20, 24, 0);
+}
+
+.color-20-24-4 {
+  color: rgb(20, 24, 4);
+}
+
+.colorbg-20-24-4 {
+  background-color: rgb(20, 24, 4);
+}
+
+.color-20-24-8 {
+  color: rgb(20, 24, 8);
+}
+
+.colorbg-20-24-8 {
+  background-color: rgb(20, 24, 8);
+}
+
+.color-20-24-12 {
+  color: rgb(20, 24, 12);
+}
+
+.colorbg-20-24-12 {
+  background-color: rgb(20, 24, 12);
+}
+
+.color-20-24-16 {
+  color: rgb(20, 24, 16);
+}
+
+.colorbg-20-24-16 {
+  background-color: rgb(20, 24, 16);
+}
+
+.color-20-24-20 {
+  color: rgb(20, 24, 20);
+}
+
+.colorbg-20-24-20 {
+  background-color: rgb(20, 24, 20);
+}
+
+.color-20-24-24 {
+  color: rgb(20, 24, 24);
+}
+
+.colorbg-20-24-24 {
+  background-color: rgb(20, 24, 24);
+}
+
+.color-20-24-27 {
+  color: rgb(20, 24, 27);
+}
+
+.colorbg-20-24-27 {
+  background-color: rgb(20, 24, 27);
+}
+
+.color-20-24-31 {
+  color: rgb(20, 24, 31);
+}
+
+.colorbg-20-24-31 {
+  background-color: rgb(20, 24, 31);
+}
+
+.color-20-24-35 {
+  color: rgb(20, 24, 35);
+}
+
+.colorbg-20-24-35 {
+  background-color: rgb(20, 24, 35);
+}
+
+.color-20-24-39 {
+  color: rgb(20, 24, 39);
+}
+
+.colorbg-20-24-39 {
+  background-color: rgb(20, 24, 39);
+}
+
+.color-20-27-0 {
+  color: rgb(20, 27, 0);
+}
+
+.colorbg-20-27-0 {
+  background-color: rgb(20, 27, 0);
+}
+
+.color-20-27-4 {
+  color: rgb(20, 27, 4);
+}
+
+.colorbg-20-27-4 {
+  background-color: rgb(20, 27, 4);
+}
+
+.color-20-27-8 {
+  color: rgb(20, 27, 8);
+}
+
+.colorbg-20-27-8 {
+  background-color: rgb(20, 27, 8);
+}
+
+.color-20-27-12 {
+  color: rgb(20, 27, 12);
+}
+
+.colorbg-20-27-12 {
+  background-color: rgb(20, 27, 12);
+}
+
+.color-20-27-16 {
+  color: rgb(20, 27, 16);
+}
+
+.colorbg-20-27-16 {
+  background-color: rgb(20, 27, 16);
+}
+
+.color-20-27-20 {
+  color: rgb(20, 27, 20);
+}
+
+.colorbg-20-27-20 {
+  background-color: rgb(20, 27, 20);
+}
+
+.color-20-27-24 {
+  color: rgb(20, 27, 24);
+}
+
+.colorbg-20-27-24 {
+  background-color: rgb(20, 27, 24);
+}
+
+.color-20-27-27 {
+  color: rgb(20, 27, 27);
+}
+
+.colorbg-20-27-27 {
+  background-color: rgb(20, 27, 27);
+}
+
+.color-20-27-31 {
+  color: rgb(20, 27, 31);
+}
+
+.colorbg-20-27-31 {
+  background-color: rgb(20, 27, 31);
+}
+
+.color-20-27-35 {
+  color: rgb(20, 27, 35);
+}
+
+.colorbg-20-27-35 {
+  background-color: rgb(20, 27, 35);
+}
+
+.color-20-27-39 {
+  color: rgb(20, 27, 39);
+}
+
+.colorbg-20-27-39 {
+  background-color: rgb(20, 27, 39);
+}
+
+.color-20-31-0 {
+  color: rgb(20, 31, 0);
+}
+
+.colorbg-20-31-0 {
+  background-color: rgb(20, 31, 0);
+}
+
+.color-20-31-4 {
+  color: rgb(20, 31, 4);
+}
+
+.colorbg-20-31-4 {
+  background-color: rgb(20, 31, 4);
+}
+
+.color-20-31-8 {
+  color: rgb(20, 31, 8);
+}
+
+.colorbg-20-31-8 {
+  background-color: rgb(20, 31, 8);
+}
+
+.color-20-31-12 {
+  color: rgb(20, 31, 12);
+}
+
+.colorbg-20-31-12 {
+  background-color: rgb(20, 31, 12);
+}
+
+.color-20-31-16 {
+  color: rgb(20, 31, 16);
+}
+
+.colorbg-20-31-16 {
+  background-color: rgb(20, 31, 16);
+}
+
+.color-20-31-20 {
+  color: rgb(20, 31, 20);
+}
+
+.colorbg-20-31-20 {
+  background-color: rgb(20, 31, 20);
+}
+
+.color-20-31-24 {
+  color: rgb(20, 31, 24);
+}
+
+.colorbg-20-31-24 {
+  background-color: rgb(20, 31, 24);
+}
+
+.color-20-31-27 {
+  color: rgb(20, 31, 27);
+}
+
+.colorbg-20-31-27 {
+  background-color: rgb(20, 31, 27);
+}
+
+.color-20-31-31 {
+  color: rgb(20, 31, 31);
+}
+
+.colorbg-20-31-31 {
+  background-color: rgb(20, 31, 31);
+}
+
+.color-20-31-35 {
+  color: rgb(20, 31, 35);
+}
+
+.colorbg-20-31-35 {
+  background-color: rgb(20, 31, 35);
+}
+
+.color-20-31-39 {
+  color: rgb(20, 31, 39);
+}
+
+.colorbg-20-31-39 {
+  background-color: rgb(20, 31, 39);
+}
+
+.color-20-35-0 {
+  color: rgb(20, 35, 0);
+}
+
+.colorbg-20-35-0 {
+  background-color: rgb(20, 35, 0);
+}
+
+.color-20-35-4 {
+  color: rgb(20, 35, 4);
+}
+
+.colorbg-20-35-4 {
+  background-color: rgb(20, 35, 4);
+}
+
+.color-20-35-8 {
+  color: rgb(20, 35, 8);
+}
+
+.colorbg-20-35-8 {
+  background-color: rgb(20, 35, 8);
+}
+
+.color-20-35-12 {
+  color: rgb(20, 35, 12);
+}
+
+.colorbg-20-35-12 {
+  background-color: rgb(20, 35, 12);
+}
+
+.color-20-35-16 {
+  color: rgb(20, 35, 16);
+}
+
+.colorbg-20-35-16 {
+  background-color: rgb(20, 35, 16);
+}
+
+.color-20-35-20 {
+  color: rgb(20, 35, 20);
+}
+
+.colorbg-20-35-20 {
+  background-color: rgb(20, 35, 20);
+}
+
+.color-20-35-24 {
+  color: rgb(20, 35, 24);
+}
+
+.colorbg-20-35-24 {
+  background-color: rgb(20, 35, 24);
+}
+
+.color-20-35-27 {
+  color: rgb(20, 35, 27);
+}
+
+.colorbg-20-35-27 {
+  background-color: rgb(20, 35, 27);
+}
+
+.color-20-35-31 {
+  color: rgb(20, 35, 31);
+}
+
+.colorbg-20-35-31 {
+  background-color: rgb(20, 35, 31);
+}
+
+.color-20-35-35 {
+  color: rgb(20, 35, 35);
+}
+
+.colorbg-20-35-35 {
+  background-color: rgb(20, 35, 35);
+}
+
+.color-20-35-39 {
+  color: rgb(20, 35, 39);
+}
+
+.colorbg-20-35-39 {
+  background-color: rgb(20, 35, 39);
+}
+
+.color-20-39-0 {
+  color: rgb(20, 39, 0);
+}
+
+.colorbg-20-39-0 {
+  background-color: rgb(20, 39, 0);
+}
+
+.color-20-39-4 {
+  color: rgb(20, 39, 4);
+}
+
+.colorbg-20-39-4 {
+  background-color: rgb(20, 39, 4);
+}
+
+.color-20-39-8 {
+  color: rgb(20, 39, 8);
+}
+
+.colorbg-20-39-8 {
+  background-color: rgb(20, 39, 8);
+}
+
+.color-20-39-12 {
+  color: rgb(20, 39, 12);
+}
+
+.colorbg-20-39-12 {
+  background-color: rgb(20, 39, 12);
+}
+
+.color-20-39-16 {
+  color: rgb(20, 39, 16);
+}
+
+.colorbg-20-39-16 {
+  background-color: rgb(20, 39, 16);
+}
+
+.color-20-39-20 {
+  color: rgb(20, 39, 20);
+}
+
+.colorbg-20-39-20 {
+  background-color: rgb(20, 39, 20);
+}
+
+.color-20-39-24 {
+  color: rgb(20, 39, 24);
+}
+
+.colorbg-20-39-24 {
+  background-color: rgb(20, 39, 24);
+}
+
+.color-20-39-27 {
+  color: rgb(20, 39, 27);
+}
+
+.colorbg-20-39-27 {
+  background-color: rgb(20, 39, 27);
+}
+
+.color-20-39-31 {
+  color: rgb(20, 39, 31);
+}
+
+.colorbg-20-39-31 {
+  background-color: rgb(20, 39, 31);
+}
+
+.color-20-39-35 {
+  color: rgb(20, 39, 35);
+}
+
+.colorbg-20-39-35 {
+  background-color: rgb(20, 39, 35);
+}
+
+.color-20-39-39 {
+  color: rgb(20, 39, 39);
+}
+
+.colorbg-20-39-39 {
+  background-color: rgb(20, 39, 39);
+}
+
+.color-24-0-0 {
+  color: rgb(24, 0, 0);
+}
+
+.colorbg-24-0-0 {
+  background-color: rgb(24, 0, 0);
+}
+
+.color-24-0-4 {
+  color: rgb(24, 0, 4);
+}
+
+.colorbg-24-0-4 {
+  background-color: rgb(24, 0, 4);
+}
+
+.color-24-0-8 {
+  color: rgb(24, 0, 8);
+}
+
+.colorbg-24-0-8 {
+  background-color: rgb(24, 0, 8);
+}
+
+.color-24-0-12 {
+  color: rgb(24, 0, 12);
+}
+
+.colorbg-24-0-12 {
+  background-color: rgb(24, 0, 12);
+}
+
+.color-24-0-16 {
+  color: rgb(24, 0, 16);
+}
+
+.colorbg-24-0-16 {
+  background-color: rgb(24, 0, 16);
+}
+
+.color-24-0-20 {
+  color: rgb(24, 0, 20);
+}
+
+.colorbg-24-0-20 {
+  background-color: rgb(24, 0, 20);
+}
+
+.color-24-0-24 {
+  color: rgb(24, 0, 24);
+}
+
+.colorbg-24-0-24 {
+  background-color: rgb(24, 0, 24);
+}
+
+.color-24-0-27 {
+  color: rgb(24, 0, 27);
+}
+
+.colorbg-24-0-27 {
+  background-color: rgb(24, 0, 27);
+}
+
+.color-24-0-31 {
+  color: rgb(24, 0, 31);
+}
+
+.colorbg-24-0-31 {
+  background-color: rgb(24, 0, 31);
+}
+
+.color-24-0-35 {
+  color: rgb(24, 0, 35);
+}
+
+.colorbg-24-0-35 {
+  background-color: rgb(24, 0, 35);
+}
+
+.color-24-0-39 {
+  color: rgb(24, 0, 39);
+}
+
+.colorbg-24-0-39 {
+  background-color: rgb(24, 0, 39);
+}
+
+.color-24-4-0 {
+  color: rgb(24, 4, 0);
+}
+
+.colorbg-24-4-0 {
+  background-color: rgb(24, 4, 0);
+}
+
+.color-24-4-4 {
+  color: rgb(24, 4, 4);
+}
+
+.colorbg-24-4-4 {
+  background-color: rgb(24, 4, 4);
+}
+
+.color-24-4-8 {
+  color: rgb(24, 4, 8);
+}
+
+.colorbg-24-4-8 {
+  background-color: rgb(24, 4, 8);
+}
+
+.color-24-4-12 {
+  color: rgb(24, 4, 12);
+}
+
+.colorbg-24-4-12 {
+  background-color: rgb(24, 4, 12);
+}
+
+.color-24-4-16 {
+  color: rgb(24, 4, 16);
+}
+
+.colorbg-24-4-16 {
+  background-color: rgb(24, 4, 16);
+}
+
+.color-24-4-20 {
+  color: rgb(24, 4, 20);
+}
+
+.colorbg-24-4-20 {
+  background-color: rgb(24, 4, 20);
+}
+
+.color-24-4-24 {
+  color: rgb(24, 4, 24);
+}
+
+.colorbg-24-4-24 {
+  background-color: rgb(24, 4, 24);
+}
+
+.color-24-4-27 {
+  color: rgb(24, 4, 27);
+}
+
+.colorbg-24-4-27 {
+  background-color: rgb(24, 4, 27);
+}
+
+.color-24-4-31 {
+  color: rgb(24, 4, 31);
+}
+
+.colorbg-24-4-31 {
+  background-color: rgb(24, 4, 31);
+}
+
+.color-24-4-35 {
+  color: rgb(24, 4, 35);
+}
+
+.colorbg-24-4-35 {
+  background-color: rgb(24, 4, 35);
+}
+
+.color-24-4-39 {
+  color: rgb(24, 4, 39);
+}
+
+.colorbg-24-4-39 {
+  background-color: rgb(24, 4, 39);
+}
+
+.color-24-8-0 {
+  color: rgb(24, 8, 0);
+}
+
+.colorbg-24-8-0 {
+  background-color: rgb(24, 8, 0);
+}
+
+.color-24-8-4 {
+  color: rgb(24, 8, 4);
+}
+
+.colorbg-24-8-4 {
+  background-color: rgb(24, 8, 4);
+}
+
+.color-24-8-8 {
+  color: rgb(24, 8, 8);
+}
+
+.colorbg-24-8-8 {
+  background-color: rgb(24, 8, 8);
+}
+
+.color-24-8-12 {
+  color: rgb(24, 8, 12);
+}
+
+.colorbg-24-8-12 {
+  background-color: rgb(24, 8, 12);
+}
+
+.color-24-8-16 {
+  color: rgb(24, 8, 16);
+}
+
+.colorbg-24-8-16 {
+  background-color: rgb(24, 8, 16);
+}
+
+.color-24-8-20 {
+  color: rgb(24, 8, 20);
+}
+
+.colorbg-24-8-20 {
+  background-color: rgb(24, 8, 20);
+}
+
+.color-24-8-24 {
+  color: rgb(24, 8, 24);
+}
+
+.colorbg-24-8-24 {
+  background-color: rgb(24, 8, 24);
+}
+
+.color-24-8-27 {
+  color: rgb(24, 8, 27);
+}
+
+.colorbg-24-8-27 {
+  background-color: rgb(24, 8, 27);
+}
+
+.color-24-8-31 {
+  color: rgb(24, 8, 31);
+}
+
+.colorbg-24-8-31 {
+  background-color: rgb(24, 8, 31);
+}
+
+.color-24-8-35 {
+  color: rgb(24, 8, 35);
+}
+
+.colorbg-24-8-35 {
+  background-color: rgb(24, 8, 35);
+}
+
+.color-24-8-39 {
+  color: rgb(24, 8, 39);
+}
+
+.colorbg-24-8-39 {
+  background-color: rgb(24, 8, 39);
+}
+
+.color-24-12-0 {
+  color: rgb(24, 12, 0);
+}
+
+.colorbg-24-12-0 {
+  background-color: rgb(24, 12, 0);
+}
+
+.color-24-12-4 {
+  color: rgb(24, 12, 4);
+}
+
+.colorbg-24-12-4 {
+  background-color: rgb(24, 12, 4);
+}
+
+.color-24-12-8 {
+  color: rgb(24, 12, 8);
+}
+
+.colorbg-24-12-8 {
+  background-color: rgb(24, 12, 8);
+}
+
+.color-24-12-12 {
+  color: rgb(24, 12, 12);
+}
+
+.colorbg-24-12-12 {
+  background-color: rgb(24, 12, 12);
+}
+
+.color-24-12-16 {
+  color: rgb(24, 12, 16);
+}
+
+.colorbg-24-12-16 {
+  background-color: rgb(24, 12, 16);
+}
+
+.color-24-12-20 {
+  color: rgb(24, 12, 20);
+}
+
+.colorbg-24-12-20 {
+  background-color: rgb(24, 12, 20);
+}
+
+.color-24-12-24 {
+  color: rgb(24, 12, 24);
+}
+
+.colorbg-24-12-24 {
+  background-color: rgb(24, 12, 24);
+}
+
+.color-24-12-27 {
+  color: rgb(24, 12, 27);
+}
+
+.colorbg-24-12-27 {
+  background-color: rgb(24, 12, 27);
+}
+
+.color-24-12-31 {
+  color: rgb(24, 12, 31);
+}
+
+.colorbg-24-12-31 {
+  background-color: rgb(24, 12, 31);
+}
+
+.color-24-12-35 {
+  color: rgb(24, 12, 35);
+}
+
+.colorbg-24-12-35 {
+  background-color: rgb(24, 12, 35);
+}
+
+.color-24-12-39 {
+  color: rgb(24, 12, 39);
+}
+
+.colorbg-24-12-39 {
+  background-color: rgb(24, 12, 39);
+}
+
+.color-24-16-0 {
+  color: rgb(24, 16, 0);
+}
+
+.colorbg-24-16-0 {
+  background-color: rgb(24, 16, 0);
+}
+
+.color-24-16-4 {
+  color: rgb(24, 16, 4);
+}
+
+.colorbg-24-16-4 {
+  background-color: rgb(24, 16, 4);
+}
+
+.color-24-16-8 {
+  color: rgb(24, 16, 8);
+}
+
+.colorbg-24-16-8 {
+  background-color: rgb(24, 16, 8);
+}
+
+.color-24-16-12 {
+  color: rgb(24, 16, 12);
+}
+
+.colorbg-24-16-12 {
+  background-color: rgb(24, 16, 12);
+}
+
+.color-24-16-16 {
+  color: rgb(24, 16, 16);
+}
+
+.colorbg-24-16-16 {
+  background-color: rgb(24, 16, 16);
+}
+
+.color-24-16-20 {
+  color: rgb(24, 16, 20);
+}
+
+.colorbg-24-16-20 {
+  background-color: rgb(24, 16, 20);
+}
+
+.color-24-16-24 {
+  color: rgb(24, 16, 24);
+}
+
+.colorbg-24-16-24 {
+  background-color: rgb(24, 16, 24);
+}
+
+.color-24-16-27 {
+  color: rgb(24, 16, 27);
+}
+
+.colorbg-24-16-27 {
+  background-color: rgb(24, 16, 27);
+}
+
+.color-24-16-31 {
+  color: rgb(24, 16, 31);
+}
+
+.colorbg-24-16-31 {
+  background-color: rgb(24, 16, 31);
+}
+
+.color-24-16-35 {
+  color: rgb(24, 16, 35);
+}
+
+.colorbg-24-16-35 {
+  background-color: rgb(24, 16, 35);
+}
+
+.color-24-16-39 {
+  color: rgb(24, 16, 39);
+}
+
+.colorbg-24-16-39 {
+  background-color: rgb(24, 16, 39);
+}
+
+.color-24-20-0 {
+  color: rgb(24, 20, 0);
+}
+
+.colorbg-24-20-0 {
+  background-color: rgb(24, 20, 0);
+}
+
+.color-24-20-4 {
+  color: rgb(24, 20, 4);
+}
+
+.colorbg-24-20-4 {
+  background-color: rgb(24, 20, 4);
+}
+
+.color-24-20-8 {
+  color: rgb(24, 20, 8);
+}
+
+.colorbg-24-20-8 {
+  background-color: rgb(24, 20, 8);
+}
+
+.color-24-20-12 {
+  color: rgb(24, 20, 12);
+}
+
+.colorbg-24-20-12 {
+  background-color: rgb(24, 20, 12);
+}
+
+.color-24-20-16 {
+  color: rgb(24, 20, 16);
+}
+
+.colorbg-24-20-16 {
+  background-color: rgb(24, 20, 16);
+}
+
+.color-24-20-20 {
+  color: rgb(24, 20, 20);
+}
+
+.colorbg-24-20-20 {
+  background-color: rgb(24, 20, 20);
+}
+
+.color-24-20-24 {
+  color: rgb(24, 20, 24);
+}
+
+.colorbg-24-20-24 {
+  background-color: rgb(24, 20, 24);
+}
+
+.color-24-20-27 {
+  color: rgb(24, 20, 27);
+}
+
+.colorbg-24-20-27 {
+  background-color: rgb(24, 20, 27);
+}
+
+.color-24-20-31 {
+  color: rgb(24, 20, 31);
+}
+
+.colorbg-24-20-31 {
+  background-color: rgb(24, 20, 31);
+}
+
+.color-24-20-35 {
+  color: rgb(24, 20, 35);
+}
+
+.colorbg-24-20-35 {
+  background-color: rgb(24, 20, 35);
+}
+
+.color-24-20-39 {
+  color: rgb(24, 20, 39);
+}
+
+.colorbg-24-20-39 {
+  background-color: rgb(24, 20, 39);
+}
+
+.color-24-24-0 {
+  color: rgb(24, 24, 0);
+}
+
+.colorbg-24-24-0 {
+  background-color: rgb(24, 24, 0);
+}
+
+.color-24-24-4 {
+  color: rgb(24, 24, 4);
+}
+
+.colorbg-24-24-4 {
+  background-color: rgb(24, 24, 4);
+}
+
+.color-24-24-8 {
+  color: rgb(24, 24, 8);
+}
+
+.colorbg-24-24-8 {
+  background-color: rgb(24, 24, 8);
+}
+
+.color-24-24-12 {
+  color: rgb(24, 24, 12);
+}
+
+.colorbg-24-24-12 {
+  background-color: rgb(24, 24, 12);
+}
+
+.color-24-24-16 {
+  color: rgb(24, 24, 16);
+}
+
+.colorbg-24-24-16 {
+  background-color: rgb(24, 24, 16);
+}
+
+.color-24-24-20 {
+  color: rgb(24, 24, 20);
+}
+
+.colorbg-24-24-20 {
+  background-color: rgb(24, 24, 20);
+}
+
+.color-24-24-24 {
+  color: rgb(24, 24, 24);
+}
+
+.colorbg-24-24-24 {
+  background-color: rgb(24, 24, 24);
+}
+
+.color-24-24-27 {
+  color: rgb(24, 24, 27);
+}
+
+.colorbg-24-24-27 {
+  background-color: rgb(24, 24, 27);
+}
+
+.color-24-24-31 {
+  color: rgb(24, 24, 31);
+}
+
+.colorbg-24-24-31 {
+  background-color: rgb(24, 24, 31);
+}
+
+.color-24-24-35 {
+  color: rgb(24, 24, 35);
+}
+
+.colorbg-24-24-35 {
+  background-color: rgb(24, 24, 35);
+}
+
+.color-24-24-39 {
+  color: rgb(24, 24, 39);
+}
+
+.colorbg-24-24-39 {
+  background-color: rgb(24, 24, 39);
+}
+
+.color-24-27-0 {
+  color: rgb(24, 27, 0);
+}
+
+.colorbg-24-27-0 {
+  background-color: rgb(24, 27, 0);
+}
+
+.color-24-27-4 {
+  color: rgb(24, 27, 4);
+}
+
+.colorbg-24-27-4 {
+  background-color: rgb(24, 27, 4);
+}
+
+.color-24-27-8 {
+  color: rgb(24, 27, 8);
+}
+
+.colorbg-24-27-8 {
+  background-color: rgb(24, 27, 8);
+}
+
+.color-24-27-12 {
+  color: rgb(24, 27, 12);
+}
+
+.colorbg-24-27-12 {
+  background-color: rgb(24, 27, 12);
+}
+
+.color-24-27-16 {
+  color: rgb(24, 27, 16);
+}
+
+.colorbg-24-27-16 {
+  background-color: rgb(24, 27, 16);
+}
+
+.color-24-27-20 {
+  color: rgb(24, 27, 20);
+}
+
+.colorbg-24-27-20 {
+  background-color: rgb(24, 27, 20);
+}
+
+.color-24-27-24 {
+  color: rgb(24, 27, 24);
+}
+
+.colorbg-24-27-24 {
+  background-color: rgb(24, 27, 24);
+}
+
+.color-24-27-27 {
+  color: rgb(24, 27, 27);
+}
+
+.colorbg-24-27-27 {
+  background-color: rgb(24, 27, 27);
+}
+
+.color-24-27-31 {
+  color: rgb(24, 27, 31);
+}
+
+.colorbg-24-27-31 {
+  background-color: rgb(24, 27, 31);
+}
+
+.color-24-27-35 {
+  color: rgb(24, 27, 35);
+}
+
+.colorbg-24-27-35 {
+  background-color: rgb(24, 27, 35);
+}
+
+.color-24-27-39 {
+  color: rgb(24, 27, 39);
+}
+
+.colorbg-24-27-39 {
+  background-color: rgb(24, 27, 39);
+}
+
+.color-24-31-0 {
+  color: rgb(24, 31, 0);
+}
+
+.colorbg-24-31-0 {
+  background-color: rgb(24, 31, 0);
+}
+
+.color-24-31-4 {
+  color: rgb(24, 31, 4);
+}
+
+.colorbg-24-31-4 {
+  background-color: rgb(24, 31, 4);
+}
+
+.color-24-31-8 {
+  color: rgb(24, 31, 8);
+}
+
+.colorbg-24-31-8 {
+  background-color: rgb(24, 31, 8);
+}
+
+.color-24-31-12 {
+  color: rgb(24, 31, 12);
+}
+
+.colorbg-24-31-12 {
+  background-color: rgb(24, 31, 12);
+}
+
+.color-24-31-16 {
+  color: rgb(24, 31, 16);
+}
+
+.colorbg-24-31-16 {
+  background-color: rgb(24, 31, 16);
+}
+
+.color-24-31-20 {
+  color: rgb(24, 31, 20);
+}
+
+.colorbg-24-31-20 {
+  background-color: rgb(24, 31, 20);
+}
+
+.color-24-31-24 {
+  color: rgb(24, 31, 24);
+}
+
+.colorbg-24-31-24 {
+  background-color: rgb(24, 31, 24);
+}
+
+.color-24-31-27 {
+  color: rgb(24, 31, 27);
+}
+
+.colorbg-24-31-27 {
+  background-color: rgb(24, 31, 27);
+}
+
+.color-24-31-31 {
+  color: rgb(24, 31, 31);
+}
+
+.colorbg-24-31-31 {
+  background-color: rgb(24, 31, 31);
+}
+
+.color-24-31-35 {
+  color: rgb(24, 31, 35);
+}
+
+.colorbg-24-31-35 {
+  background-color: rgb(24, 31, 35);
+}
+
+.color-24-31-39 {
+  color: rgb(24, 31, 39);
+}
+
+.colorbg-24-31-39 {
+  background-color: rgb(24, 31, 39);
+}
+
+.color-24-35-0 {
+  color: rgb(24, 35, 0);
+}
+
+.colorbg-24-35-0 {
+  background-color: rgb(24, 35, 0);
+}
+
+.color-24-35-4 {
+  color: rgb(24, 35, 4);
+}
+
+.colorbg-24-35-4 {
+  background-color: rgb(24, 35, 4);
+}
+
+.color-24-35-8 {
+  color: rgb(24, 35, 8);
+}
+
+.colorbg-24-35-8 {
+  background-color: rgb(24, 35, 8);
+}
+
+.color-24-35-12 {
+  color: rgb(24, 35, 12);
+}
+
+.colorbg-24-35-12 {
+  background-color: rgb(24, 35, 12);
+}
+
+.color-24-35-16 {
+  color: rgb(24, 35, 16);
+}
+
+.colorbg-24-35-16 {
+  background-color: rgb(24, 35, 16);
+}
+
+.color-24-35-20 {
+  color: rgb(24, 35, 20);
+}
+
+.colorbg-24-35-20 {
+  background-color: rgb(24, 35, 20);
+}
+
+.color-24-35-24 {
+  color: rgb(24, 35, 24);
+}
+
+.colorbg-24-35-24 {
+  background-color: rgb(24, 35, 24);
+}
+
+.color-24-35-27 {
+  color: rgb(24, 35, 27);
+}
+
+.colorbg-24-35-27 {
+  background-color: rgb(24, 35, 27);
+}
+
+.color-24-35-31 {
+  color: rgb(24, 35, 31);
+}
+
+.colorbg-24-35-31 {
+  background-color: rgb(24, 35, 31);
+}
+
+.color-24-35-35 {
+  color: rgb(24, 35, 35);
+}
+
+.colorbg-24-35-35 {
+  background-color: rgb(24, 35, 35);
+}
+
+.color-24-35-39 {
+  color: rgb(24, 35, 39);
+}
+
+.colorbg-24-35-39 {
+  background-color: rgb(24, 35, 39);
+}
+
+.color-24-39-0 {
+  color: rgb(24, 39, 0);
+}
+
+.colorbg-24-39-0 {
+  background-color: rgb(24, 39, 0);
+}
+
+.color-24-39-4 {
+  color: rgb(24, 39, 4);
+}
+
+.colorbg-24-39-4 {
+  background-color: rgb(24, 39, 4);
+}
+
+.color-24-39-8 {
+  color: rgb(24, 39, 8);
+}
+
+.colorbg-24-39-8 {
+  background-color: rgb(24, 39, 8);
+}
+
+.color-24-39-12 {
+  color: rgb(24, 39, 12);
+}
+
+.colorbg-24-39-12 {
+  background-color: rgb(24, 39, 12);
+}
+
+.color-24-39-16 {
+  color: rgb(24, 39, 16);
+}
+
+.colorbg-24-39-16 {
+  background-color: rgb(24, 39, 16);
+}
+
+.color-24-39-20 {
+  color: rgb(24, 39, 20);
+}
+
+.colorbg-24-39-20 {
+  background-color: rgb(24, 39, 20);
+}
+
+.color-24-39-24 {
+  color: rgb(24, 39, 24);
+}
+
+.colorbg-24-39-24 {
+  background-color: rgb(24, 39, 24);
+}
+
+.color-24-39-27 {
+  color: rgb(24, 39, 27);
+}
+
+.colorbg-24-39-27 {
+  background-color: rgb(24, 39, 27);
+}
+
+.color-24-39-31 {
+  color: rgb(24, 39, 31);
+}
+
+.colorbg-24-39-31 {
+  background-color: rgb(24, 39, 31);
+}
+
+.color-24-39-35 {
+  color: rgb(24, 39, 35);
+}
+
+.colorbg-24-39-35 {
+  background-color: rgb(24, 39, 35);
+}
+
+.color-24-39-39 {
+  color: rgb(24, 39, 39);
+}
+
+.colorbg-24-39-39 {
+  background-color: rgb(24, 39, 39);
+}
+
+.color-27-0-0 {
+  color: rgb(27, 0, 0);
+}
+
+.colorbg-27-0-0 {
+  background-color: rgb(27, 0, 0);
+}
+
+.color-27-0-4 {
+  color: rgb(27, 0, 4);
+}
+
+.colorbg-27-0-4 {
+  background-color: rgb(27, 0, 4);
+}
+
+.color-27-0-8 {
+  color: rgb(27, 0, 8);
+}
+
+.colorbg-27-0-8 {
+  background-color: rgb(27, 0, 8);
+}
+
+.color-27-0-12 {
+  color: rgb(27, 0, 12);
+}
+
+.colorbg-27-0-12 {
+  background-color: rgb(27, 0, 12);
+}
+
+.color-27-0-16 {
+  color: rgb(27, 0, 16);
+}
+
+.colorbg-27-0-16 {
+  background-color: rgb(27, 0, 16);
+}
+
+.color-27-0-20 {
+  color: rgb(27, 0, 20);
+}
+
+.colorbg-27-0-20 {
+  background-color: rgb(27, 0, 20);
+}
+
+.color-27-0-24 {
+  color: rgb(27, 0, 24);
+}
+
+.colorbg-27-0-24 {
+  background-color: rgb(27, 0, 24);
+}
+
+.color-27-0-27 {
+  color: rgb(27, 0, 27);
+}
+
+.colorbg-27-0-27 {
+  background-color: rgb(27, 0, 27);
+}
+
+.color-27-0-31 {
+  color: rgb(27, 0, 31);
+}
+
+.colorbg-27-0-31 {
+  background-color: rgb(27, 0, 31);
+}
+
+.color-27-0-35 {
+  color: rgb(27, 0, 35);
+}
+
+.colorbg-27-0-35 {
+  background-color: rgb(27, 0, 35);
+}
+
+.color-27-0-39 {
+  color: rgb(27, 0, 39);
+}
+
+.colorbg-27-0-39 {
+  background-color: rgb(27, 0, 39);
+}
+
+.color-27-4-0 {
+  color: rgb(27, 4, 0);
+}
+
+.colorbg-27-4-0 {
+  background-color: rgb(27, 4, 0);
+}
+
+.color-27-4-4 {
+  color: rgb(27, 4, 4);
+}
+
+.colorbg-27-4-4 {
+  background-color: rgb(27, 4, 4);
+}
+
+.color-27-4-8 {
+  color: rgb(27, 4, 8);
+}
+
+.colorbg-27-4-8 {
+  background-color: rgb(27, 4, 8);
+}
+
+.color-27-4-12 {
+  color: rgb(27, 4, 12);
+}
+
+.colorbg-27-4-12 {
+  background-color: rgb(27, 4, 12);
+}
+
+.color-27-4-16 {
+  color: rgb(27, 4, 16);
+}
+
+.colorbg-27-4-16 {
+  background-color: rgb(27, 4, 16);
+}
+
+.color-27-4-20 {
+  color: rgb(27, 4, 20);
+}
+
+.colorbg-27-4-20 {
+  background-color: rgb(27, 4, 20);
+}
+
+.color-27-4-24 {
+  color: rgb(27, 4, 24);
+}
+
+.colorbg-27-4-24 {
+  background-color: rgb(27, 4, 24);
+}
+
+.color-27-4-27 {
+  color: rgb(27, 4, 27);
+}
+
+.colorbg-27-4-27 {
+  background-color: rgb(27, 4, 27);
+}
+
+.color-27-4-31 {
+  color: rgb(27, 4, 31);
+}
+
+.colorbg-27-4-31 {
+  background-color: rgb(27, 4, 31);
+}
+
+.color-27-4-35 {
+  color: rgb(27, 4, 35);
+}
+
+.colorbg-27-4-35 {
+  background-color: rgb(27, 4, 35);
+}
+
+.color-27-4-39 {
+  color: rgb(27, 4, 39);
+}
+
+.colorbg-27-4-39 {
+  background-color: rgb(27, 4, 39);
+}
+
+.color-27-8-0 {
+  color: rgb(27, 8, 0);
+}
+
+.colorbg-27-8-0 {
+  background-color: rgb(27, 8, 0);
+}
+
+.color-27-8-4 {
+  color: rgb(27, 8, 4);
+}
+
+.colorbg-27-8-4 {
+  background-color: rgb(27, 8, 4);
+}
+
+.color-27-8-8 {
+  color: rgb(27, 8, 8);
+}
+
+.colorbg-27-8-8 {
+  background-color: rgb(27, 8, 8);
+}
+
+.color-27-8-12 {
+  color: rgb(27, 8, 12);
+}
+
+.colorbg-27-8-12 {
+  background-color: rgb(27, 8, 12);
+}
+
+.color-27-8-16 {
+  color: rgb(27, 8, 16);
+}
+
+.colorbg-27-8-16 {
+  background-color: rgb(27, 8, 16);
+}
+
+.color-27-8-20 {
+  color: rgb(27, 8, 20);
+}
+
+.colorbg-27-8-20 {
+  background-color: rgb(27, 8, 20);
+}
+
+.color-27-8-24 {
+  color: rgb(27, 8, 24);
+}
+
+.colorbg-27-8-24 {
+  background-color: rgb(27, 8, 24);
+}
+
+.color-27-8-27 {
+  color: rgb(27, 8, 27);
+}
+
+.colorbg-27-8-27 {
+  background-color: rgb(27, 8, 27);
+}
+
+.color-27-8-31 {
+  color: rgb(27, 8, 31);
+}
+
+.colorbg-27-8-31 {
+  background-color: rgb(27, 8, 31);
+}
+
+.color-27-8-35 {
+  color: rgb(27, 8, 35);
+}
+
+.colorbg-27-8-35 {
+  background-color: rgb(27, 8, 35);
+}
+
+.color-27-8-39 {
+  color: rgb(27, 8, 39);
+}
+
+.colorbg-27-8-39 {
+  background-color: rgb(27, 8, 39);
+}
+
+.color-27-12-0 {
+  color: rgb(27, 12, 0);
+}
+
+.colorbg-27-12-0 {
+  background-color: rgb(27, 12, 0);
+}
+
+.color-27-12-4 {
+  color: rgb(27, 12, 4);
+}
+
+.colorbg-27-12-4 {
+  background-color: rgb(27, 12, 4);
+}
+
+.color-27-12-8 {
+  color: rgb(27, 12, 8);
+}
+
+.colorbg-27-12-8 {
+  background-color: rgb(27, 12, 8);
+}
+
+.color-27-12-12 {
+  color: rgb(27, 12, 12);
+}
+
+.colorbg-27-12-12 {
+  background-color: rgb(27, 12, 12);
+}
+
+.color-27-12-16 {
+  color: rgb(27, 12, 16);
+}
+
+.colorbg-27-12-16 {
+  background-color: rgb(27, 12, 16);
+}
+
+.color-27-12-20 {
+  color: rgb(27, 12, 20);
+}
+
+.colorbg-27-12-20 {
+  background-color: rgb(27, 12, 20);
+}
+
+.color-27-12-24 {
+  color: rgb(27, 12, 24);
+}
+
+.colorbg-27-12-24 {
+  background-color: rgb(27, 12, 24);
+}
+
+.color-27-12-27 {
+  color: rgb(27, 12, 27);
+}
+
+.colorbg-27-12-27 {
+  background-color: rgb(27, 12, 27);
+}
+
+.color-27-12-31 {
+  color: rgb(27, 12, 31);
+}
+
+.colorbg-27-12-31 {
+  background-color: rgb(27, 12, 31);
+}
+
+.color-27-12-35 {
+  color: rgb(27, 12, 35);
+}
+
+.colorbg-27-12-35 {
+  background-color: rgb(27, 12, 35);
+}
+
+.color-27-12-39 {
+  color: rgb(27, 12, 39);
+}
+
+.colorbg-27-12-39 {
+  background-color: rgb(27, 12, 39);
+}
+
+.color-27-16-0 {
+  color: rgb(27, 16, 0);
+}
+
+.colorbg-27-16-0 {
+  background-color: rgb(27, 16, 0);
+}
+
+.color-27-16-4 {
+  color: rgb(27, 16, 4);
+}
+
+.colorbg-27-16-4 {
+  background-color: rgb(27, 16, 4);
+}
+
+.color-27-16-8 {
+  color: rgb(27, 16, 8);
+}
+
+.colorbg-27-16-8 {
+  background-color: rgb(27, 16, 8);
+}
+
+.color-27-16-12 {
+  color: rgb(27, 16, 12);
+}
+
+.colorbg-27-16-12 {
+  background-color: rgb(27, 16, 12);
+}
+
+.color-27-16-16 {
+  color: rgb(27, 16, 16);
+}
+
+.colorbg-27-16-16 {
+  background-color: rgb(27, 16, 16);
+}
+
+.color-27-16-20 {
+  color: rgb(27, 16, 20);
+}
+
+.colorbg-27-16-20 {
+  background-color: rgb(27, 16, 20);
+}
+
+.color-27-16-24 {
+  color: rgb(27, 16, 24);
+}
+
+.colorbg-27-16-24 {
+  background-color: rgb(27, 16, 24);
+}
+
+.color-27-16-27 {
+  color: rgb(27, 16, 27);
+}
+
+.colorbg-27-16-27 {
+  background-color: rgb(27, 16, 27);
+}
+
+.color-27-16-31 {
+  color: rgb(27, 16, 31);
+}
+
+.colorbg-27-16-31 {
+  background-color: rgb(27, 16, 31);
+}
+
+.color-27-16-35 {
+  color: rgb(27, 16, 35);
+}
+
+.colorbg-27-16-35 {
+  background-color: rgb(27, 16, 35);
+}
+
+.color-27-16-39 {
+  color: rgb(27, 16, 39);
+}
+
+.colorbg-27-16-39 {
+  background-color: rgb(27, 16, 39);
+}
+
+.color-27-20-0 {
+  color: rgb(27, 20, 0);
+}
+
+.colorbg-27-20-0 {
+  background-color: rgb(27, 20, 0);
+}
+
+.color-27-20-4 {
+  color: rgb(27, 20, 4);
+}
+
+.colorbg-27-20-4 {
+  background-color: rgb(27, 20, 4);
+}
+
+.color-27-20-8 {
+  color: rgb(27, 20, 8);
+}
+
+.colorbg-27-20-8 {
+  background-color: rgb(27, 20, 8);
+}
+
+.color-27-20-12 {
+  color: rgb(27, 20, 12);
+}
+
+.colorbg-27-20-12 {
+  background-color: rgb(27, 20, 12);
+}
+
+.color-27-20-16 {
+  color: rgb(27, 20, 16);
+}
+
+.colorbg-27-20-16 {
+  background-color: rgb(27, 20, 16);
+}
+
+.color-27-20-20 {
+  color: rgb(27, 20, 20);
+}
+
+.colorbg-27-20-20 {
+  background-color: rgb(27, 20, 20);
+}
+
+.color-27-20-24 {
+  color: rgb(27, 20, 24);
+}
+
+.colorbg-27-20-24 {
+  background-color: rgb(27, 20, 24);
+}
+
+.color-27-20-27 {
+  color: rgb(27, 20, 27);
+}
+
+.colorbg-27-20-27 {
+  background-color: rgb(27, 20, 27);
+}
+
+.color-27-20-31 {
+  color: rgb(27, 20, 31);
+}
+
+.colorbg-27-20-31 {
+  background-color: rgb(27, 20, 31);
+}
+
+.color-27-20-35 {
+  color: rgb(27, 20, 35);
+}
+
+.colorbg-27-20-35 {
+  background-color: rgb(27, 20, 35);
+}
+
+.color-27-20-39 {
+  color: rgb(27, 20, 39);
+}
+
+.colorbg-27-20-39 {
+  background-color: rgb(27, 20, 39);
+}
+
+.color-27-24-0 {
+  color: rgb(27, 24, 0);
+}
+
+.colorbg-27-24-0 {
+  background-color: rgb(27, 24, 0);
+}
+
+.color-27-24-4 {
+  color: rgb(27, 24, 4);
+}
+
+.colorbg-27-24-4 {
+  background-color: rgb(27, 24, 4);
+}
+
+.color-27-24-8 {
+  color: rgb(27, 24, 8);
+}
+
+.colorbg-27-24-8 {
+  background-color: rgb(27, 24, 8);
+}
+
+.color-27-24-12 {
+  color: rgb(27, 24, 12);
+}
+
+.colorbg-27-24-12 {
+  background-color: rgb(27, 24, 12);
+}
+
+.color-27-24-16 {
+  color: rgb(27, 24, 16);
+}
+
+.colorbg-27-24-16 {
+  background-color: rgb(27, 24, 16);
+}
+
+.color-27-24-20 {
+  color: rgb(27, 24, 20);
+}
+
+.colorbg-27-24-20 {
+  background-color: rgb(27, 24, 20);
+}
+
+.color-27-24-24 {
+  color: rgb(27, 24, 24);
+}
+
+.colorbg-27-24-24 {
+  background-color: rgb(27, 24, 24);
+}
+
+.color-27-24-27 {
+  color: rgb(27, 24, 27);
+}
+
+.colorbg-27-24-27 {
+  background-color: rgb(27, 24, 27);
+}
+
+.color-27-24-31 {
+  color: rgb(27, 24, 31);
+}
+
+.colorbg-27-24-31 {
+  background-color: rgb(27, 24, 31);
+}
+
+.color-27-24-35 {
+  color: rgb(27, 24, 35);
+}
+
+.colorbg-27-24-35 {
+  background-color: rgb(27, 24, 35);
+}
+
+.color-27-24-39 {
+  color: rgb(27, 24, 39);
+}
+
+.colorbg-27-24-39 {
+  background-color: rgb(27, 24, 39);
+}
+
+.color-27-27-0 {
+  color: rgb(27, 27, 0);
+}
+
+.colorbg-27-27-0 {
+  background-color: rgb(27, 27, 0);
+}
+
+.color-27-27-4 {
+  color: rgb(27, 27, 4);
+}
+
+.colorbg-27-27-4 {
+  background-color: rgb(27, 27, 4);
+}
+
+.color-27-27-8 {
+  color: rgb(27, 27, 8);
+}
+
+.colorbg-27-27-8 {
+  background-color: rgb(27, 27, 8);
+}
+
+.color-27-27-12 {
+  color: rgb(27, 27, 12);
+}
+
+.colorbg-27-27-12 {
+  background-color: rgb(27, 27, 12);
+}
+
+.color-27-27-16 {
+  color: rgb(27, 27, 16);
+}
+
+.colorbg-27-27-16 {
+  background-color: rgb(27, 27, 16);
+}
+
+.color-27-27-20 {
+  color: rgb(27, 27, 20);
+}
+
+.colorbg-27-27-20 {
+  background-color: rgb(27, 27, 20);
+}
+
+.color-27-27-24 {
+  color: rgb(27, 27, 24);
+}
+
+.colorbg-27-27-24 {
+  background-color: rgb(27, 27, 24);
+}
+
+.color-27-27-27 {
+  color: rgb(27, 27, 27);
+}
+
+.colorbg-27-27-27 {
+  background-color: rgb(27, 27, 27);
+}
+
+.color-27-27-31 {
+  color: rgb(27, 27, 31);
+}
+
+.colorbg-27-27-31 {
+  background-color: rgb(27, 27, 31);
+}
+
+.color-27-27-35 {
+  color: rgb(27, 27, 35);
+}
+
+.colorbg-27-27-35 {
+  background-color: rgb(27, 27, 35);
+}
+
+.color-27-27-39 {
+  color: rgb(27, 27, 39);
+}
+
+.colorbg-27-27-39 {
+  background-color: rgb(27, 27, 39);
+}
+
+.color-27-31-0 {
+  color: rgb(27, 31, 0);
+}
+
+.colorbg-27-31-0 {
+  background-color: rgb(27, 31, 0);
+}
+
+.color-27-31-4 {
+  color: rgb(27, 31, 4);
+}
+
+.colorbg-27-31-4 {
+  background-color: rgb(27, 31, 4);
+}
+
+.color-27-31-8 {
+  color: rgb(27, 31, 8);
+}
+
+.colorbg-27-31-8 {
+  background-color: rgb(27, 31, 8);
+}
+
+.color-27-31-12 {
+  color: rgb(27, 31, 12);
+}
+
+.colorbg-27-31-12 {
+  background-color: rgb(27, 31, 12);
+}
+
+.color-27-31-16 {
+  color: rgb(27, 31, 16);
+}
+
+.colorbg-27-31-16 {
+  background-color: rgb(27, 31, 16);
+}
+
+.color-27-31-20 {
+  color: rgb(27, 31, 20);
+}
+
+.colorbg-27-31-20 {
+  background-color: rgb(27, 31, 20);
+}
+
+.color-27-31-24 {
+  color: rgb(27, 31, 24);
+}
+
+.colorbg-27-31-24 {
+  background-color: rgb(27, 31, 24);
+}
+
+.color-27-31-27 {
+  color: rgb(27, 31, 27);
+}
+
+.colorbg-27-31-27 {
+  background-color: rgb(27, 31, 27);
+}
+
+.color-27-31-31 {
+  color: rgb(27, 31, 31);
+}
+
+.colorbg-27-31-31 {
+  background-color: rgb(27, 31, 31);
+}
+
+.color-27-31-35 {
+  color: rgb(27, 31, 35);
+}
+
+.colorbg-27-31-35 {
+  background-color: rgb(27, 31, 35);
+}
+
+.color-27-31-39 {
+  color: rgb(27, 31, 39);
+}
+
+.colorbg-27-31-39 {
+  background-color: rgb(27, 31, 39);
+}
+
+.color-27-35-0 {
+  color: rgb(27, 35, 0);
+}
+
+.colorbg-27-35-0 {
+  background-color: rgb(27, 35, 0);
+}
+
+.color-27-35-4 {
+  color: rgb(27, 35, 4);
+}
+
+.colorbg-27-35-4 {
+  background-color: rgb(27, 35, 4);
+}
+
+.color-27-35-8 {
+  color: rgb(27, 35, 8);
+}
+
+.colorbg-27-35-8 {
+  background-color: rgb(27, 35, 8);
+}
+
+.color-27-35-12 {
+  color: rgb(27, 35, 12);
+}
+
+.colorbg-27-35-12 {
+  background-color: rgb(27, 35, 12);
+}
+
+.color-27-35-16 {
+  color: rgb(27, 35, 16);
+}
+
+.colorbg-27-35-16 {
+  background-color: rgb(27, 35, 16);
+}
+
+.color-27-35-20 {
+  color: rgb(27, 35, 20);
+}
+
+.colorbg-27-35-20 {
+  background-color: rgb(27, 35, 20);
+}
+
+.color-27-35-24 {
+  color: rgb(27, 35, 24);
+}
+
+.colorbg-27-35-24 {
+  background-color: rgb(27, 35, 24);
+}
+
+.color-27-35-27 {
+  color: rgb(27, 35, 27);
+}
+
+.colorbg-27-35-27 {
+  background-color: rgb(27, 35, 27);
+}
+
+.color-27-35-31 {
+  color: rgb(27, 35, 31);
+}
+
+.colorbg-27-35-31 {
+  background-color: rgb(27, 35, 31);
+}
+
+.color-27-35-35 {
+  color: rgb(27, 35, 35);
+}
+
+.colorbg-27-35-35 {
+  background-color: rgb(27, 35, 35);
+}
+
+.color-27-35-39 {
+  color: rgb(27, 35, 39);
+}
+
+.colorbg-27-35-39 {
+  background-color: rgb(27, 35, 39);
+}
+
+.color-27-39-0 {
+  color: rgb(27, 39, 0);
+}
+
+.colorbg-27-39-0 {
+  background-color: rgb(27, 39, 0);
+}
+
+.color-27-39-4 {
+  color: rgb(27, 39, 4);
+}
+
+.colorbg-27-39-4 {
+  background-color: rgb(27, 39, 4);
+}
+
+.color-27-39-8 {
+  color: rgb(27, 39, 8);
+}
+
+.colorbg-27-39-8 {
+  background-color: rgb(27, 39, 8);
+}
+
+.color-27-39-12 {
+  color: rgb(27, 39, 12);
+}
+
+.colorbg-27-39-12 {
+  background-color: rgb(27, 39, 12);
+}
+
+.color-27-39-16 {
+  color: rgb(27, 39, 16);
+}
+
+.colorbg-27-39-16 {
+  background-color: rgb(27, 39, 16);
+}
+
+.color-27-39-20 {
+  color: rgb(27, 39, 20);
+}
+
+.colorbg-27-39-20 {
+  background-color: rgb(27, 39, 20);
+}
+
+.color-27-39-24 {
+  color: rgb(27, 39, 24);
+}
+
+.colorbg-27-39-24 {
+  background-color: rgb(27, 39, 24);
+}
+
+.color-27-39-27 {
+  color: rgb(27, 39, 27);
+}
+
+.colorbg-27-39-27 {
+  background-color: rgb(27, 39, 27);
+}
+
+.color-27-39-31 {
+  color: rgb(27, 39, 31);
+}
+
+.colorbg-27-39-31 {
+  background-color: rgb(27, 39, 31);
+}
+
+.color-27-39-35 {
+  color: rgb(27, 39, 35);
+}
+
+.colorbg-27-39-35 {
+  background-color: rgb(27, 39, 35);
+}
+
+.color-27-39-39 {
+  color: rgb(27, 39, 39);
+}
+
+.colorbg-27-39-39 {
+  background-color: rgb(27, 39, 39);
+}
+
+.color-31-0-0 {
+  color: rgb(31, 0, 0);
+}
+
+.colorbg-31-0-0 {
+  background-color: rgb(31, 0, 0);
+}
+
+.color-31-0-4 {
+  color: rgb(31, 0, 4);
+}
+
+.colorbg-31-0-4 {
+  background-color: rgb(31, 0, 4);
+}
+
+.color-31-0-8 {
+  color: rgb(31, 0, 8);
+}
+
+.colorbg-31-0-8 {
+  background-color: rgb(31, 0, 8);
+}
+
+.color-31-0-12 {
+  color: rgb(31, 0, 12);
+}
+
+.colorbg-31-0-12 {
+  background-color: rgb(31, 0, 12);
+}
+
+.color-31-0-16 {
+  color: rgb(31, 0, 16);
+}
+
+.colorbg-31-0-16 {
+  background-color: rgb(31, 0, 16);
+}
+
+.color-31-0-20 {
+  color: rgb(31, 0, 20);
+}
+
+.colorbg-31-0-20 {
+  background-color: rgb(31, 0, 20);
+}
+
+.color-31-0-24 {
+  color: rgb(31, 0, 24);
+}
+
+.colorbg-31-0-24 {
+  background-color: rgb(31, 0, 24);
+}
+
+.color-31-0-27 {
+  color: rgb(31, 0, 27);
+}
+
+.colorbg-31-0-27 {
+  background-color: rgb(31, 0, 27);
+}
+
+.color-31-0-31 {
+  color: rgb(31, 0, 31);
+}
+
+.colorbg-31-0-31 {
+  background-color: rgb(31, 0, 31);
+}
+
+.color-31-0-35 {
+  color: rgb(31, 0, 35);
+}
+
+.colorbg-31-0-35 {
+  background-color: rgb(31, 0, 35);
+}
+
+.color-31-0-39 {
+  color: rgb(31, 0, 39);
+}
+
+.colorbg-31-0-39 {
+  background-color: rgb(31, 0, 39);
+}
+
+.color-31-4-0 {
+  color: rgb(31, 4, 0);
+}
+
+.colorbg-31-4-0 {
+  background-color: rgb(31, 4, 0);
+}
+
+.color-31-4-4 {
+  color: rgb(31, 4, 4);
+}
+
+.colorbg-31-4-4 {
+  background-color: rgb(31, 4, 4);
+}
+
+.color-31-4-8 {
+  color: rgb(31, 4, 8);
+}
+
+.colorbg-31-4-8 {
+  background-color: rgb(31, 4, 8);
+}
+
+.color-31-4-12 {
+  color: rgb(31, 4, 12);
+}
+
+.colorbg-31-4-12 {
+  background-color: rgb(31, 4, 12);
+}
+
+.color-31-4-16 {
+  color: rgb(31, 4, 16);
+}
+
+.colorbg-31-4-16 {
+  background-color: rgb(31, 4, 16);
+}
+
+.color-31-4-20 {
+  color: rgb(31, 4, 20);
+}
+
+.colorbg-31-4-20 {
+  background-color: rgb(31, 4, 20);
+}
+
+.color-31-4-24 {
+  color: rgb(31, 4, 24);
+}
+
+.colorbg-31-4-24 {
+  background-color: rgb(31, 4, 24);
+}
+
+.color-31-4-27 {
+  color: rgb(31, 4, 27);
+}
+
+.colorbg-31-4-27 {
+  background-color: rgb(31, 4, 27);
+}
+
+.color-31-4-31 {
+  color: rgb(31, 4, 31);
+}
+
+.colorbg-31-4-31 {
+  background-color: rgb(31, 4, 31);
+}
+
+.color-31-4-35 {
+  color: rgb(31, 4, 35);
+}
+
+.colorbg-31-4-35 {
+  background-color: rgb(31, 4, 35);
+}
+
+.color-31-4-39 {
+  color: rgb(31, 4, 39);
+}
+
+.colorbg-31-4-39 {
+  background-color: rgb(31, 4, 39);
+}
+
+.color-31-8-0 {
+  color: rgb(31, 8, 0);
+}
+
+.colorbg-31-8-0 {
+  background-color: rgb(31, 8, 0);
+}
+
+.color-31-8-4 {
+  color: rgb(31, 8, 4);
+}
+
+.colorbg-31-8-4 {
+  background-color: rgb(31, 8, 4);
+}
+
+.color-31-8-8 {
+  color: rgb(31, 8, 8);
+}
+
+.colorbg-31-8-8 {
+  background-color: rgb(31, 8, 8);
+}
+
+.color-31-8-12 {
+  color: rgb(31, 8, 12);
+}
+
+.colorbg-31-8-12 {
+  background-color: rgb(31, 8, 12);
+}
+
+.color-31-8-16 {
+  color: rgb(31, 8, 16);
+}
+
+.colorbg-31-8-16 {
+  background-color: rgb(31, 8, 16);
+}
+
+.color-31-8-20 {
+  color: rgb(31, 8, 20);
+}
+
+.colorbg-31-8-20 {
+  background-color: rgb(31, 8, 20);
+}
+
+.color-31-8-24 {
+  color: rgb(31, 8, 24);
+}
+
+.colorbg-31-8-24 {
+  background-color: rgb(31, 8, 24);
+}
+
+.color-31-8-27 {
+  color: rgb(31, 8, 27);
+}
+
+.colorbg-31-8-27 {
+  background-color: rgb(31, 8, 27);
+}
+
+.color-31-8-31 {
+  color: rgb(31, 8, 31);
+}
+
+.colorbg-31-8-31 {
+  background-color: rgb(31, 8, 31);
+}
+
+.color-31-8-35 {
+  color: rgb(31, 8, 35);
+}
+
+.colorbg-31-8-35 {
+  background-color: rgb(31, 8, 35);
+}
+
+.color-31-8-39 {
+  color: rgb(31, 8, 39);
+}
+
+.colorbg-31-8-39 {
+  background-color: rgb(31, 8, 39);
+}
+
+.color-31-12-0 {
+  color: rgb(31, 12, 0);
+}
+
+.colorbg-31-12-0 {
+  background-color: rgb(31, 12, 0);
+}
+
+.color-31-12-4 {
+  color: rgb(31, 12, 4);
+}
+
+.colorbg-31-12-4 {
+  background-color: rgb(31, 12, 4);
+}
+
+.color-31-12-8 {
+  color: rgb(31, 12, 8);
+}
+
+.colorbg-31-12-8 {
+  background-color: rgb(31, 12, 8);
+}
+
+.color-31-12-12 {
+  color: rgb(31, 12, 12);
+}
+
+.colorbg-31-12-12 {
+  background-color: rgb(31, 12, 12);
+}
+
+.color-31-12-16 {
+  color: rgb(31, 12, 16);
+}
+
+.colorbg-31-12-16 {
+  background-color: rgb(31, 12, 16);
+}
+
+.color-31-12-20 {
+  color: rgb(31, 12, 20);
+}
+
+.colorbg-31-12-20 {
+  background-color: rgb(31, 12, 20);
+}
+
+.color-31-12-24 {
+  color: rgb(31, 12, 24);
+}
+
+.colorbg-31-12-24 {
+  background-color: rgb(31, 12, 24);
+}
+
+.color-31-12-27 {
+  color: rgb(31, 12, 27);
+}
+
+.colorbg-31-12-27 {
+  background-color: rgb(31, 12, 27);
+}
+
+.color-31-12-31 {
+  color: rgb(31, 12, 31);
+}
+
+.colorbg-31-12-31 {
+  background-color: rgb(31, 12, 31);
+}
+
+.color-31-12-35 {
+  color: rgb(31, 12, 35);
+}
+
+.colorbg-31-12-35 {
+  background-color: rgb(31, 12, 35);
+}
+
+.color-31-12-39 {
+  color: rgb(31, 12, 39);
+}
+
+.colorbg-31-12-39 {
+  background-color: rgb(31, 12, 39);
+}
+
+.color-31-16-0 {
+  color: rgb(31, 16, 0);
+}
+
+.colorbg-31-16-0 {
+  background-color: rgb(31, 16, 0);
+}
+
+.color-31-16-4 {
+  color: rgb(31, 16, 4);
+}
+
+.colorbg-31-16-4 {
+  background-color: rgb(31, 16, 4);
+}
+
+.color-31-16-8 {
+  color: rgb(31, 16, 8);
+}
+
+.colorbg-31-16-8 {
+  background-color: rgb(31, 16, 8);
+}
+
+.color-31-16-12 {
+  color: rgb(31, 16, 12);
+}
+
+.colorbg-31-16-12 {
+  background-color: rgb(31, 16, 12);
+}
+
+.color-31-16-16 {
+  color: rgb(31, 16, 16);
+}
+
+.colorbg-31-16-16 {
+  background-color: rgb(31, 16, 16);
+}
+
+.color-31-16-20 {
+  color: rgb(31, 16, 20);
+}
+
+.colorbg-31-16-20 {
+  background-color: rgb(31, 16, 20);
+}
+
+.color-31-16-24 {
+  color: rgb(31, 16, 24);
+}
+
+.colorbg-31-16-24 {
+  background-color: rgb(31, 16, 24);
+}
+
+.color-31-16-27 {
+  color: rgb(31, 16, 27);
+}
+
+.colorbg-31-16-27 {
+  background-color: rgb(31, 16, 27);
+}
+
+.color-31-16-31 {
+  color: rgb(31, 16, 31);
+}
+
+.colorbg-31-16-31 {
+  background-color: rgb(31, 16, 31);
+}
+
+.color-31-16-35 {
+  color: rgb(31, 16, 35);
+}
+
+.colorbg-31-16-35 {
+  background-color: rgb(31, 16, 35);
+}
+
+.color-31-16-39 {
+  color: rgb(31, 16, 39);
+}
+
+.colorbg-31-16-39 {
+  background-color: rgb(31, 16, 39);
+}
+
+.color-31-20-0 {
+  color: rgb(31, 20, 0);
+}
+
+.colorbg-31-20-0 {
+  background-color: rgb(31, 20, 0);
+}
+
+.color-31-20-4 {
+  color: rgb(31, 20, 4);
+}
+
+.colorbg-31-20-4 {
+  background-color: rgb(31, 20, 4);
+}
+
+.color-31-20-8 {
+  color: rgb(31, 20, 8);
+}
+
+.colorbg-31-20-8 {
+  background-color: rgb(31, 20, 8);
+}
+
+.color-31-20-12 {
+  color: rgb(31, 20, 12);
+}
+
+.colorbg-31-20-12 {
+  background-color: rgb(31, 20, 12);
+}
+
+.color-31-20-16 {
+  color: rgb(31, 20, 16);
+}
+
+.colorbg-31-20-16 {
+  background-color: rgb(31, 20, 16);
+}
+
+.color-31-20-20 {
+  color: rgb(31, 20, 20);
+}
+
+.colorbg-31-20-20 {
+  background-color: rgb(31, 20, 20);
+}
+
+.color-31-20-24 {
+  color: rgb(31, 20, 24);
+}
+
+.colorbg-31-20-24 {
+  background-color: rgb(31, 20, 24);
+}
+
+.color-31-20-27 {
+  color: rgb(31, 20, 27);
+}
+
+.colorbg-31-20-27 {
+  background-color: rgb(31, 20, 27);
+}
+
+.color-31-20-31 {
+  color: rgb(31, 20, 31);
+}
+
+.colorbg-31-20-31 {
+  background-color: rgb(31, 20, 31);
+}
+
+.color-31-20-35 {
+  color: rgb(31, 20, 35);
+}
+
+.colorbg-31-20-35 {
+  background-color: rgb(31, 20, 35);
+}
+
+.color-31-20-39 {
+  color: rgb(31, 20, 39);
+}
+
+.colorbg-31-20-39 {
+  background-color: rgb(31, 20, 39);
+}
+
+.color-31-24-0 {
+  color: rgb(31, 24, 0);
+}
+
+.colorbg-31-24-0 {
+  background-color: rgb(31, 24, 0);
+}
+
+.color-31-24-4 {
+  color: rgb(31, 24, 4);
+}
+
+.colorbg-31-24-4 {
+  background-color: rgb(31, 24, 4);
+}
+
+.color-31-24-8 {
+  color: rgb(31, 24, 8);
+}
+
+.colorbg-31-24-8 {
+  background-color: rgb(31, 24, 8);
+}
+
+.color-31-24-12 {
+  color: rgb(31, 24, 12);
+}
+
+.colorbg-31-24-12 {
+  background-color: rgb(31, 24, 12);
+}
+
+.color-31-24-16 {
+  color: rgb(31, 24, 16);
+}
+
+.colorbg-31-24-16 {
+  background-color: rgb(31, 24, 16);
+}
+
+.color-31-24-20 {
+  color: rgb(31, 24, 20);
+}
+
+.colorbg-31-24-20 {
+  background-color: rgb(31, 24, 20);
+}
+
+.color-31-24-24 {
+  color: rgb(31, 24, 24);
+}
+
+.colorbg-31-24-24 {
+  background-color: rgb(31, 24, 24);
+}
+
+.color-31-24-27 {
+  color: rgb(31, 24, 27);
+}
+
+.colorbg-31-24-27 {
+  background-color: rgb(31, 24, 27);
+}
+
+.color-31-24-31 {
+  color: rgb(31, 24, 31);
+}
+
+.colorbg-31-24-31 {
+  background-color: rgb(31, 24, 31);
+}
+
+.color-31-24-35 {
+  color: rgb(31, 24, 35);
+}
+
+.colorbg-31-24-35 {
+  background-color: rgb(31, 24, 35);
+}
+
+.color-31-24-39 {
+  color: rgb(31, 24, 39);
+}
+
+.colorbg-31-24-39 {
+  background-color: rgb(31, 24, 39);
+}
+
+.color-31-27-0 {
+  color: rgb(31, 27, 0);
+}
+
+.colorbg-31-27-0 {
+  background-color: rgb(31, 27, 0);
+}
+
+.color-31-27-4 {
+  color: rgb(31, 27, 4);
+}
+
+.colorbg-31-27-4 {
+  background-color: rgb(31, 27, 4);
+}
+
+.color-31-27-8 {
+  color: rgb(31, 27, 8);
+}
+
+.colorbg-31-27-8 {
+  background-color: rgb(31, 27, 8);
+}
+
+.color-31-27-12 {
+  color: rgb(31, 27, 12);
+}
+
+.colorbg-31-27-12 {
+  background-color: rgb(31, 27, 12);
+}
+
+.color-31-27-16 {
+  color: rgb(31, 27, 16);
+}
+
+.colorbg-31-27-16 {
+  background-color: rgb(31, 27, 16);
+}
+
+.color-31-27-20 {
+  color: rgb(31, 27, 20);
+}
+
+.colorbg-31-27-20 {
+  background-color: rgb(31, 27, 20);
+}
+
+.color-31-27-24 {
+  color: rgb(31, 27, 24);
+}
+
+.colorbg-31-27-24 {
+  background-color: rgb(31, 27, 24);
+}
+
+.color-31-27-27 {
+  color: rgb(31, 27, 27);
+}
+
+.colorbg-31-27-27 {
+  background-color: rgb(31, 27, 27);
+}
+
+.color-31-27-31 {
+  color: rgb(31, 27, 31);
+}
+
+.colorbg-31-27-31 {
+  background-color: rgb(31, 27, 31);
+}
+
+.color-31-27-35 {
+  color: rgb(31, 27, 35);
+}
+
+.colorbg-31-27-35 {
+  background-color: rgb(31, 27, 35);
+}
+
+.color-31-27-39 {
+  color: rgb(31, 27, 39);
+}
+
+.colorbg-31-27-39 {
+  background-color: rgb(31, 27, 39);
+}
+
+.color-31-31-0 {
+  color: rgb(31, 31, 0);
+}
+
+.colorbg-31-31-0 {
+  background-color: rgb(31, 31, 0);
+}
+
+.color-31-31-4 {
+  color: rgb(31, 31, 4);
+}
+
+.colorbg-31-31-4 {
+  background-color: rgb(31, 31, 4);
+}
+
+.color-31-31-8 {
+  color: rgb(31, 31, 8);
+}
+
+.colorbg-31-31-8 {
+  background-color: rgb(31, 31, 8);
+}
+
+.color-31-31-12 {
+  color: rgb(31, 31, 12);
+}
+
+.colorbg-31-31-12 {
+  background-color: rgb(31, 31, 12);
+}
+
+.color-31-31-16 {
+  color: rgb(31, 31, 16);
+}
+
+.colorbg-31-31-16 {
+  background-color: rgb(31, 31, 16);
+}
+
+.color-31-31-20 {
+  color: rgb(31, 31, 20);
+}
+
+.colorbg-31-31-20 {
+  background-color: rgb(31, 31, 20);
+}
+
+.color-31-31-24 {
+  color: rgb(31, 31, 24);
+}
+
+.colorbg-31-31-24 {
+  background-color: rgb(31, 31, 24);
+}
+
+.color-31-31-27 {
+  color: rgb(31, 31, 27);
+}
+
+.colorbg-31-31-27 {
+  background-color: rgb(31, 31, 27);
+}
+
+.color-31-31-31 {
+  color: rgb(31, 31, 31);
+}
+
+.colorbg-31-31-31 {
+  background-color: rgb(31, 31, 31);
+}
+
+.color-31-31-35 {
+  color: rgb(31, 31, 35);
+}
+
+.colorbg-31-31-35 {
+  background-color: rgb(31, 31, 35);
+}
+
+.color-31-31-39 {
+  color: rgb(31, 31, 39);
+}
+
+.colorbg-31-31-39 {
+  background-color: rgb(31, 31, 39);
+}
+
+.color-31-35-0 {
+  color: rgb(31, 35, 0);
+}
+
+.colorbg-31-35-0 {
+  background-color: rgb(31, 35, 0);
+}
+
+.color-31-35-4 {
+  color: rgb(31, 35, 4);
+}
+
+.colorbg-31-35-4 {
+  background-color: rgb(31, 35, 4);
+}
+
+.color-31-35-8 {
+  color: rgb(31, 35, 8);
+}
+
+.colorbg-31-35-8 {
+  background-color: rgb(31, 35, 8);
+}
+
+.color-31-35-12 {
+  color: rgb(31, 35, 12);
+}
+
+.colorbg-31-35-12 {
+  background-color: rgb(31, 35, 12);
+}
+
+.color-31-35-16 {
+  color: rgb(31, 35, 16);
+}
+
+.colorbg-31-35-16 {
+  background-color: rgb(31, 35, 16);
+}
+
+.color-31-35-20 {
+  color: rgb(31, 35, 20);
+}
+
+.colorbg-31-35-20 {
+  background-color: rgb(31, 35, 20);
+}
+
+.color-31-35-24 {
+  color: rgb(31, 35, 24);
+}
+
+.colorbg-31-35-24 {
+  background-color: rgb(31, 35, 24);
+}
+
+.color-31-35-27 {
+  color: rgb(31, 35, 27);
+}
+
+.colorbg-31-35-27 {
+  background-color: rgb(31, 35, 27);
+}
+
+.color-31-35-31 {
+  color: rgb(31, 35, 31);
+}
+
+.colorbg-31-35-31 {
+  background-color: rgb(31, 35, 31);
+}
+
+.color-31-35-35 {
+  color: rgb(31, 35, 35);
+}
+
+.colorbg-31-35-35 {
+  background-color: rgb(31, 35, 35);
+}
+
+.color-31-35-39 {
+  color: rgb(31, 35, 39);
+}
+
+.colorbg-31-35-39 {
+  background-color: rgb(31, 35, 39);
+}
+
+.color-31-39-0 {
+  color: rgb(31, 39, 0);
+}
+
+.colorbg-31-39-0 {
+  background-color: rgb(31, 39, 0);
+}
+
+.color-31-39-4 {
+  color: rgb(31, 39, 4);
+}
+
+.colorbg-31-39-4 {
+  background-color: rgb(31, 39, 4);
+}
+
+.color-31-39-8 {
+  color: rgb(31, 39, 8);
+}
+
+.colorbg-31-39-8 {
+  background-color: rgb(31, 39, 8);
+}
+
+.color-31-39-12 {
+  color: rgb(31, 39, 12);
+}
+
+.colorbg-31-39-12 {
+  background-color: rgb(31, 39, 12);
+}
+
+.color-31-39-16 {
+  color: rgb(31, 39, 16);
+}
+
+.colorbg-31-39-16 {
+  background-color: rgb(31, 39, 16);
+}
+
+.color-31-39-20 {
+  color: rgb(31, 39, 20);
+}
+
+.colorbg-31-39-20 {
+  background-color: rgb(31, 39, 20);
+}
+
+.color-31-39-24 {
+  color: rgb(31, 39, 24);
+}
+
+.colorbg-31-39-24 {
+  background-color: rgb(31, 39, 24);
+}
+
+.color-31-39-27 {
+  color: rgb(31, 39, 27);
+}
+
+.colorbg-31-39-27 {
+  background-color: rgb(31, 39, 27);
+}
+
+.color-31-39-31 {
+  color: rgb(31, 39, 31);
+}
+
+.colorbg-31-39-31 {
+  background-color: rgb(31, 39, 31);
+}
+
+.color-31-39-35 {
+  color: rgb(31, 39, 35);
+}
+
+.colorbg-31-39-35 {
+  background-color: rgb(31, 39, 35);
+}
+
+.color-31-39-39 {
+  color: rgb(31, 39, 39);
+}
+
+.colorbg-31-39-39 {
+  background-color: rgb(31, 39, 39);
+}
+
+.color-35-0-0 {
+  color: rgb(35, 0, 0);
+}
+
+.colorbg-35-0-0 {
+  background-color: rgb(35, 0, 0);
+}
+
+.color-35-0-4 {
+  color: rgb(35, 0, 4);
+}
+
+.colorbg-35-0-4 {
+  background-color: rgb(35, 0, 4);
+}
+
+.color-35-0-8 {
+  color: rgb(35, 0, 8);
+}
+
+.colorbg-35-0-8 {
+  background-color: rgb(35, 0, 8);
+}
+
+.color-35-0-12 {
+  color: rgb(35, 0, 12);
+}
+
+.colorbg-35-0-12 {
+  background-color: rgb(35, 0, 12);
+}
+
+.color-35-0-16 {
+  color: rgb(35, 0, 16);
+}
+
+.colorbg-35-0-16 {
+  background-color: rgb(35, 0, 16);
+}
+
+.color-35-0-20 {
+  color: rgb(35, 0, 20);
+}
+
+.colorbg-35-0-20 {
+  background-color: rgb(35, 0, 20);
+}
+
+.color-35-0-24 {
+  color: rgb(35, 0, 24);
+}
+
+.colorbg-35-0-24 {
+  background-color: rgb(35, 0, 24);
+}
+
+.color-35-0-27 {
+  color: rgb(35, 0, 27);
+}
+
+.colorbg-35-0-27 {
+  background-color: rgb(35, 0, 27);
+}
+
+.color-35-0-31 {
+  color: rgb(35, 0, 31);
+}
+
+.colorbg-35-0-31 {
+  background-color: rgb(35, 0, 31);
+}
+
+.color-35-0-35 {
+  color: rgb(35, 0, 35);
+}
+
+.colorbg-35-0-35 {
+  background-color: rgb(35, 0, 35);
+}
+
+.color-35-0-39 {
+  color: rgb(35, 0, 39);
+}
+
+.colorbg-35-0-39 {
+  background-color: rgb(35, 0, 39);
+}
+
+.color-35-4-0 {
+  color: rgb(35, 4, 0);
+}
+
+.colorbg-35-4-0 {
+  background-color: rgb(35, 4, 0);
+}
+
+.color-35-4-4 {
+  color: rgb(35, 4, 4);
+}
+
+.colorbg-35-4-4 {
+  background-color: rgb(35, 4, 4);
+}
+
+.color-35-4-8 {
+  color: rgb(35, 4, 8);
+}
+
+.colorbg-35-4-8 {
+  background-color: rgb(35, 4, 8);
+}
+
+.color-35-4-12 {
+  color: rgb(35, 4, 12);
+}
+
+.colorbg-35-4-12 {
+  background-color: rgb(35, 4, 12);
+}
+
+.color-35-4-16 {
+  color: rgb(35, 4, 16);
+}
+
+.colorbg-35-4-16 {
+  background-color: rgb(35, 4, 16);
+}
+
+.color-35-4-20 {
+  color: rgb(35, 4, 20);
+}
+
+.colorbg-35-4-20 {
+  background-color: rgb(35, 4, 20);
+}
+
+.color-35-4-24 {
+  color: rgb(35, 4, 24);
+}
+
+.colorbg-35-4-24 {
+  background-color: rgb(35, 4, 24);
+}
+
+.color-35-4-27 {
+  color: rgb(35, 4, 27);
+}
+
+.colorbg-35-4-27 {
+  background-color: rgb(35, 4, 27);
+}
+
+.color-35-4-31 {
+  color: rgb(35, 4, 31);
+}
+
+.colorbg-35-4-31 {
+  background-color: rgb(35, 4, 31);
+}
+
+.color-35-4-35 {
+  color: rgb(35, 4, 35);
+}
+
+.colorbg-35-4-35 {
+  background-color: rgb(35, 4, 35);
+}
+
+.color-35-4-39 {
+  color: rgb(35, 4, 39);
+}
+
+.colorbg-35-4-39 {
+  background-color: rgb(35, 4, 39);
+}
+
+.color-35-8-0 {
+  color: rgb(35, 8, 0);
+}
+
+.colorbg-35-8-0 {
+  background-color: rgb(35, 8, 0);
+}
+
+.color-35-8-4 {
+  color: rgb(35, 8, 4);
+}
+
+.colorbg-35-8-4 {
+  background-color: rgb(35, 8, 4);
+}
+
+.color-35-8-8 {
+  color: rgb(35, 8, 8);
+}
+
+.colorbg-35-8-8 {
+  background-color: rgb(35, 8, 8);
+}
+
+.color-35-8-12 {
+  color: rgb(35, 8, 12);
+}
+
+.colorbg-35-8-12 {
+  background-color: rgb(35, 8, 12);
+}
+
+.color-35-8-16 {
+  color: rgb(35, 8, 16);
+}
+
+.colorbg-35-8-16 {
+  background-color: rgb(35, 8, 16);
+}
+
+.color-35-8-20 {
+  color: rgb(35, 8, 20);
+}
+
+.colorbg-35-8-20 {
+  background-color: rgb(35, 8, 20);
+}
+
+.color-35-8-24 {
+  color: rgb(35, 8, 24);
+}
+
+.colorbg-35-8-24 {
+  background-color: rgb(35, 8, 24);
+}
+
+.color-35-8-27 {
+  color: rgb(35, 8, 27);
+}
+
+.colorbg-35-8-27 {
+  background-color: rgb(35, 8, 27);
+}
+
+.color-35-8-31 {
+  color: rgb(35, 8, 31);
+}
+
+.colorbg-35-8-31 {
+  background-color: rgb(35, 8, 31);
+}
+
+.color-35-8-35 {
+  color: rgb(35, 8, 35);
+}
+
+.colorbg-35-8-35 {
+  background-color: rgb(35, 8, 35);
+}
+
+.color-35-8-39 {
+  color: rgb(35, 8, 39);
+}
+
+.colorbg-35-8-39 {
+  background-color: rgb(35, 8, 39);
+}
+
+.color-35-12-0 {
+  color: rgb(35, 12, 0);
+}
+
+.colorbg-35-12-0 {
+  background-color: rgb(35, 12, 0);
+}
+
+.color-35-12-4 {
+  color: rgb(35, 12, 4);
+}
+
+.colorbg-35-12-4 {
+  background-color: rgb(35, 12, 4);
+}
+
+.color-35-12-8 {
+  color: rgb(35, 12, 8);
+}
+
+.colorbg-35-12-8 {
+  background-color: rgb(35, 12, 8);
+}
+
+.color-35-12-12 {
+  color: rgb(35, 12, 12);
+}
+
+.colorbg-35-12-12 {
+  background-color: rgb(35, 12, 12);
+}
+
+.color-35-12-16 {
+  color: rgb(35, 12, 16);
+}
+
+.colorbg-35-12-16 {
+  background-color: rgb(35, 12, 16);
+}
+
+.color-35-12-20 {
+  color: rgb(35, 12, 20);
+}
+
+.colorbg-35-12-20 {
+  background-color: rgb(35, 12, 20);
+}
+
+.color-35-12-24 {
+  color: rgb(35, 12, 24);
+}
+
+.colorbg-35-12-24 {
+  background-color: rgb(35, 12, 24);
+}
+
+.color-35-12-27 {
+  color: rgb(35, 12, 27);
+}
+
+.colorbg-35-12-27 {
+  background-color: rgb(35, 12, 27);
+}
+
+.color-35-12-31 {
+  color: rgb(35, 12, 31);
+}
+
+.colorbg-35-12-31 {
+  background-color: rgb(35, 12, 31);
+}
+
+.color-35-12-35 {
+  color: rgb(35, 12, 35);
+}
+
+.colorbg-35-12-35 {
+  background-color: rgb(35, 12, 35);
+}
+
+.color-35-12-39 {
+  color: rgb(35, 12, 39);
+}
+
+.colorbg-35-12-39 {
+  background-color: rgb(35, 12, 39);
+}
+
+.color-35-16-0 {
+  color: rgb(35, 16, 0);
+}
+
+.colorbg-35-16-0 {
+  background-color: rgb(35, 16, 0);
+}
+
+.color-35-16-4 {
+  color: rgb(35, 16, 4);
+}
+
+.colorbg-35-16-4 {
+  background-color: rgb(35, 16, 4);
+}
+
+.color-35-16-8 {
+  color: rgb(35, 16, 8);
+}
+
+.colorbg-35-16-8 {
+  background-color: rgb(35, 16, 8);
+}
+
+.color-35-16-12 {
+  color: rgb(35, 16, 12);
+}
+
+.colorbg-35-16-12 {
+  background-color: rgb(35, 16, 12);
+}
+
+.color-35-16-16 {
+  color: rgb(35, 16, 16);
+}
+
+.colorbg-35-16-16 {
+  background-color: rgb(35, 16, 16);
+}
+
+.color-35-16-20 {
+  color: rgb(35, 16, 20);
+}
+
+.colorbg-35-16-20 {
+  background-color: rgb(35, 16, 20);
+}
+
+.color-35-16-24 {
+  color: rgb(35, 16, 24);
+}
+
+.colorbg-35-16-24 {
+  background-color: rgb(35, 16, 24);
+}
+
+.color-35-16-27 {
+  color: rgb(35, 16, 27);
+}
+
+.colorbg-35-16-27 {
+  background-color: rgb(35, 16, 27);
+}
+
+.color-35-16-31 {
+  color: rgb(35, 16, 31);
+}
+
+.colorbg-35-16-31 {
+  background-color: rgb(35, 16, 31);
+}
+
+.color-35-16-35 {
+  color: rgb(35, 16, 35);
+}
+
+.colorbg-35-16-35 {
+  background-color: rgb(35, 16, 35);
+}
+
+.color-35-16-39 {
+  color: rgb(35, 16, 39);
+}
+
+.colorbg-35-16-39 {
+  background-color: rgb(35, 16, 39);
+}
+
+.color-35-20-0 {
+  color: rgb(35, 20, 0);
+}
+
+.colorbg-35-20-0 {
+  background-color: rgb(35, 20, 0);
+}
+
+.color-35-20-4 {
+  color: rgb(35, 20, 4);
+}
+
+.colorbg-35-20-4 {
+  background-color: rgb(35, 20, 4);
+}
+
+.color-35-20-8 {
+  color: rgb(35, 20, 8);
+}
+
+.colorbg-35-20-8 {
+  background-color: rgb(35, 20, 8);
+}
+
+.color-35-20-12 {
+  color: rgb(35, 20, 12);
+}
+
+.colorbg-35-20-12 {
+  background-color: rgb(35, 20, 12);
+}
+
+.color-35-20-16 {
+  color: rgb(35, 20, 16);
+}
+
+.colorbg-35-20-16 {
+  background-color: rgb(35, 20, 16);
+}
+
+.color-35-20-20 {
+  color: rgb(35, 20, 20);
+}
+
+.colorbg-35-20-20 {
+  background-color: rgb(35, 20, 20);
+}
+
+.color-35-20-24 {
+  color: rgb(35, 20, 24);
+}
+
+.colorbg-35-20-24 {
+  background-color: rgb(35, 20, 24);
+}
+
+.color-35-20-27 {
+  color: rgb(35, 20, 27);
+}
+
+.colorbg-35-20-27 {
+  background-color: rgb(35, 20, 27);
+}
+
+.color-35-20-31 {
+  color: rgb(35, 20, 31);
+}
+
+.colorbg-35-20-31 {
+  background-color: rgb(35, 20, 31);
+}
+
+.color-35-20-35 {
+  color: rgb(35, 20, 35);
+}
+
+.colorbg-35-20-35 {
+  background-color: rgb(35, 20, 35);
+}
+
+.color-35-20-39 {
+  color: rgb(35, 20, 39);
+}
+
+.colorbg-35-20-39 {
+  background-color: rgb(35, 20, 39);
+}
+
+.color-35-24-0 {
+  color: rgb(35, 24, 0);
+}
+
+.colorbg-35-24-0 {
+  background-color: rgb(35, 24, 0);
+}
+
+.color-35-24-4 {
+  color: rgb(35, 24, 4);
+}
+
+.colorbg-35-24-4 {
+  background-color: rgb(35, 24, 4);
+}
+
+.color-35-24-8 {
+  color: rgb(35, 24, 8);
+}
+
+.colorbg-35-24-8 {
+  background-color: rgb(35, 24, 8);
+}
+
+.color-35-24-12 {
+  color: rgb(35, 24, 12);
+}
+
+.colorbg-35-24-12 {
+  background-color: rgb(35, 24, 12);
+}
+
+.color-35-24-16 {
+  color: rgb(35, 24, 16);
+}
+
+.colorbg-35-24-16 {
+  background-color: rgb(35, 24, 16);
+}
+
+.color-35-24-20 {
+  color: rgb(35, 24, 20);
+}
+
+.colorbg-35-24-20 {
+  background-color: rgb(35, 24, 20);
+}
+
+.color-35-24-24 {
+  color: rgb(35, 24, 24);
+}
+
+.colorbg-35-24-24 {
+  background-color: rgb(35, 24, 24);
+}
+
+.color-35-24-27 {
+  color: rgb(35, 24, 27);
+}
+
+.colorbg-35-24-27 {
+  background-color: rgb(35, 24, 27);
+}
+
+.color-35-24-31 {
+  color: rgb(35, 24, 31);
+}
+
+.colorbg-35-24-31 {
+  background-color: rgb(35, 24, 31);
+}
+
+.color-35-24-35 {
+  color: rgb(35, 24, 35);
+}
+
+.colorbg-35-24-35 {
+  background-color: rgb(35, 24, 35);
+}
+
+.color-35-24-39 {
+  color: rgb(35, 24, 39);
+}
+
+.colorbg-35-24-39 {
+  background-color: rgb(35, 24, 39);
+}
+
+.color-35-27-0 {
+  color: rgb(35, 27, 0);
+}
+
+.colorbg-35-27-0 {
+  background-color: rgb(35, 27, 0);
+}
+
+.color-35-27-4 {
+  color: rgb(35, 27, 4);
+}
+
+.colorbg-35-27-4 {
+  background-color: rgb(35, 27, 4);
+}
+
+.color-35-27-8 {
+  color: rgb(35, 27, 8);
+}
+
+.colorbg-35-27-8 {
+  background-color: rgb(35, 27, 8);
+}
+
+.color-35-27-12 {
+  color: rgb(35, 27, 12);
+}
+
+.colorbg-35-27-12 {
+  background-color: rgb(35, 27, 12);
+}
+
+.color-35-27-16 {
+  color: rgb(35, 27, 16);
+}
+
+.colorbg-35-27-16 {
+  background-color: rgb(35, 27, 16);
+}
+
+.color-35-27-20 {
+  color: rgb(35, 27, 20);
+}
+
+.colorbg-35-27-20 {
+  background-color: rgb(35, 27, 20);
+}
+
+.color-35-27-24 {
+  color: rgb(35, 27, 24);
+}
+
+.colorbg-35-27-24 {
+  background-color: rgb(35, 27, 24);
+}
+
+.color-35-27-27 {
+  color: rgb(35, 27, 27);
+}
+
+.colorbg-35-27-27 {
+  background-color: rgb(35, 27, 27);
+}
+
+.color-35-27-31 {
+  color: rgb(35, 27, 31);
+}
+
+.colorbg-35-27-31 {
+  background-color: rgb(35, 27, 31);
+}
+
+.color-35-27-35 {
+  color: rgb(35, 27, 35);
+}
+
+.colorbg-35-27-35 {
+  background-color: rgb(35, 27, 35);
+}
+
+.color-35-27-39 {
+  color: rgb(35, 27, 39);
+}
+
+.colorbg-35-27-39 {
+  background-color: rgb(35, 27, 39);
+}
+
+.color-35-31-0 {
+  color: rgb(35, 31, 0);
+}
+
+.colorbg-35-31-0 {
+  background-color: rgb(35, 31, 0);
+}
+
+.color-35-31-4 {
+  color: rgb(35, 31, 4);
+}
+
+.colorbg-35-31-4 {
+  background-color: rgb(35, 31, 4);
+}
+
+.color-35-31-8 {
+  color: rgb(35, 31, 8);
+}
+
+.colorbg-35-31-8 {
+  background-color: rgb(35, 31, 8);
+}
+
+.color-35-31-12 {
+  color: rgb(35, 31, 12);
+}
+
+.colorbg-35-31-12 {
+  background-color: rgb(35, 31, 12);
+}
+
+.color-35-31-16 {
+  color: rgb(35, 31, 16);
+}
+
+.colorbg-35-31-16 {
+  background-color: rgb(35, 31, 16);
+}
+
+.color-35-31-20 {
+  color: rgb(35, 31, 20);
+}
+
+.colorbg-35-31-20 {
+  background-color: rgb(35, 31, 20);
+}
+
+.color-35-31-24 {
+  color: rgb(35, 31, 24);
+}
+
+.colorbg-35-31-24 {
+  background-color: rgb(35, 31, 24);
+}
+
+.color-35-31-27 {
+  color: rgb(35, 31, 27);
+}
+
+.colorbg-35-31-27 {
+  background-color: rgb(35, 31, 27);
+}
+
+.color-35-31-31 {
+  color: rgb(35, 31, 31);
+}
+
+.colorbg-35-31-31 {
+  background-color: rgb(35, 31, 31);
+}
+
+.color-35-31-35 {
+  color: rgb(35, 31, 35);
+}
+
+.colorbg-35-31-35 {
+  background-color: rgb(35, 31, 35);
+}
+
+.color-35-31-39 {
+  color: rgb(35, 31, 39);
+}
+
+.colorbg-35-31-39 {
+  background-color: rgb(35, 31, 39);
+}
+
+.color-35-35-0 {
+  color: rgb(35, 35, 0);
+}
+
+.colorbg-35-35-0 {
+  background-color: rgb(35, 35, 0);
+}
+
+.color-35-35-4 {
+  color: rgb(35, 35, 4);
+}
+
+.colorbg-35-35-4 {
+  background-color: rgb(35, 35, 4);
+}
+
+.color-35-35-8 {
+  color: rgb(35, 35, 8);
+}
+
+.colorbg-35-35-8 {
+  background-color: rgb(35, 35, 8);
+}
+
+.color-35-35-12 {
+  color: rgb(35, 35, 12);
+}
+
+.colorbg-35-35-12 {
+  background-color: rgb(35, 35, 12);
+}
+
+.color-35-35-16 {
+  color: rgb(35, 35, 16);
+}
+
+.colorbg-35-35-16 {
+  background-color: rgb(35, 35, 16);
+}
+
+.color-35-35-20 {
+  color: rgb(35, 35, 20);
+}
+
+.colorbg-35-35-20 {
+  background-color: rgb(35, 35, 20);
+}
+
+.color-35-35-24 {
+  color: rgb(35, 35, 24);
+}
+
+.colorbg-35-35-24 {
+  background-color: rgb(35, 35, 24);
+}
+
+.color-35-35-27 {
+  color: rgb(35, 35, 27);
+}
+
+.colorbg-35-35-27 {
+  background-color: rgb(35, 35, 27);
+}
+
+.color-35-35-31 {
+  color: rgb(35, 35, 31);
+}
+
+.colorbg-35-35-31 {
+  background-color: rgb(35, 35, 31);
+}
+
+.color-35-35-35 {
+  color: rgb(35, 35, 35);
+}
+
+.colorbg-35-35-35 {
+  background-color: rgb(35, 35, 35);
+}
+
+.color-35-35-39 {
+  color: rgb(35, 35, 39);
+}
+
+.colorbg-35-35-39 {
+  background-color: rgb(35, 35, 39);
+}
+
+.color-35-39-0 {
+  color: rgb(35, 39, 0);
+}
+
+.colorbg-35-39-0 {
+  background-color: rgb(35, 39, 0);
+}
+
+.color-35-39-4 {
+  color: rgb(35, 39, 4);
+}
+
+.colorbg-35-39-4 {
+  background-color: rgb(35, 39, 4);
+}
+
+.color-35-39-8 {
+  color: rgb(35, 39, 8);
+}
+
+.colorbg-35-39-8 {
+  background-color: rgb(35, 39, 8);
+}
+
+.color-35-39-12 {
+  color: rgb(35, 39, 12);
+}
+
+.colorbg-35-39-12 {
+  background-color: rgb(35, 39, 12);
+}
+
+.color-35-39-16 {
+  color: rgb(35, 39, 16);
+}
+
+.colorbg-35-39-16 {
+  background-color: rgb(35, 39, 16);
+}
+
+.color-35-39-20 {
+  color: rgb(35, 39, 20);
+}
+
+.colorbg-35-39-20 {
+  background-color: rgb(35, 39, 20);
+}
+
+.color-35-39-24 {
+  color: rgb(35, 39, 24);
+}
+
+.colorbg-35-39-24 {
+  background-color: rgb(35, 39, 24);
+}
+
+.color-35-39-27 {
+  color: rgb(35, 39, 27);
+}
+
+.colorbg-35-39-27 {
+  background-color: rgb(35, 39, 27);
+}
+
+.color-35-39-31 {
+  color: rgb(35, 39, 31);
+}
+
+.colorbg-35-39-31 {
+  background-color: rgb(35, 39, 31);
+}
+
+.color-35-39-35 {
+  color: rgb(35, 39, 35);
+}
+
+.colorbg-35-39-35 {
+  background-color: rgb(35, 39, 35);
+}
+
+.color-35-39-39 {
+  color: rgb(35, 39, 39);
+}
+
+.colorbg-35-39-39 {
+  background-color: rgb(35, 39, 39);
+}
+
+.color-39-0-0 {
+  color: rgb(39, 0, 0);
+}
+
+.colorbg-39-0-0 {
+  background-color: rgb(39, 0, 0);
+}
+
+.color-39-0-4 {
+  color: rgb(39, 0, 4);
+}
+
+.colorbg-39-0-4 {
+  background-color: rgb(39, 0, 4);
+}
+
+.color-39-0-8 {
+  color: rgb(39, 0, 8);
+}
+
+.colorbg-39-0-8 {
+  background-color: rgb(39, 0, 8);
+}
+
+.color-39-0-12 {
+  color: rgb(39, 0, 12);
+}
+
+.colorbg-39-0-12 {
+  background-color: rgb(39, 0, 12);
+}
+
+.color-39-0-16 {
+  color: rgb(39, 0, 16);
+}
+
+.colorbg-39-0-16 {
+  background-color: rgb(39, 0, 16);
+}
+
+.color-39-0-20 {
+  color: rgb(39, 0, 20);
+}
+
+.colorbg-39-0-20 {
+  background-color: rgb(39, 0, 20);
+}
+
+.color-39-0-24 {
+  color: rgb(39, 0, 24);
+}
+
+.colorbg-39-0-24 {
+  background-color: rgb(39, 0, 24);
+}
+
+.color-39-0-27 {
+  color: rgb(39, 0, 27);
+}
+
+.colorbg-39-0-27 {
+  background-color: rgb(39, 0, 27);
+}
+
+.color-39-0-31 {
+  color: rgb(39, 0, 31);
+}
+
+.colorbg-39-0-31 {
+  background-color: rgb(39, 0, 31);
+}
+
+.color-39-0-35 {
+  color: rgb(39, 0, 35);
+}
+
+.colorbg-39-0-35 {
+  background-color: rgb(39, 0, 35);
+}
+
+.color-39-0-39 {
+  color: rgb(39, 0, 39);
+}
+
+.colorbg-39-0-39 {
+  background-color: rgb(39, 0, 39);
+}
+
+.color-39-4-0 {
+  color: rgb(39, 4, 0);
+}
+
+.colorbg-39-4-0 {
+  background-color: rgb(39, 4, 0);
+}
+
+.color-39-4-4 {
+  color: rgb(39, 4, 4);
+}
+
+.colorbg-39-4-4 {
+  background-color: rgb(39, 4, 4);
+}
+
+.color-39-4-8 {
+  color: rgb(39, 4, 8);
+}
+
+.colorbg-39-4-8 {
+  background-color: rgb(39, 4, 8);
+}
+
+.color-39-4-12 {
+  color: rgb(39, 4, 12);
+}
+
+.colorbg-39-4-12 {
+  background-color: rgb(39, 4, 12);
+}
+
+.color-39-4-16 {
+  color: rgb(39, 4, 16);
+}
+
+.colorbg-39-4-16 {
+  background-color: rgb(39, 4, 16);
+}
+
+.color-39-4-20 {
+  color: rgb(39, 4, 20);
+}
+
+.colorbg-39-4-20 {
+  background-color: rgb(39, 4, 20);
+}
+
+.color-39-4-24 {
+  color: rgb(39, 4, 24);
+}
+
+.colorbg-39-4-24 {
+  background-color: rgb(39, 4, 24);
+}
+
+.color-39-4-27 {
+  color: rgb(39, 4, 27);
+}
+
+.colorbg-39-4-27 {
+  background-color: rgb(39, 4, 27);
+}
+
+.color-39-4-31 {
+  color: rgb(39, 4, 31);
+}
+
+.colorbg-39-4-31 {
+  background-color: rgb(39, 4, 31);
+}
+
+.color-39-4-35 {
+  color: rgb(39, 4, 35);
+}
+
+.colorbg-39-4-35 {
+  background-color: rgb(39, 4, 35);
+}
+
+.color-39-4-39 {
+  color: rgb(39, 4, 39);
+}
+
+.colorbg-39-4-39 {
+  background-color: rgb(39, 4, 39);
+}
+
+.color-39-8-0 {
+  color: rgb(39, 8, 0);
+}
+
+.colorbg-39-8-0 {
+  background-color: rgb(39, 8, 0);
+}
+
+.color-39-8-4 {
+  color: rgb(39, 8, 4);
+}
+
+.colorbg-39-8-4 {
+  background-color: rgb(39, 8, 4);
+}
+
+.color-39-8-8 {
+  color: rgb(39, 8, 8);
+}
+
+.colorbg-39-8-8 {
+  background-color: rgb(39, 8, 8);
+}
+
+.color-39-8-12 {
+  color: rgb(39, 8, 12);
+}
+
+.colorbg-39-8-12 {
+  background-color: rgb(39, 8, 12);
+}
+
+.color-39-8-16 {
+  color: rgb(39, 8, 16);
+}
+
+.colorbg-39-8-16 {
+  background-color: rgb(39, 8, 16);
+}
+
+.color-39-8-20 {
+  color: rgb(39, 8, 20);
+}
+
+.colorbg-39-8-20 {
+  background-color: rgb(39, 8, 20);
+}
+
+.color-39-8-24 {
+  color: rgb(39, 8, 24);
+}
+
+.colorbg-39-8-24 {
+  background-color: rgb(39, 8, 24);
+}
+
+.color-39-8-27 {
+  color: rgb(39, 8, 27);
+}
+
+.colorbg-39-8-27 {
+  background-color: rgb(39, 8, 27);
+}
+
+.color-39-8-31 {
+  color: rgb(39, 8, 31);
+}
+
+.colorbg-39-8-31 {
+  background-color: rgb(39, 8, 31);
+}
+
+.color-39-8-35 {
+  color: rgb(39, 8, 35);
+}
+
+.colorbg-39-8-35 {
+  background-color: rgb(39, 8, 35);
+}
+
+.color-39-8-39 {
+  color: rgb(39, 8, 39);
+}
+
+.colorbg-39-8-39 {
+  background-color: rgb(39, 8, 39);
+}
+
+.color-39-12-0 {
+  color: rgb(39, 12, 0);
+}
+
+.colorbg-39-12-0 {
+  background-color: rgb(39, 12, 0);
+}
+
+.color-39-12-4 {
+  color: rgb(39, 12, 4);
+}
+
+.colorbg-39-12-4 {
+  background-color: rgb(39, 12, 4);
+}
+
+.color-39-12-8 {
+  color: rgb(39, 12, 8);
+}
+
+.colorbg-39-12-8 {
+  background-color: rgb(39, 12, 8);
+}
+
+.color-39-12-12 {
+  color: rgb(39, 12, 12);
+}
+
+.colorbg-39-12-12 {
+  background-color: rgb(39, 12, 12);
+}
+
+.color-39-12-16 {
+  color: rgb(39, 12, 16);
+}
+
+.colorbg-39-12-16 {
+  background-color: rgb(39, 12, 16);
+}
+
+.color-39-12-20 {
+  color: rgb(39, 12, 20);
+}
+
+.colorbg-39-12-20 {
+  background-color: rgb(39, 12, 20);
+}
+
+.color-39-12-24 {
+  color: rgb(39, 12, 24);
+}
+
+.colorbg-39-12-24 {
+  background-color: rgb(39, 12, 24);
+}
+
+.color-39-12-27 {
+  color: rgb(39, 12, 27);
+}
+
+.colorbg-39-12-27 {
+  background-color: rgb(39, 12, 27);
+}
+
+.color-39-12-31 {
+  color: rgb(39, 12, 31);
+}
+
+.colorbg-39-12-31 {
+  background-color: rgb(39, 12, 31);
+}
+
+.color-39-12-35 {
+  color: rgb(39, 12, 35);
+}
+
+.colorbg-39-12-35 {
+  background-color: rgb(39, 12, 35);
+}
+
+.color-39-12-39 {
+  color: rgb(39, 12, 39);
+}
+
+.colorbg-39-12-39 {
+  background-color: rgb(39, 12, 39);
+}
+
+.color-39-16-0 {
+  color: rgb(39, 16, 0);
+}
+
+.colorbg-39-16-0 {
+  background-color: rgb(39, 16, 0);
+}
+
+.color-39-16-4 {
+  color: rgb(39, 16, 4);
+}
+
+.colorbg-39-16-4 {
+  background-color: rgb(39, 16, 4);
+}
+
+.color-39-16-8 {
+  color: rgb(39, 16, 8);
+}
+
+.colorbg-39-16-8 {
+  background-color: rgb(39, 16, 8);
+}
+
+.color-39-16-12 {
+  color: rgb(39, 16, 12);
+}
+
+.colorbg-39-16-12 {
+  background-color: rgb(39, 16, 12);
+}
+
+.color-39-16-16 {
+  color: rgb(39, 16, 16);
+}
+
+.colorbg-39-16-16 {
+  background-color: rgb(39, 16, 16);
+}
+
+.color-39-16-20 {
+  color: rgb(39, 16, 20);
+}
+
+.colorbg-39-16-20 {
+  background-color: rgb(39, 16, 20);
+}
+
+.color-39-16-24 {
+  color: rgb(39, 16, 24);
+}
+
+.colorbg-39-16-24 {
+  background-color: rgb(39, 16, 24);
+}
+
+.color-39-16-27 {
+  color: rgb(39, 16, 27);
+}
+
+.colorbg-39-16-27 {
+  background-color: rgb(39, 16, 27);
+}
+
+.color-39-16-31 {
+  color: rgb(39, 16, 31);
+}
+
+.colorbg-39-16-31 {
+  background-color: rgb(39, 16, 31);
+}
+
+.color-39-16-35 {
+  color: rgb(39, 16, 35);
+}
+
+.colorbg-39-16-35 {
+  background-color: rgb(39, 16, 35);
+}
+
+.color-39-16-39 {
+  color: rgb(39, 16, 39);
+}
+
+.colorbg-39-16-39 {
+  background-color: rgb(39, 16, 39);
+}
+
+.color-39-20-0 {
+  color: rgb(39, 20, 0);
+}
+
+.colorbg-39-20-0 {
+  background-color: rgb(39, 20, 0);
+}
+
+.color-39-20-4 {
+  color: rgb(39, 20, 4);
+}
+
+.colorbg-39-20-4 {
+  background-color: rgb(39, 20, 4);
+}
+
+.color-39-20-8 {
+  color: rgb(39, 20, 8);
+}
+
+.colorbg-39-20-8 {
+  background-color: rgb(39, 20, 8);
+}
+
+.color-39-20-12 {
+  color: rgb(39, 20, 12);
+}
+
+.colorbg-39-20-12 {
+  background-color: rgb(39, 20, 12);
+}
+
+.color-39-20-16 {
+  color: rgb(39, 20, 16);
+}
+
+.colorbg-39-20-16 {
+  background-color: rgb(39, 20, 16);
+}
+
+.color-39-20-20 {
+  color: rgb(39, 20, 20);
+}
+
+.colorbg-39-20-20 {
+  background-color: rgb(39, 20, 20);
+}
+
+.color-39-20-24 {
+  color: rgb(39, 20, 24);
+}
+
+.colorbg-39-20-24 {
+  background-color: rgb(39, 20, 24);
+}
+
+.color-39-20-27 {
+  color: rgb(39, 20, 27);
+}
+
+.colorbg-39-20-27 {
+  background-color: rgb(39, 20, 27);
+}
+
+.color-39-20-31 {
+  color: rgb(39, 20, 31);
+}
+
+.colorbg-39-20-31 {
+  background-color: rgb(39, 20, 31);
+}
+
+.color-39-20-35 {
+  color: rgb(39, 20, 35);
+}
+
+.colorbg-39-20-35 {
+  background-color: rgb(39, 20, 35);
+}
+
+.color-39-20-39 {
+  color: rgb(39, 20, 39);
+}
+
+.colorbg-39-20-39 {
+  background-color: rgb(39, 20, 39);
+}
+
+.color-39-24-0 {
+  color: rgb(39, 24, 0);
+}
+
+.colorbg-39-24-0 {
+  background-color: rgb(39, 24, 0);
+}
+
+.color-39-24-4 {
+  color: rgb(39, 24, 4);
+}
+
+.colorbg-39-24-4 {
+  background-color: rgb(39, 24, 4);
+}
+
+.color-39-24-8 {
+  color: rgb(39, 24, 8);
+}
+
+.colorbg-39-24-8 {
+  background-color: rgb(39, 24, 8);
+}
+
+.color-39-24-12 {
+  color: rgb(39, 24, 12);
+}
+
+.colorbg-39-24-12 {
+  background-color: rgb(39, 24, 12);
+}
+
+.color-39-24-16 {
+  color: rgb(39, 24, 16);
+}
+
+.colorbg-39-24-16 {
+  background-color: rgb(39, 24, 16);
+}
+
+.color-39-24-20 {
+  color: rgb(39, 24, 20);
+}
+
+.colorbg-39-24-20 {
+  background-color: rgb(39, 24, 20);
+}
+
+.color-39-24-24 {
+  color: rgb(39, 24, 24);
+}
+
+.colorbg-39-24-24 {
+  background-color: rgb(39, 24, 24);
+}
+
+.color-39-24-27 {
+  color: rgb(39, 24, 27);
+}
+
+.colorbg-39-24-27 {
+  background-color: rgb(39, 24, 27);
+}
+
+.color-39-24-31 {
+  color: rgb(39, 24, 31);
+}
+
+.colorbg-39-24-31 {
+  background-color: rgb(39, 24, 31);
+}
+
+.color-39-24-35 {
+  color: rgb(39, 24, 35);
+}
+
+.colorbg-39-24-35 {
+  background-color: rgb(39, 24, 35);
+}
+
+.color-39-24-39 {
+  color: rgb(39, 24, 39);
+}
+
+.colorbg-39-24-39 {
+  background-color: rgb(39, 24, 39);
+}
+
+.color-39-27-0 {
+  color: rgb(39, 27, 0);
+}
+
+.colorbg-39-27-0 {
+  background-color: rgb(39, 27, 0);
+}
+
+.color-39-27-4 {
+  color: rgb(39, 27, 4);
+}
+
+.colorbg-39-27-4 {
+  background-color: rgb(39, 27, 4);
+}
+
+.color-39-27-8 {
+  color: rgb(39, 27, 8);
+}
+
+.colorbg-39-27-8 {
+  background-color: rgb(39, 27, 8);
+}
+
+.color-39-27-12 {
+  color: rgb(39, 27, 12);
+}
+
+.colorbg-39-27-12 {
+  background-color: rgb(39, 27, 12);
+}
+
+.color-39-27-16 {
+  color: rgb(39, 27, 16);
+}
+
+.colorbg-39-27-16 {
+  background-color: rgb(39, 27, 16);
+}
+
+.color-39-27-20 {
+  color: rgb(39, 27, 20);
+}
+
+.colorbg-39-27-20 {
+  background-color: rgb(39, 27, 20);
+}
+
+.color-39-27-24 {
+  color: rgb(39, 27, 24);
+}
+
+.colorbg-39-27-24 {
+  background-color: rgb(39, 27, 24);
+}
+
+.color-39-27-27 {
+  color: rgb(39, 27, 27);
+}
+
+.colorbg-39-27-27 {
+  background-color: rgb(39, 27, 27);
+}
+
+.color-39-27-31 {
+  color: rgb(39, 27, 31);
+}
+
+.colorbg-39-27-31 {
+  background-color: rgb(39, 27, 31);
+}
+
+.color-39-27-35 {
+  color: rgb(39, 27, 35);
+}
+
+.colorbg-39-27-35 {
+  background-color: rgb(39, 27, 35);
+}
+
+.color-39-27-39 {
+  color: rgb(39, 27, 39);
+}
+
+.colorbg-39-27-39 {
+  background-color: rgb(39, 27, 39);
+}
+
+.color-39-31-0 {
+  color: rgb(39, 31, 0);
+}
+
+.colorbg-39-31-0 {
+  background-color: rgb(39, 31, 0);
+}
+
+.color-39-31-4 {
+  color: rgb(39, 31, 4);
+}
+
+.colorbg-39-31-4 {
+  background-color: rgb(39, 31, 4);
+}
+
+.color-39-31-8 {
+  color: rgb(39, 31, 8);
+}
+
+.colorbg-39-31-8 {
+  background-color: rgb(39, 31, 8);
+}
+
+.color-39-31-12 {
+  color: rgb(39, 31, 12);
+}
+
+.colorbg-39-31-12 {
+  background-color: rgb(39, 31, 12);
+}
+
+.color-39-31-16 {
+  color: rgb(39, 31, 16);
+}
+
+.colorbg-39-31-16 {
+  background-color: rgb(39, 31, 16);
+}
+
+.color-39-31-20 {
+  color: rgb(39, 31, 20);
+}
+
+.colorbg-39-31-20 {
+  background-color: rgb(39, 31, 20);
+}
+
+.color-39-31-24 {
+  color: rgb(39, 31, 24);
+}
+
+.colorbg-39-31-24 {
+  background-color: rgb(39, 31, 24);
+}
+
+.color-39-31-27 {
+  color: rgb(39, 31, 27);
+}
+
+.colorbg-39-31-27 {
+  background-color: rgb(39, 31, 27);
+}
+
+.color-39-31-31 {
+  color: rgb(39, 31, 31);
+}
+
+.colorbg-39-31-31 {
+  background-color: rgb(39, 31, 31);
+}
+
+.color-39-31-35 {
+  color: rgb(39, 31, 35);
+}
+
+.colorbg-39-31-35 {
+  background-color: rgb(39, 31, 35);
+}
+
+.color-39-31-39 {
+  color: rgb(39, 31, 39);
+}
+
+.colorbg-39-31-39 {
+  background-color: rgb(39, 31, 39);
+}
+
+.color-39-35-0 {
+  color: rgb(39, 35, 0);
+}
+
+.colorbg-39-35-0 {
+  background-color: rgb(39, 35, 0);
+}
+
+.color-39-35-4 {
+  color: rgb(39, 35, 4);
+}
+
+.colorbg-39-35-4 {
+  background-color: rgb(39, 35, 4);
+}
+
+.color-39-35-8 {
+  color: rgb(39, 35, 8);
+}
+
+.colorbg-39-35-8 {
+  background-color: rgb(39, 35, 8);
+}
+
+.color-39-35-12 {
+  color: rgb(39, 35, 12);
+}
+
+.colorbg-39-35-12 {
+  background-color: rgb(39, 35, 12);
+}
+
+.color-39-35-16 {
+  color: rgb(39, 35, 16);
+}
+
+.colorbg-39-35-16 {
+  background-color: rgb(39, 35, 16);
+}
+
+.color-39-35-20 {
+  color: rgb(39, 35, 20);
+}
+
+.colorbg-39-35-20 {
+  background-color: rgb(39, 35, 20);
+}
+
+.color-39-35-24 {
+  color: rgb(39, 35, 24);
+}
+
+.colorbg-39-35-24 {
+  background-color: rgb(39, 35, 24);
+}
+
+.color-39-35-27 {
+  color: rgb(39, 35, 27);
+}
+
+.colorbg-39-35-27 {
+  background-color: rgb(39, 35, 27);
+}
+
+.color-39-35-31 {
+  color: rgb(39, 35, 31);
+}
+
+.colorbg-39-35-31 {
+  background-color: rgb(39, 35, 31);
+}
+
+.color-39-35-35 {
+  color: rgb(39, 35, 35);
+}
+
+.colorbg-39-35-35 {
+  background-color: rgb(39, 35, 35);
+}
+
+.color-39-35-39 {
+  color: rgb(39, 35, 39);
+}
+
+.colorbg-39-35-39 {
+  background-color: rgb(39, 35, 39);
+}
+
+.color-39-39-0 {
+  color: rgb(39, 39, 0);
+}
+
+.colorbg-39-39-0 {
+  background-color: rgb(39, 39, 0);
+}
+
+.color-39-39-4 {
+  color: rgb(39, 39, 4);
+}
+
+.colorbg-39-39-4 {
+  background-color: rgb(39, 39, 4);
+}
+
+.color-39-39-8 {
+  color: rgb(39, 39, 8);
+}
+
+.colorbg-39-39-8 {
+  background-color: rgb(39, 39, 8);
+}
+
+.color-39-39-12 {
+  color: rgb(39, 39, 12);
+}
+
+.colorbg-39-39-12 {
+  background-color: rgb(39, 39, 12);
+}
+
+.color-39-39-16 {
+  color: rgb(39, 39, 16);
+}
+
+.colorbg-39-39-16 {
+  background-color: rgb(39, 39, 16);
+}
+
+.color-39-39-20 {
+  color: rgb(39, 39, 20);
+}
+
+.colorbg-39-39-20 {
+  background-color: rgb(39, 39, 20);
+}
+
+.color-39-39-24 {
+  color: rgb(39, 39, 24);
+}
+
+.colorbg-39-39-24 {
+  background-color: rgb(39, 39, 24);
+}
+
+.color-39-39-27 {
+  color: rgb(39, 39, 27);
+}
+
+.colorbg-39-39-27 {
+  background-color: rgb(39, 39, 27);
+}
+
+.color-39-39-31 {
+  color: rgb(39, 39, 31);
+}
+
+.colorbg-39-39-31 {
+  background-color: rgb(39, 39, 31);
+}
+
+.color-39-39-35 {
+  color: rgb(39, 39, 35);
+}
+
+.colorbg-39-39-35 {
+  background-color: rgb(39, 39, 35);
+}
+
+.color-39-39-39 {
+  color: rgb(39, 39, 39);
+}
+
+.colorbg-39-39-39 {
+  background-color: rgb(39, 39, 39);
 }
 
 table {
@@ -111,49 +10724,49 @@ img {
 
 img.grayscale {
   filter: grayscale(100%);
-  -webkit-transition: all 3s ease-in-out;
-  -moz-transition: all 3s ease-in-out;
-  transition: all 3s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 img.sepia {
   filter: sepia(100%);
-  -webkit-transition: all 5s ease-in-out;
-  -moz-transition: all 5s ease-in-out;
-  transition: all 5s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 img.blur {
   filter: blur(5px);
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+img.hue-rotate {
+  filter: hue-rotate(150deg);
   -webkit-transition: all 4s ease-in-out;
   -moz-transition: all 4s ease-in-out;
   transition: all 4s ease-in-out;
 }
 
-img.hue-rotate {
-  filter: hue-rotate(150deg);
-  -webkit-transition: all 6s ease-in-out;
-  -moz-transition: all 6s ease-in-out;
-  transition: all 6s ease-in-out;
-}
-
 img.invert {
   filter: invert(0.8);
-  -webkit-transition: all 8s linear;
-  -moz-transition: all 8s linear;
-  transition: all 8s linear;
+  -webkit-transition: all 4s ease-in-out;
+  -moz-transition: all 4s ease-in-out;
+  transition: all 4s ease-in-out;
 }
 
 img.brightness {
   filter: brightness(0.5);
-  -webkit-transition: all 8s ease;
-  -moz-transition: all 8s ease;
-  transition: all 8s ease;
+  -webkit-transition: all 4s ease-in-out;
+  -moz-transition: all 4s ease-in-out;
+  transition: all 4s ease-in-out;
 }
 
 img.contrast {
   filter: contrast(2);
-  -webkit-transition: all 9s step-start;
-  -moz-transition: all 9s step-start;
-  transition: all 9s step-start;
+  -webkit-transition: all 5s step-start;
+  -moz-transition: all 5s step-start;
+  transition: all 5s step-start;
 }
