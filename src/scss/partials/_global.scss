@@ -47,8 +47,10 @@ h6 {
     color: $color-error;
     background-color: darken($color-error, 25%);
 }
-// Falta el color Personalizado (preguntar)
-
+// Fem de 0 a 10, per posteriorment fer *10 per treure els valors de 10 en 10 (10,20,30).
+// Després els pasam a %.
+// Es crea una cadena de classe ($class) basada en els valors de vermell, verd i blau generats.
+// S'asigna a $class y a $class-bg els valors color i background-color respectivament.
 @for $red from 0 through 10 {
     
     @for $green from 0 through 10 {
@@ -94,38 +96,38 @@ table {
 img {
     width: 300px;
     border-radius: 45%;
-    @include prefix(transition, all 2s ease-in-out);
+    @include prefix(transition, 3s );
 }
 // https://lenguajecss.com/css/efectos/filtros-css/
 img.grayscale {
     filter: grayscale(100%);
-    @include prefix(transition, all 2s ease-in-out);
+    
 }
 img.sepia {
     filter: sepia(100%);
-    @include prefix(transition, all 2s ease-in-out);
+    
 }
 img.blur {
     filter: blur(5px);
-    @include prefix(transition, all 2s ease-in-out);
+    
 }
 
 img.hue-rotate {
     filter: hue-rotate(150deg);
-    @include prefix(transition, all 4s ease-in-out);
+    
 }
 
 img.invert {
     filter: invert(0.8);
-    @include prefix(transition, all 5s ease-in-out);
+    
 }
 
 img.brightness {
     filter: brightness(0.5);
-    @include prefix(transition, all 4s ease-in-out);
+    
 }
 
 img.contrast {
     filter: contrast(2);
-    @include prefix(transition, all 5s step-start);
+    
 }

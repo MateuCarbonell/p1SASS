@@ -10721,56 +10721,35 @@ table td {
 img {
   width: 300px;
   border-radius: 45%;
-  -webkit-transition: all 2s ease-in-out;
-  -moz-transition: all 2s ease-in-out;
-  transition: all 2s ease-in-out;
+  -webkit-transition: 3s;
+  -moz-transition: 3s;
+  transition: 3s;
 }
 
 img.grayscale {
   filter: grayscale(100%);
-  -webkit-transition: all 2s ease-in-out;
-  -moz-transition: all 2s ease-in-out;
-  transition: all 2s ease-in-out;
 }
 
 img.sepia {
   filter: sepia(100%);
-  -webkit-transition: all 2s ease-in-out;
-  -moz-transition: all 2s ease-in-out;
-  transition: all 2s ease-in-out;
 }
 
 img.blur {
   filter: blur(5px);
-  -webkit-transition: all 2s ease-in-out;
-  -moz-transition: all 2s ease-in-out;
-  transition: all 2s ease-in-out;
 }
 
 img.hue-rotate {
   filter: hue-rotate(150deg);
-  -webkit-transition: all 4s ease-in-out;
-  -moz-transition: all 4s ease-in-out;
-  transition: all 4s ease-in-out;
 }
 
 img.invert {
   filter: invert(0.8);
-  -webkit-transition: all 5s ease-in-out;
-  -moz-transition: all 5s ease-in-out;
-  transition: all 5s ease-in-out;
 }
 
 img.brightness {
   filter: brightness(0.5);
-  -webkit-transition: all 4s ease-in-out;
-  -moz-transition: all 4s ease-in-out;
-  transition: all 4s ease-in-out;
 }
 
 img.contrast {
   filter: contrast(2);
-  -webkit-transition: all 5s step-start;
-  -moz-transition: all 5s step-start;
-  transition: all 5s step-start;
 }
